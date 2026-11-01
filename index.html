@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diburim · Rabbi Binyamin Goldberg</title>
+  <meta name="description" content="">
+  <link rel="icon" href="assets/logo-diburim.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Frank+Ruhl+Libre:wght@500;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Diburim",
+    "description": "",
+    "author": { "@type": "Person", "name": "Rabbi Binyamin Goldberg" }
+  }
+  </script>
+</head>
+<body data-page="home">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="index.html">
+        <img class="wordmark-logo" src="assets/logo-diburim.jpg" alt="Diburim — Reflections on Sefer Devarim · Rabbi Binyamin Goldberg" width="184" height="54">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Menu</span><span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="library.html" data-nav="library">Library</a>
+        <a href="articles.html" data-nav="articles">Articles</a>
+        <a href="projects.html" data-nav="projects">Projects</a>
+        <a href="shulchan-aruch.html" data-nav="shulchan">Shulchan Aruch</a>
+        <a href="resources.html" data-nav="resources">Resources</a>
+        <a href="about.html" data-nav="about">About</a>
+      </nav>
+      <div class="header-tools">
+        <a class="icon-btn" href="search.html" aria-label="Search the library">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="6.5"/><path d="M16 16.5L20.5 21"/></svg>
+        </a>
+        <a class="btn btn-gold" href="subscribe.html">Subscribe</a>
+      </div>
+    </div>
+  </header>
+  <main id="content">
+    <section class="hero hero--landing">
+      <div class="wrap hero-landing">
+        <p class="hero-rabbi">Rabbi Binyamin Goldberg</p>
+        <h1 class="hero-diburim">DIBURIM</h1>
+        <div class="hero-mission-wrap">
+          <span class="hero-rule" aria-hidden="true"></span>
+          <p class="hero-mission">Making Torah accessible while remaining faithful to its sources.</p>
+          <span class="hero-rule" aria-hidden="true"></span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-navy" id="hero-week-link" href="library.html" hidden>This week&rsquo;s D&rsquo;var Torah</a>
+          <a class="btn btn-outline-gold" href="library.html">Browse library</a>
+          <a class="btn btn-outline-gold" href="shulchan-aruch.html">Shulchan Aruch project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="this-week" aria-live="polite"></section>
+
+    <section class="section wrap" aria-labelledby="explore-heading">
+      <div class="section-head">
+        <h2 id="explore-heading">Explore the Torah library</h2>
+      </div>
+      <div class="explore-grid">
+        <a class="explore-card" href="library.html?browse=sefer"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5.5h10.5A3.5 3.5 0 0 1 19 9v10.5H8.5A3.5 3.5 0 0 0 5 23z"/><path d="M5 5.5v17.5"/></svg><strong>Sefer</strong><span>By book of the Torah</span></a>
+        <a class="explore-card" href="library.html?browse=parsha"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 4h10M8 4v16l4-2.5L16 20V4"/></svg><strong>Parsha</strong><span>The weekly reading</span></a>
+        <a class="explore-card" href="library.html?browse=holiday"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v3M7 8h10l-1 12H8L7 8z"/><path d="M9 8c0-2 1.2-3 3-3s3 1 3 3"/></svg><strong>Holiday</strong><span>Moadim and holy days</span></a>
+        <a class="explore-card" href="library.html?browse=halacha"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="4" width="14" height="16"/><path d="M8 8h8M8 12h8M8 16h5"/></svg><strong>Halacha</strong><span>Study guides and law</span></a>
+        <a class="explore-card" href="library.html?browse=hashkafa"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="7"/><path d="M12 8v4l2.5 2"/></svg><strong>Hashkafa</strong><span>How a life is understood</span></a>
+        <a class="explore-card" href="library.html?browse=series"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 7h14M5 12h14M5 17h9"/></svg><strong>Series</strong><span>Ongoing bodies of work</span></a>
+        <a class="explore-card" href="library.html?browse=calendar"><svg class="icon-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="5" width="16" height="15"/><path d="M8 3v4M16 3v4M4 9h16"/></svg><strong>Calendar</strong><span>Jewish calendar</span></a>
+      </div>
+    </section>
+
+    <section class="series-band section" aria-labelledby="series-heading">
+      <div class="wrap series-grid">
+        <div>
+          <p class="kicker">Featured series</p>
+          <h2 id="series-heading">Diburim: Reflections on Sefer Devarim</h2>
+          <p class="lede" id="featured-series-summary" hidden></p>
+          <p><a class="btn btn-navy" href="project.html?id=devarim">About the series</a></p>
+        </div>
+        <ol class="series-list" id="series-links"></ol>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="projects-heading">
+      <div class="section-head">
+        <h2 id="projects-heading">Torah projects</h2>
+        <a href="projects.html">All projects</a>
+      </div>
+      <div class="project-grid" id="home-projects-grid"></div>
+    </section>
+
+    <section class="section wrap" id="recent-section" aria-labelledby="recent-heading">
+      <div class="section-head">
+        <h2 id="recent-heading">Recent Torah</h2>
+        <a href="library.html">Full library</a>
+      </div>
+      <div class="card-grid" id="recent-grid"></div>
+    </section>
+
+    <section class="keeper section" aria-labelledby="keeper-heading">
+      <div class="wrap keeper-grid">
+        <img src="assets/rabbi-binyamin-goldberg.jpg" alt="Rabbi Binyamin Goldberg at the Kotel" width="360" height="440">
+        <div>
+          <p class="kicker">About</p>
+          <h2 id="keeper-heading">Rabbi Binyamin Goldberg</h2>
+          <p class="lede" id="about-blurb" hidden></p>
+          <p><a class="btn btn-ghost" href="about.html">About</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe-band section" aria-labelledby="join-heading">
+      <div class="wrap subscribe-grid">
+        <div>
+          <p class="kicker">Newsletter</p>
+          <h2 id="join-heading">Subscribe</h2>
+        </div>
+        <form class="form js-subscribe">
+          <label>Name <input name="name" type="text" autocomplete="name"></label>
+          <label>Email <input name="email" type="email" autocomplete="email" required></label>
+          <button class="btn btn-gold" type="submit">Subscribe</button>
+          <p class="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Diburim</h2>
+        <p><span data-site-footer-tag>Rabbi Binyamin Goldberg</span></p>
+      </div>
+      <div>
+        <ul class="footer-links">
+          <li><a href="library.html">Library</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="shulchan-aruch.html">Shulchan Aruch</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="videos.html">Parsha videos</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+      </div>
+      <div>
+        <p><a data-external-sa href="#" hidden>Earlier public edition</a></p>
+        <p data-contact hidden><a href="#"></a></p>
+      </div>
+    </div>
+    <div class="wrap legal">
+      <span>© 2026 Rabbi Binyamin Goldberg</span>
+    </div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/shulchan.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

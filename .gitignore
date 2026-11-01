@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.log
+_import/
+__pycache__/
+*.pyc
+scripts/commit-message.txt

@@ -1,0 +1,551 @@
+{
+  "approvedForMetadata": true,
+  "source": "Hebcal",
+  "sourceUrl": "https://www.hebcal.com/",
+  "fetchedFrom": "https://www.hebcal.com/hebcal/?v=1&cfg=json&s=on&start=2025-10-01&end=2026-11-15&geo=geoname&geonameid=5128581",
+  "locationLabel": "New York, NY (Diaspora)",
+  "geonameid": 5128581,
+  "notes": "Shabbat parsha dates for catalog `date` fields. Edit geonameid and re-run fetch_parsha_calendar.py for Israel or another city.",
+  "readings": [
+    {
+      "date": "2025-10-04",
+      "hebcalTitle": "Parashat Ha’azinu",
+      "parshas": [
+        "Haazinu"
+      ]
+    },
+    {
+      "date": "2025-10-18",
+      "hebcalTitle": "Parashat Bereshit",
+      "parshas": [
+        "Bereishis"
+      ]
+    },
+    {
+      "date": "2025-10-25",
+      "hebcalTitle": "Parashat Noach",
+      "parshas": [
+        "Noach"
+      ]
+    },
+    {
+      "date": "2025-11-01",
+      "hebcalTitle": "Parashat Lech-Lecha",
+      "parshas": [
+        "Lech Lecha"
+      ]
+    },
+    {
+      "date": "2025-11-08",
+      "hebcalTitle": "Parashat Vayera",
+      "parshas": [
+        "Vayera"
+      ]
+    },
+    {
+      "date": "2025-11-15",
+      "hebcalTitle": "Parashat Chayei Sara",
+      "parshas": [
+        "Chayei Sara"
+      ]
+    },
+    {
+      "date": "2025-11-22",
+      "hebcalTitle": "Parashat Toldot",
+      "parshas": [
+        "Toldot"
+      ]
+    },
+    {
+      "date": "2025-11-29",
+      "hebcalTitle": "Parashat Vayetzei",
+      "parshas": [
+        "Vayetzei"
+      ]
+    },
+    {
+      "date": "2025-12-06",
+      "hebcalTitle": "Parashat Vayishlach",
+      "parshas": [
+        "Vayishlach"
+      ]
+    },
+    {
+      "date": "2025-12-13",
+      "hebcalTitle": "Parashat Vayeshev",
+      "parshas": [
+        "Vayeshev"
+      ]
+    },
+    {
+      "date": "2025-12-20",
+      "hebcalTitle": "Parashat Miketz",
+      "parshas": [
+        "Miketz"
+      ]
+    },
+    {
+      "date": "2025-12-27",
+      "hebcalTitle": "Parashat Vayigash",
+      "parshas": [
+        "Vayigash"
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "hebcalTitle": "Parashat Vayechi",
+      "parshas": [
+        "Vayechi"
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "hebcalTitle": "Parashat Shemot",
+      "parshas": [
+        "Shemos"
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "hebcalTitle": "Parashat Vaera",
+      "parshas": [
+        "Vaera"
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "hebcalTitle": "Parashat Bo",
+      "parshas": [
+        "Bo"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "hebcalTitle": "Parashat Beshalach",
+      "parshas": [
+        "Beshalach"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "hebcalTitle": "Parashat Yitro",
+      "parshas": [
+        "Yitro"
+      ]
+    },
+    {
+      "date": "2026-02-14",
+      "hebcalTitle": "Parashat Mishpatim",
+      "parshas": [
+        "Mishpatim"
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "hebcalTitle": "Parashat Terumah",
+      "parshas": [
+        "Terumah"
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "hebcalTitle": "Parashat Tetzaveh",
+      "parshas": [
+        "Tetzaveh"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "hebcalTitle": "Parashat Ki Tisa",
+      "parshas": [
+        "Ki Sisa"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "hebcalTitle": "Parashat Vayakhel-Pekudei",
+      "parshas": [
+        "Vayakhel-Pekudei"
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "hebcalTitle": "Parashat Vayikra",
+      "parshas": [
+        "Vayikra"
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "hebcalTitle": "Parashat Tzav",
+      "parshas": [
+        "Tzav"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "hebcalTitle": "Parashat Shmini",
+      "parshas": [
+        "Shmini"
+      ]
+    },
+    {
+      "date": "2026-04-18",
+      "hebcalTitle": "Parashat Tazria-Metzora",
+      "parshas": [
+        "Tazria-Metzora"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "hebcalTitle": "Parashat Achrei Mot-Kedoshim",
+      "parshas": [
+        "Acharei Mot-Kedoshim"
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "hebcalTitle": "Parashat Emor",
+      "parshas": [
+        "Emor"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "hebcalTitle": "Parashat Behar-Bechukotai",
+      "parshas": [
+        "Behar-Bechukotai"
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "hebcalTitle": "Parashat Bamidbar",
+      "parshas": [
+        "Bamidbar"
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "hebcalTitle": "Parashat Nasso",
+      "parshas": [
+        "Nasso"
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "hebcalTitle": "Parashat Beha’alotcha",
+      "parshas": [
+        "Behaaloscha"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "hebcalTitle": "Parashat Sh’lach",
+      "parshas": [
+        "Shlach"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "hebcalTitle": "Parashat Korach",
+      "parshas": [
+        "Korach"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "hebcalTitle": "Parashat Chukat-Balak",
+      "parshas": [
+        "Chukat",
+        "Balak"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "hebcalTitle": "Parashat Pinchas",
+      "parshas": [
+        "Pinchas"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "hebcalTitle": "Parashat Matot-Masei",
+      "parshas": [
+        "Matot-Masei"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "hebcalTitle": "Parashat Devarim",
+      "parshas": [
+        "Devarim"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "hebcalTitle": "Parashat Vaetchanan",
+      "parshas": [
+        "Vaetchanan"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "hebcalTitle": "Parashat Eikev",
+      "parshas": [
+        "Eikev"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "hebcalTitle": "Parashat Re’eh",
+      "parshas": [
+        "Re'eh"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hebcalTitle": "Parashat Shoftim",
+      "parshas": [
+        "Shoftim"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "hebcalTitle": "Parashat Ki Teitzei",
+      "parshas": [
+        "Ki Teitzei"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "hebcalTitle": "Parashat Ki Tavo",
+      "parshas": [
+        "Ki Tavo"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "hebcalTitle": "Parashat Nitzavim-Vayeilech",
+      "parshas": [
+        "Nitzavim",
+        "Vayelech"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "hebcalTitle": "Parashat Ha’azinu",
+      "parshas": [
+        "Haazinu"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "hebcalTitle": "Parashat Bereshit",
+      "parshas": [
+        "Bereishis"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "hebcalTitle": "Parashat Noach",
+      "parshas": [
+        "Noach"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "hebcalTitle": "Parashat Lech-Lecha",
+      "parshas": [
+        "Lech Lecha"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "hebcalTitle": "Parashat Vayera",
+      "parshas": [
+        "Vayera"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "hebcalTitle": "Parashat Chayei Sara",
+      "parshas": [
+        "Chayei Sara"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "hebcalTitle": "Parashat Toldot",
+      "parshas": [
+        "Toldot"
+      ]
+    }
+  ],
+  "holidays": [
+    {
+      "date": "2025-10-06",
+      "title": "Erev Sukkot",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-07",
+      "title": "Sukkot I",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-08",
+      "title": "Sukkot II",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-09",
+      "title": "Sukkot III (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-10",
+      "title": "Sukkot IV (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-11",
+      "title": "Sukkot V (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-12",
+      "title": "Sukkot VI (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2025-10-13",
+      "title": "Sukkot VII (Hoshana Raba)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Erev Pesach",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Pesach I",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Pesach II",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Pesach III (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Pesach IV (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "Pesach V (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Pesach VI (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Pesach VII",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Pesach VIII",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Pesach Sheni",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Erev Shavuot",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Shavuot I",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Shavuot II",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Rosh Hashana LaBehemot",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Erev Rosh Hashana",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Rosh Hashana 5787",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Rosh Hashana II",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Erev Sukkot",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Sukkot I",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Sukkot II",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Sukkot III (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Sukkot IV (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Sukkot V (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Sukkot VI (CH’’M)",
+      "category": "holiday"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Sukkot VII (Hoshana Raba)",
+      "category": "holiday"
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "imported": 60,
+  "sourceFiles": 91,
+  "excluded": [
+    {
+      "file": "Parshas Tzav – Shabbos HaGadol.docx",
+      "reason": "excluded placeholder"
+    }
+  ],
+  "skippedDuplicates": [
+    {
+      "kept": "D_var Torah on Parshas Vayetzei_ When Speech Builds and Listening Unites.docx",
+      "dropped": "D_var Torah on Parshas Vayetzei_ When Speech Builds and Listening Unites version 1.docx",
+      "key": "parsha:vayetzei:foundational-themes",
+      "reason": "lower score"
+    },
+    {
+      "kept": "D_var Torah on Parshas Yitro_ The Blueprint of Kavod.docx",
+      "dropped": "D_var Torah on Parshas Yitro_ The Blueprint of Kavod(1).docx",
+      "key": "parsha:yitro:d-var-torah-on-parshas-yitro-the-bluepri",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Diburim - Kuntres Bereishit.docx",
+      "dropped": "diburim_bereishit.docx",
+      "key": "kuntres:bereishit-diburim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Diburim - Kuntres Bereishit.docx",
+      "dropped": "diburim_bereishit_full.docx",
+      "key": "kuntres:bereishit-diburim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Dvar Torah_ Parshas Ki Sisa - long.docx",
+      "dropped": "Dvar Torah_ Parshas Ki Sisa.docx",
+      "key": "parsha:ki-sisa:the-strength-of-being-human-falling-risi",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Dvar Torah_ Parshas Vayikra.docx",
+      "dropped": "Dvar Torah_ Parshas Vayikra(1).docx",
+      "key": "parsha:vayikra:avodah-awareness-and-bringing-what-you-h",
+      "reason": "lower score"
+    },
+    {
+      "kept": "D’var Torah on Parshas Vayetzei_ When Speech Builds and Listening Unites.docx",
+      "dropped": "D_var Torah on Parshas Vayetzei_ When Speech Builds and Listening Unites.docx",
+      "key": "parsha:vayetzei:foundational-themes",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Kuntres Devarim.docx",
+      "dropped": "Copy of Kuntres Devarim V2.docx",
+      "key": "kuntres:devarim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "KUNTRES SEFER DEVARIM v2.docx",
+      "dropped": "Kuntres Devarim.docx",
+      "key": "kuntres:devarim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "KUNTRES SEFER DEVARIM v2.docx",
+      "dropped": "KUNTRES SEFER DEVARIM(1).docx",
+      "key": "kuntres:devarim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "KUNTRES SEFER DEVARIM v2.docx",
+      "dropped": "KUNTRES SEFER DEVARIM.docx",
+      "key": "kuntres:devarim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas Ki Seitzei 2026.docx",
+      "dropped": "Parshas Ki Seitzei 2026(1).docx",
+      "key": "parsha:ki-teitzei:parshas-ki-seitzei",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Ereve Shabbos Parshas Shmini.docx",
+      "dropped": "Parshas Shmini Growth Within Structure, Reaching Without Burning(1).docx",
+      "key": "parsha:shmini:growth-within-structure-reaching-without",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas Shmini Growth Within Structure, Reaching Without Burning.docx",
+      "dropped": "Ereve Shabbos Parshas Shmini.docx",
+      "key": "parsha:shmini:growth-within-structure-reaching-without",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Balak_Diburim.docx",
+      "dropped": "Parshas_Balak.docx",
+      "key": "parsha:balak:parshas-balak",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Behaaloscha_Diburim.docx",
+      "dropped": "Parshas_Behaaloscha.docx",
+      "key": "parsha:behaaloscha:parshas-beha-aloscha",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Behaaloscha_Diburim.docx",
+      "dropped": "Parshas_Behaaloscha_v2.docx",
+      "key": "parsha:behaaloscha:parshas-beha-aloscha",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas Behar Bechukosai.docx",
+      "dropped": "Parshas_Behar_Bechukosai.docx",
+      "key": "parsha:behar-bechukotai:parshas-beharbechukosai",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Devarim_Chazon_Diburim.docx",
+      "dropped": "Parshas_Devarim_Chazon.docx",
+      "key": "parsha:devarim:parshas-devarim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Devarim_Chazon_Diburim.docx",
+      "dropped": "Parshas_Devarim_Diburim.docx",
+      "key": "parsha:devarim:parshas-devarim",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Eikev_Diburim.docx",
+      "dropped": "Parshas Eikev 2026.docx",
+      "key": "parsha:eikev:parshas-eikev",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Emor_Diburim.docx",
+      "dropped": "Parshas_Emor_Diburim__internal.docx",
+      "key": "parsha:emor:parshas-emor",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Korach_Diburim.docx",
+      "dropped": "Parshas_Korach_Diburim(1).docx",
+      "key": "parsha:korach:parshas-korach",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Pinchas_Full_Diburim.docx",
+      "dropped": "Parshas_Pinchas_Diburim.docx",
+      "key": "parsha:pinchas:parshas-pinchas",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas_Reeh_Full_Diburim.docx",
+      "dropped": "Parshas_Reeh_2026.docx",
+      "key": "parsha:re-eh:parshas-reeh",
+      "reason": "lower score"
+    },
+    {
+      "kept": "sefer_bereishis.docx",
+      "dropped": "sefer_bereishis(1).docx",
+      "key": "kuntres:sefer-bereishis",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Parshas Shmini Growth Within Structure, Reaching Without Burning.docx",
+      "dropped": "shmini.docx",
+      "key": "parsha:shmini:growth-within-structure-reaching-without",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Shvii Shel Pesach.docx",
+      "dropped": "Shvii Shel Pesach - Kriyas Yam Suf • Emunah • Isaruta d’Letata • Going Deeper into Torah.docx",
+      "key": "holiday:shvi-i-shel-pesach",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Standing Together_ Hidden Things, Revealed Responsibility.docx",
+      "dropped": "Parashat Nitzavim Standing Together_ Hidden Things, Revealed Responsibility.docx",
+      "key": "parsha:nitzavim:standing-together-hidden-things-revealed",
+      "reason": "lower score"
+    },
+    {
+      "kept": "Tazria_Metzora_Diburim_Final.docx",
+      "dropped": "Parshas Tazria–Metzora - Tzaraas, Distinction, and the Journey Back to Hashem.docx",
+      "key": "parsha:tazria-metzora:diburim-sefer-vayikra",
+      "reason": "lower score"
+    }
+  ],
+  "thisWeekId": "chayei-sara-the-power-of-the-imahot-nature-nurtu",
+  "pieces": [
+    {
+      "id": "balak-parshas-balak",
+      "title": "Parshas Balak",
+      "parsha": "Balak",
+      "sourceFile": "Parshas_Balak_Diburim.docx"
+    },
+    {
+      "id": "bamidbar-parshas-bamidbar",
+      "title": "Parshas Bamidbar",
+      "parsha": "Bamidbar",
+      "sourceFile": "Parshas_Bamidbar_Diburim.docx"
+    },
+    {
+      "id": "behaaloscha-parshas-beha-aloscha",
+      "title": "Parshas Beha'aloscha",
+      "parsha": "Behaaloscha",
+      "sourceFile": "Parshas_Behaaloscha_Diburim.docx"
+    },
+    {
+      "id": "chukat-parshas-chukas",
+      "title": "Parshas Chukas",
+      "parsha": "Chukat",
+      "sourceFile": "Parshas_Chukas.docx"
+    },
+    {
+      "id": "korach-parshas-korach",
+      "title": "Parshas Korach",
+      "parsha": "Korach",
+      "sourceFile": "Parshas_Korach_Diburim.docx"
+    },
+    {
+      "id": "matot-masei-parshas-matos-masei",
+      "title": "Parshas Matos-Masei",
+      "parsha": "Matot-Masei",
+      "sourceFile": "Parshas_Matos_Masei_Diburim.docx"
+    },
+    {
+      "id": "matot-masei-parshas-matosmasei",
+      "title": "Parshas Matos–Masei",
+      "parsha": "Matot-Masei",
+      "sourceFile": "Parshas_Matos_Masei_Full_Diburim.docx"
+    },
+    {
+      "id": "nasso-parshas-nasso",
+      "title": "Parshas Nasso",
+      "parsha": "Nasso",
+      "sourceFile": "Parshas Nasso Shavuos.docx"
+    },
+    {
+      "id": "pinchas-parshas-pinchas",
+      "title": "Parshas Pinchas",
+      "parsha": "Pinchas",
+      "sourceFile": "Parshas_Pinchas_Full_Diburim.docx"
+    },
+    {
+      "id": "shlach-parshas-shlach",
+      "title": "Parshas Shlach",
+      "parsha": "Shlach",
+      "sourceFile": "Parshas Shlach Diburim.docx"
+    },
+    {
+      "id": "shlach-dvar-torah-parshas-shlach",
+      "title": "Dvar Torah Parshas Shlach",
+      "parsha": "Shlach",
+      "sourceFile": "Shlach.docx"
+    },
+    {
+      "id": "bereishit-diburim",
+      "title": "Ascent from the Chagim",
+      "parsha": null,
+      "sourceFile": "Diburim - Kuntres Bereishit.docx"
+    },
+    {
+      "id": "bereishis-ascent-from-the-chagim",
+      "title": "Ascent from the Chagim",
+      "parsha": "Bereishis",
+      "sourceFile": "Parshas Bereishis_ Knowing Our Worth, Embracing Our Words.docx"
+    },
+    {
+      "id": "chayei-sara-the-power-of-the-imahot-nature-nurtu",
+      "title": "The Power of the Imahot: Nature, Nurture, and Rising Above",
+      "parsha": "Chayei Sara",
+      "sourceFile": "D_var Torah_ Parshat Chayei Sarah.docx"
+    },
+    {
+      "id": "lech-lecha-lech-lecha-the-beginnings-of-z-chut-",
+      "title": "Lech Lecha: The Beginnings of Z'chut Avot",
+      "parsha": "Lech Lecha",
+      "sourceFile": "Lech Lecha_ The Beginnings of Z_chut Avot.docx"
+    },
+    {
+      "id": "miketz-parshas-miketz",
+      "title": "Parshas Miketz",
+      "parsha": "Miketz",
+      "sourceFile": "Parshas_Miketz_Diburim.docx"
+    },
+    {
+      "id": "noach-parshas-noach-a-deeper-look-at-tafki",
+      "title": "Parshas Noach – A Deeper Look at Tafkid, Messaging, and Identity",
+      "parsha": "Noach",
+      "sourceFile": "Parshas Noach – A Deeper Look at Tafkid, Messaging, and Identity.docx"
+    },
+    {
+      "id": "toldot-building-toldos-with-awareness-mesor",
+      "title": "Building Toldos with Awareness, Mesorah, and Responsibility",
+      "parsha": "Toldot",
+      "sourceFile": "Dvar Torah for Parshas Toldos.docx"
+    },
+    {
+      "id": "vayera-parshas-vayeira-mesirat-nefesh-and-c",
+      "title": "Parshas Vayeira - Mesirat Nefesh and Chazakas",
+      "parsha": "Vayera",
+      "sourceFile": "Parshas Vayeira - Mesirat Nefesh and Chazakas.docx"
+    },
+    {
+      "id": "vayera-parshas-vayeira-the-rule-of-three",
+      "title": "Parshas Vayeira – The Rule of Three",
+      "parsha": "Vayera",
+      "sourceFile": "Parshas Vayeira – The Rule of Three.docx"
+    },
+    {
+      "id": "vayeshev-parshas-vayeishev",
+      "title": "Parshas Vayeishev",
+      "parsha": "Vayeshev",
+      "sourceFile": "Parshas_Vayeishev_Diburim.docx"
+    },
+    {
+      "id": "vayetzei-foundational-themes",
+      "title": "Foundational Themes",
+      "parsha": "Vayetzei",
+      "sourceFile": "D’var Torah on Parshas Vayetzei_ When Speech Builds and Listening Unites.docx"
+    },
+    {
+      "id": "vayishlach-d-var-torah-on-parshas-vayishlach-st",
+      "title": "D'var Torah on Parshas Vayishlach: Standing in Front",
+      "parsha": "Vayishlach",
+      "sourceFile": "D_var Torah on Parshas Vayishlach_ Standing in Front.docx"
+    },
+    {
+      "id": "sefer-bereishis",
+      "title": "בְּרֵאשִׁית",
+      "parsha": null,
+      "sourceFile": "sefer_bereishis.docx"
+    },
+    {
+      "id": "devarim",
+      "title": "DIBURIM",
+      "parsha": null,
+      "sourceFile": "KUNTRES SEFER DEVARIM v2.docx"
+    },
+    {
+      "id": "devarim-parshas-devarim",
+      "title": "Parshas Devarim",
+      "parsha": "Devarim",
+      "sourceFile": "Parshas_Devarim_Chazon_Diburim.docx"
+    },
+    {
+      "id": "eikev-parshas-eikev",
+      "title": "Parshas Eikev",
+      "parsha": "Eikev",
+      "sourceFile": "Parshas_Eikev_Diburim.docx"
+    },
+    {
+      "id": "haazinu-the-final-full-parsha",
+      "title": "The Final Full Parsha",
+      "parsha": "Haazinu",
+      "sourceFile": "Dvar Torah – Haazinu.docx"
+    },
+    {
+      "id": "ki-tavo-parshas-ki-savo",
+      "title": "Parshas Ki Savo",
+      "parsha": "Ki Tavo",
+      "sourceFile": "Dvar Torah Parshas Ki Savo 2026.docx"
+    },
+    {
+      "id": "ki-tavo-parshas-ki-tavo",
+      "title": "Parshas Ki Tavo",
+      "parsha": "Ki Tavo",
+      "sourceFile": "Parshas_KiTavo_Diburim.docx"
+    },
+    {
+      "id": "ki-teitzei-ki-tetzei-a-checklist-for-elul",
+      "title": "Ki Tetzei – A Checklist for Elul",
+      "parsha": "Ki Teitzei",
+      "sourceFile": "Ki Tetzei – A Checklist for Elul.docx"
+    },
+    {
+      "id": "ki-teitzei-parshas-ki-seitzei",
+      "title": "Parshas Ki Seitzei",
+      "parsha": "Ki Teitzei",
+      "sourceFile": "Parshas Ki Seitzei 2026.docx"
+    },
+    {
+      "id": "nitzavim-standing-together-hidden-things-reve",
+      "title": "Standing Together: Hidden Things, Revealed Responsibility",
+      "parsha": "Nitzavim",
+      "sourceFile": "Standing Together_ Hidden Things, Revealed Responsibility.docx"
+    },
+    {
+      "id": "re-eh-parshas-reeh",
+      "title": "Parshas Re’eh",
+      "parsha": "Re'eh",
+      "sourceFile": "Parshas_Reeh_Full_Diburim.docx"
+    },
+    {
+      "id": "re-eh-parshas-re-eh",
+      "title": "Parshas Re'eh",
+      "parsha": "Re'eh",
+      "sourceFile": "Parshas_Reeh_Diburim.docx"
+    },
+    {
+      "id": "shoftim-elul-connection-ani-ldodi",
+      "title": "Elul Connection – Ani L’dodi",
+      "parsha": "Shoftim",
+      "sourceFile": "D’var Torah – Elul & Parshat Shoftim.docx"
+    },
+    {
+      "id": "shoftim-parshas-shoftim",
+      "title": "Parshas Shoftim",
+      "parsha": "Shoftim",
+      "sourceFile": "Parshas Shoftim Rosh Chodesh Elul 2026.docx"
+    },
+    {
+      "id": "vaetchanan-parshas-vaeschanan",
+      "title": "Parshas Va’eschanan",
+      "parsha": "Vaetchanan",
+      "sourceFile": "Parshas_Vaeschanan_Nachamu.docx"
+    },
+    {
+      "id": "vaetchanan-parshas-va-etchanan",
+      "title": "Parshas Va'etchanan",
+      "parsha": "Vaetchanan",
+      "sourceFile": "Parshas_Vaetchanan_Diburim.docx"
+    },
+    {
+      "id": "vayelech-parshat-vayeleich-living-beyond-the-",
+      "title": "Parshat Vayeleich – Living Beyond the Self",
+      "parsha": "Vayelech",
+      "sourceFile": "Parshat Vayeleich – Living Beyond the Self.docx"
+    },
+    {
+      "id": "beshalach-d-var-torah-on-parshas-beshalach-mov",
+      "title": "D'var Torah on Parshas Beshalach: Moving Forward Through Fear",
+      "parsha": "Beshalach",
+      "sourceFile": "D_var Torah on Parshas Beshalach_ Moving Forward Through Fear.docx"
+    },
+    {
+      "id": "bo-d-var-torah-on-parshas-bo-coming-tog",
+      "title": "D'var Torah on Parshas Bo: Coming Together in Darkness",
+      "parsha": "Bo",
+      "sourceFile": "D_var Torah on Parshas Bo_ Coming Together in Darkness.docx"
+    },
+    {
+      "id": "ki-sisa-d-var-torah-on-parshas-ki-sisa-the-s",
+      "title": "D'var Torah on Parshas Ki Sisa: The Strength of Being Human",
+      "parsha": "Ki Sisa",
+      "sourceFile": "D_var Torah on Parshas Ki Sisa_ The Strength of Being Human.docx"
+    },
+    {
+      "id": "ki-sisa-the-strength-of-being-human-falling-",
+      "title": "The Strength of Being Human: Falling, Rising, and the Gift of Teshuvah",
+      "parsha": "Ki Sisa",
+      "sourceFile": "Dvar Torah_ Parshas Ki Sisa - long.docx"
+    },
+    {
+      "id": "mishpatim-d-var-torah-on-parshas-mishpatim-the",
+      "title": "D'var Torah on Parshas Mishpatim: The Cycle of Growth",
+      "parsha": "Mishpatim",
+      "sourceFile": "D_var Torah on Parshas Mishpatim_ The Cycle of Growth.docx"
+    },
+    {
+      "id": "terumah-d-var-torah-on-parshas-terumah-build",
+      "title": "D'var Torah on Parshas Terumah: Building the Dwelling Within",
+      "parsha": "Terumah",
+      "sourceFile": "D_var Torah on Parshas Terumah_ Building the Dwelling Within.docx"
+    },
+    {
+      "id": "tetzaveh-becoming-the-mishkan-from-olive-oil-",
+      "title": "Becoming the Mishkan: From Olive Oil to Living Garments",
+      "parsha": "Tetzaveh",
+      "sourceFile": "Dvar Torah_ Parshas Tetzaveh.docx"
+    },
+    {
+      "id": "vayakhel-pekudei-the-testimony-of-creation-building-f",
+      "title": "The Testimony of Creation: Building From the Foundation",
+      "parsha": "Vayakhel-Pekudei",
+      "sourceFile": "Dvar Torah_ Parshas Vayakhel-Pekudei.docx"
+    },
+    {
+      "id": "yitro-d-var-torah-on-parshas-yitro-the-blu",
+      "title": "D'var Torah on Parshas Yitro: The Blueprint of Kavod",
+      "parsha": "Yitro",
+      "sourceFile": "D_var Torah on Parshas Yitro_ The Blueprint of Kavod.docx"
+    },
+    {
+      "id": "yitro-this-weeks-parsha-yitro-yisro-is-a-v",
+      "title": "This week’s parsha, Yitro (Yisro) is a very unique one with a lot to track.  We have Yisro bringing Moshe’s family back to him after everything which transpired in Egypt and the Red Sea.  Yisro advises Moshe on the idea of having additional teachers and judges in smaller grouping and most famously, this parsha contains one of two iterations of the 10 Commandments in the Torah.",
+      "parsha": "Yitro",
+      "sourceFile": "This week’s parsha, Yitro (Yisro) is a very unique one with a lot to track.docx"
+    },
+    {
+      "id": "acharei-mot-kedoshim-who-defines-value-living-as-kedoshim",
+      "title": "Who Defines Value? Living as Kedoshim in the World",
+      "parsha": "Acharei Mot-Kedoshim",
+      "sourceFile": "acharei_mot_kedoshim.docx"
+    },
+    {
+      "id": "behar-bechukotai-parshas-beharbechukosai",
+      "title": "Parshas Behar–Bechukosai",
+      "parsha": "Behar-Bechukotai",
+      "sourceFile": "Parshas Behar Bechukosai.docx"
+    },
+    {
+      "id": "emor-parshas-emor",
+      "title": "Parshas Emor",
+      "parsha": "Emor",
+      "sourceFile": "Parshas_Emor_Diburim.docx"
+    },
+    {
+      "id": "shmini-growth-within-structure-reaching-wit",
+      "title": "Growth Within Structure, Reaching Without Burning",
+      "parsha": "Shmini",
+      "sourceFile": "Parshas Shmini Growth Within Structure, Reaching Without Burning.docx"
+    },
+    {
+      "id": "tazria-metzora-diburim-sefer-vayikra",
+      "title": "DIBURIM — Sefer Vayikra",
+      "parsha": "Tazria-Metzora",
+      "sourceFile": "Tazria_Metzora_Diburim_Final.docx"
+    },
+    {
+      "id": "tzav-mesorah-time-and-standing-our-ground",
+      "title": "Mesorah, Time, and Standing Our Ground",
+      "parsha": "Tzav",
+      "sourceFile": "Dvar Torah_ Parshas Tzav - Shabbos HaGadol.docx"
+    },
+    {
+      "id": "vayikra-d-var-torah-on-parshas-vaeira-leader",
+      "title": "D'var Torah on Parshas VaEira: Leadership, Listening, and the Jewish Eye for Detail",
+      "parsha": "Vayikra",
+      "sourceFile": "D_var Torah on Parshas VaEira_ Leadership, Listening, and the Jewish Eye for Detail.docx"
+    },
+    {
+      "id": "vayikra-avodah-awareness-and-bringing-what-y",
+      "title": "Avodah, Awareness, and Bringing What You Have",
+      "parsha": "Vayikra",
+      "sourceFile": "Dvar Torah_ Parshas Vayikra.docx"
+    },
+    {
+      "id": "erev-pesach",
+      "title": "From Mitzrayim to Closeness",
+      "parsha": null,
+      "sourceFile": "Erev Pesach - From Mitzrayim to Closeness.docx"
+    },
+    {
+      "id": "shvi-i-shel-pesach",
+      "title": "Shvi’i Shel Pesach",
+      "parsha": null,
+      "sourceFile": "Shvii Shel Pesach.docx"
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "thisWeekId": "chayei-sara",
+  "pieces": [
+    {
+      "id": "balak",
+      "title": "Parshas Balak",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Balak",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-06-27",
+      "dateDisplay": "June 27, 2026"
+    },
+    {
+      "id": "bamidbar",
+      "title": "Parshas Bamidbar",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Bamidbar",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-05-16",
+      "dateDisplay": "May 16, 2026"
+    },
+    {
+      "id": "behaaloscha",
+      "title": "Parshas Beha'aloscha",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Behaaloscha",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-06-06",
+      "dateDisplay": "June 6, 2026"
+    },
+    {
+      "id": "chukat",
+      "title": "Parshas Chukas",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Chukat",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-06-27",
+      "dateDisplay": "June 27, 2026"
+    },
+    {
+      "id": "korach",
+      "title": "Parshas Korach",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Korach",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-06-20",
+      "dateDisplay": "June 20, 2026"
+    },
+    {
+      "id": "matot-masei",
+      "title": "Parshas Matos-Masei",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Matot-Masei",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-07-11",
+      "dateDisplay": "July 11, 2026"
+    },
+    {
+      "id": "nasso",
+      "title": "Parshas Nasso",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Nasso",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-05-30",
+      "dateDisplay": "May 30, 2026"
+    },
+    {
+      "id": "pinchas",
+      "title": "Parshas Pinchas",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Pinchas",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-07-04",
+      "dateDisplay": "July 4, 2026"
+    },
+    {
+      "id": "shlach",
+      "title": "Parshas Shlach",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Shlach",
+      "sefer": "Bamidbar",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-06-13",
+      "dateDisplay": "June 13, 2026"
+    },
+    {
+      "id": "kuntres-bereishit",
+      "title": "Ascent from the Chagim",
+      "kind": "kuntres",
+      "series": "Kuntres",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah",
+        "series"
+      ]
+    },
+    {
+      "id": "chayei-sara",
+      "title": "The Power of the Imahot: Nature, Nurture, and Rising Above",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Chayei Sara",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-11-07",
+      "dateDisplay": "November 7, 2026"
+    },
+    {
+      "id": "lech-lecha",
+      "title": "Lech Lecha: The Beginnings of Z'chut Avot",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Lech Lecha",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-10-24",
+      "dateDisplay": "October 24, 2026"
+    },
+    {
+      "id": "miketz",
+      "title": "Parshas Miketz",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Miketz",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-12-20",
+      "dateDisplay": "December 20, 2025"
+    },
+    {
+      "id": "noach",
+      "title": "Parshas Noach – A Deeper Look at Tafkid, Messaging, and Identity",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Noach",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-10-17",
+      "dateDisplay": "October 17, 2026"
+    },
+    {
+      "id": "toldot",
+      "title": "Building Toldos with Awareness, Mesorah, and Responsibility",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Toldot",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-11-14",
+      "dateDisplay": "November 14, 2026"
+    },
+    {
+      "id": "vayera-mesirat-nefesh",
+      "title": "Parshas Vayeira - Mesirat Nefesh and Chazakas",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayera",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-10-31",
+      "dateDisplay": "October 31, 2026"
+    },
+    {
+      "id": "vayera-rule-of-three",
+      "title": "Parshas Vayeira – The Rule of Three",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayera",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-10-31",
+      "dateDisplay": "October 31, 2026"
+    },
+    {
+      "id": "vayeshev",
+      "title": "Parshas Vayeishev",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Vayeshev",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-12-13",
+      "dateDisplay": "December 13, 2025"
+    },
+    {
+      "id": "vayetzei",
+      "title": "Foundational Themes",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayetzei",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-11-29",
+      "dateDisplay": "November 29, 2025"
+    },
+    {
+      "id": "vayishlach",
+      "title": "D'var Torah on Parshas Vayishlach: Standing in Front",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayishlach",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-12-06",
+      "dateDisplay": "December 6, 2025"
+    },
+    {
+      "id": "kuntres-sefer-bereishis",
+      "title": "בְּרֵאשִׁית",
+      "kind": "kuntres",
+      "series": "Kuntres",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah",
+        "series"
+      ]
+    },
+    {
+      "id": "kuntres-devarim",
+      "title": "DIBURIM",
+      "kind": "kuntres",
+      "series": "Kuntres",
+      "sefer": "Devarim",
+      "categories": [
+        "torah",
+        "series"
+      ]
+    },
+    {
+      "id": "devarim",
+      "title": "Parshas Devarim",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Devarim",
+      "occasion": "Shabbos Chazon",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-07-18",
+      "dateDisplay": "July 18, 2026"
+    },
+    {
+      "id": "eikev",
+      "title": "Parshas Eikev",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Eikev",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-01",
+      "dateDisplay": "August 1, 2026"
+    },
+    {
+      "id": "haazinu",
+      "title": "The Final Full Parsha",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Haazinu",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-19",
+      "dateDisplay": "September 19, 2026"
+    },
+    {
+      "id": "ki-tavo",
+      "title": "Parshas Ki Savo",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Ki Tavo",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-29",
+      "dateDisplay": "August 29, 2026"
+    },
+    {
+      "id": "ki-teitzei-elul",
+      "title": "Ki Tetzei – A Checklist for Elul",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Ki Teitzei",
+      "occasion": "Elul · Parshas Shoftim",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-22",
+      "dateDisplay": "August 22, 2026"
+    },
+    {
+      "id": "ki-teitzei",
+      "title": "Parshas Ki Seitzei",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Ki Teitzei",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-22",
+      "dateDisplay": "August 22, 2026"
+    },
+    {
+      "id": "nitzavim",
+      "title": "Standing Together: Hidden Things, Revealed Responsibility",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Nitzavim",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-05",
+      "dateDisplay": "September 5, 2026"
+    },
+    {
+      "id": "re-eh",
+      "title": "Parshas Re’eh",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Re'eh",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-08",
+      "dateDisplay": "August 8, 2026"
+    },
+    {
+      "id": "shoftim-elul",
+      "title": "Elul Connection – Ani L’dodi",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Shoftim",
+      "occasion": "Elul · Parshas Shoftim",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-15",
+      "dateDisplay": "August 15, 2026"
+    },
+    {
+      "id": "shoftim",
+      "title": "Parshas Shoftim",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Shoftim",
+      "occasion": "Elul · Parshas Shoftim",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-08-15",
+      "dateDisplay": "August 15, 2026"
+    },
+    {
+      "id": "vaetchanan",
+      "title": "Parshas Va’eschanan",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vaetchanan",
+      "occasion": "Shabbos Nachamu",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-07-25",
+      "dateDisplay": "July 25, 2026"
+    },
+    {
+      "id": "vayelech",
+      "title": "Parshat Vayeleich – Living Beyond the Self",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayelech",
+      "sefer": "Devarim",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-05",
+      "dateDisplay": "September 5, 2026"
+    },
+    {
+      "id": "beshalach",
+      "title": "D'var Torah on Parshas Beshalach: Moving Forward Through Fear",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Beshalach",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-01-31",
+      "dateDisplay": "January 31, 2026"
+    },
+    {
+      "id": "bo",
+      "title": "D'var Torah on Parshas Bo: Coming Together in Darkness",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Bo",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-01-24",
+      "dateDisplay": "January 24, 2026"
+    },
+    {
+      "id": "ki-sisa",
+      "title": "D'var Torah on Parshas Ki Sisa: The Strength of Being Human",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Ki Sisa",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-03-07",
+      "dateDisplay": "March 7, 2026"
+    },
+    {
+      "id": "ki-sisa-teshuvah",
+      "title": "The Strength of Being Human: Falling, Rising, and the Gift of Teshuvah",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Ki Sisa",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-03-07",
+      "dateDisplay": "March 7, 2026"
+    },
+    {
+      "id": "mishpatim",
+      "title": "D'var Torah on Parshas Mishpatim: The Cycle of Growth",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Mishpatim",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-02-14",
+      "dateDisplay": "February 14, 2026"
+    },
+    {
+      "id": "terumah",
+      "title": "D'var Torah on Parshas Terumah: Building the Dwelling Within",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Terumah",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-02-21",
+      "dateDisplay": "February 21, 2026"
+    },
+    {
+      "id": "tetzaveh",
+      "title": "Becoming the Mishkan: From Olive Oil to Living Garments",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Tetzaveh",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-02-28",
+      "dateDisplay": "February 28, 2026"
+    },
+    {
+      "id": "vayakhel-pekudei",
+      "title": "The Testimony of Creation: Building From the Foundation",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayakhel-Pekudei",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-03-14",
+      "dateDisplay": "March 14, 2026"
+    },
+    {
+      "id": "yitro",
+      "title": "D'var Torah on Parshas Yitro: The Blueprint of Kavod",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Yitro",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-02-07",
+      "dateDisplay": "February 7, 2026"
+    },
+    {
+      "id": "acharei-mot-kedoshim",
+      "title": "Who Defines Value? Living as Kedoshim in the World",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Acharei Mot-Kedoshim",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-04-25",
+      "dateDisplay": "April 25, 2026"
+    },
+    {
+      "id": "behar-bechukotai",
+      "title": "Parshas Behar–Bechukosai",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Behar-Bechukotai",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-05-09",
+      "dateDisplay": "May 9, 2026"
+    },
+    {
+      "id": "emor",
+      "title": "Parshas Emor",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Emor",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-05-02",
+      "dateDisplay": "May 2, 2026"
+    },
+    {
+      "id": "shmini",
+      "title": "Growth Within Structure, Reaching Without Burning",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Shmini",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-04-11",
+      "dateDisplay": "April 11, 2026"
+    },
+    {
+      "id": "tazria-metzora",
+      "title": "DIBURIM — Sefer Vayikra",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Tazria-Metzora",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-04-18",
+      "dateDisplay": "April 18, 2026"
+    },
+    {
+      "id": "tzav",
+      "title": "Mesorah, Time, and Standing Our Ground",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Tzav",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "occasion": "Shabbos HaGadol",
+      "date": "2026-03-28",
+      "dateDisplay": "March 28, 2026"
+    },
+    {
+      "id": "vaera",
+      "title": "D'var Torah on Parshas VaEira: Leadership, Listening, and the Jewish Eye for Detail",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vaera",
+      "sefer": "Shemos",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-01-17",
+      "dateDisplay": "January 17, 2026"
+    },
+    {
+      "id": "vayikra",
+      "title": "Avodah, Awareness, and Bringing What You Have",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Vayikra",
+      "sefer": "Vayikra",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-03-21",
+      "dateDisplay": "March 21, 2026"
+    },
+    {
+      "id": "erev-pesach",
+      "title": "From Mitzrayim to Closeness",
+      "kind": "holiday",
+      "series": "Weekly Torah",
+      "holiday": "Erev Pesach",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-04-01",
+      "dateDisplay": "April 1, 2026"
+    },
+    {
+      "id": "shvi-i-shel-pesach",
+      "title": "Shvi’i Shel Pesach",
+      "kind": "holiday",
+      "series": "Weekly Torah",
+      "holiday": "Shvi'i shel Pesach",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-04-09",
+      "dateDisplay": "April 9, 2026"
+    },
+    {
+      "id": "hilchos-shabbos-242",
+      "title": "Hilchos Shabbos Shiur 1 – Siman 242",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 242,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ב· הלכות שבת",
+      "nextId": "hilchos-shabbos-243",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-243",
+      "title": "Hilchos Shabbos Shiur 2 – Siman 243",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 243,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ג· הלכות שבת",
+      "prevId": "hilchos-shabbos-242",
+      "nextId": "hilchos-shabbos-244",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-244",
+      "title": "Hilchos Shabbos Shiur 3 – Siman 244",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 244,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ד· הלכות שבת",
+      "prevId": "hilchos-shabbos-243",
+      "nextId": "hilchos-shabbos-245",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-245",
+      "title": "Hilchos Shabbos Shiur 4 – Siman 245",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 245,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ה· הלכות שבת",
+      "prevId": "hilchos-shabbos-244",
+      "nextId": "hilchos-shabbos-246",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-246",
+      "title": "Hilchos Shabbos Shiur 5 – Siman 246",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 246,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ו· הלכות שבת",
+      "prevId": "hilchos-shabbos-245",
+      "nextId": "hilchos-shabbos-247",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-247",
+      "title": "Hilchos Shabbos Shiur 6 – Siman 247",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 247,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ז· הלכות שבת",
+      "prevId": "hilchos-shabbos-246",
+      "nextId": "hilchos-shabbos-248",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-248",
+      "title": "Hilchos Shabbos Shiur 7 – Siman 248",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 248,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ח· הלכות שבת",
+      "prevId": "hilchos-shabbos-247",
+      "nextId": "hilchos-shabbos-249",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-249",
+      "title": "Hilchos Shabbos Shiur 8 – Siman 249",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 249,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רמ״ט· הלכות שבת",
+      "prevId": "hilchos-shabbos-248",
+      "nextId": "hilchos-shabbos-250",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-250",
+      "title": "Hilchos Shabbos Shiur 9 – Siman 250",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 250,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן ר״נ· הלכות שבת",
+      "prevId": "hilchos-shabbos-249",
+      "nextId": "hilchos-shabbos-251",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "hilchos-shabbos-251",
+      "title": "Hilchos Shabbos Shiur 10 – Siman 251",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "siman": 251,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״א· הלכות שבת",
+      "prevId": "hilchos-shabbos-250",
+      "sefer": "Halachah"
+    },
+    {
+      "id": "bereishis",
+      "title": "Partners in Creation",
+      "kind": "parsha",
+      "series": "Diburim",
+      "parsha": "Bereishis",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-10-10",
+      "dateDisplay": "October 10, 2026"
+    }
+  ],
+  "calendarSource": "data/parsha-calendar.json"
+}

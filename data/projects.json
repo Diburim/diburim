@@ -1,0 +1,41 @@
+{
+  "featuredSeriesId": "devarim",
+  "projects": [
+    {
+      "id": "devarim",
+      "title": "Diburim: Reflections on Sefer Devarim",
+      "hebrew": null,
+      "status": null,
+      "summary": null,
+      "body": null,
+      "href": "project.html?id=devarim"
+    },
+    {
+      "id": "weekly",
+      "title": "Weekly Torah",
+      "hebrew": null,
+      "status": null,
+      "summary": null,
+      "body": null,
+      "href": "project.html?id=weekly"
+    },
+    {
+      "id": "shulchan-aruch",
+      "title": "Shulchan Aruch Translation Project",
+      "hebrew": null,
+      "status": null,
+      "summary": null,
+      "body": null,
+      "href": "shulchan-aruch.html"
+    },
+    {
+      "id": "halachah",
+      "title": "Halachic Study Guides",
+      "hebrew": null,
+      "status": null,
+      "summary": null,
+      "body": null,
+      "href": "project.html?id=halachah"
+    }
+  ]
+}
