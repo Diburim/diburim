@@ -2,6 +2,7 @@
   "contentPending": "[CONTENT PENDING]",
   "summaryPending": "[SUMMARY PENDING]",
   "audioUnavailable": "Audio not available",
+  "loadingArticle": "Loading…",
   "libraryEmpty": "No pieces in the library yet.",
   "thisWeekEmpty": "No weekly piece is published for this Shabbat yet.",
   "newsletterInactive": "Newsletter signup is not connected yet."

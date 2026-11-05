@@ -1,4 +1,4 @@
-/** Loads site config and catalog; merges approved article bodies from content/. */
+/** Loads site config and catalog; article bodies load per page via DIBURIM_loadArticle. */
 (function () {
   window.DIBURIM_CATALOG = [];
   window.DIBURIM_PROJECTS = [];
@@ -47,17 +47,16 @@
     if (footerTag && site.footerLine) footerTag.textContent = site.footerLine;
   }
 
-  async function mergeArticleBodies(pieces, catalog) {
-    await Promise.all(
-      pieces.map(async function (p) {
-        const article = await loadArticleBody(p.id);
-        p.body = article.body || null;
-        p.bodyFormat = article.bodyFormat || "html";
-        if (article.pdf) p.pdf = article.pdf;
-        if (catalog.thisWeekId === p.id) p.thisWeek = true;
-      })
-    );
+  function applyArticleToPiece(p, article) {
+    if (!p || !article) return;
+    p.body = article.body != null ? article.body : null;
+    p.bodyFormat = article.bodyFormat || "html";
+    if (article.pdf) p.pdf = article.pdf;
+    if (article.audio) p.audio = article.audio;
   }
+
+  window.DIBURIM_loadArticle = loadArticleBody;
+  window.DIBURIM_applyArticle = applyArticleToPiece;
 
   async function bootstrap() {
     let site = {};
@@ -90,6 +89,9 @@
     window.DIBURIM_UI = ui;
 
     const pieces = catalog.pieces || [];
+    pieces.forEach(function (p) {
+      if (catalog.thisWeekId === p.id) p.thisWeek = true;
+    });
     window.DIBURIM_CATALOG = pieces;
     window.DIBURIM_CATALOG_INDEX = catalog;
     window.DIBURIM_PROJECTS = projects.projects || [];
@@ -98,9 +100,6 @@
 
     applySiteMeta(site);
     document.dispatchEvent(new CustomEvent("diburim:ready"));
-
-    await mergeArticleBodies(pieces, catalog);
-    document.dispatchEvent(new CustomEvent("diburim:bodies-ready"));
   }
 
   bootstrap().catch(function (err) {

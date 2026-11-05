@@ -699,6 +699,10 @@ p { margin: 0 0 0.9em; }
 .result h2 a { text-decoration: none; }
 mark { background: rgba(201, 162, 39, 0.35); color: inherit; padding: 0 0.1em; }
 
+.video-section { margin-top: 2.4rem; }
+.video-section:first-of-type { margin-top: 0; }
+.video-section-head { margin-bottom: 1rem; }
+.video-section-head h2 { font-family: var(--serif); font-size: 1.65rem; font-weight: 600; margin: 0; }
 .video-card { background: var(--paper); border: 1px solid var(--line); }
 .video-frame { position: relative; aspect-ratio: 16 / 9; background: var(--navy); }
 .video-frame iframe, .video-frame .video-hold { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }

@@ -66,6 +66,63 @@
     return "";
   }
 
+  function hasAudio(p) {
+    return Boolean(safeMediaUrl(p && p.audio));
+  }
+
+  function applyLoadedArticle(piece, article) {
+    if (window.DIBURIM_applyArticle) {
+      window.DIBURIM_applyArticle(piece, article);
+    }
+  }
+
+  function buildPieceBodyAndToc(piece, ui, loading) {
+    const pending = ui.contentPending || "[CONTENT PENDING]";
+    const pdfUrl = safeMediaUrl(piece.pdf);
+    const temp = document.createElement("div");
+    if (loading) {
+      temp.innerHTML = '<p class="muted">' + escapeHtml(ui.loadingArticle || "Loading…") + "</p>";
+    } else if (piece.body) {
+      temp.innerHTML = piece.body;
+    } else if (pdfUrl) {
+      temp.innerHTML =
+        '<div class="pdf-study-guide">' +
+          '<p class="muted">Study guide (PDF). Use the viewer below or download for printing.</p>' +
+          '<p><a class="btn btn-navy" href="' + escapeHtml(pdfUrl) + '" download target="_blank" rel="noopener">Download PDF</a></p>' +
+          '<iframe class="pdf-frame" title="' + escapeHtml(piece.title) + '" src="' + escapeHtml(pdfUrl) + '"></iframe>' +
+        "</div>";
+    } else {
+      temp.innerHTML = "<p>" + escapeHtml(pending) + "</p>";
+    }
+    const heads = Array.prototype.slice.call(temp.querySelectorAll("h2"));
+    heads.forEach(function (h, i) {
+      if (!h.id) h.id = "section-" + (i + 1);
+    });
+    const toc = heads.map(function (h) {
+      return '<li><a href="#' + h.id + '">' + escapeHtml(h.textContent) + "</a></li>";
+    }).join("");
+    return { bodyHtml: temp.innerHTML, tocHtml: toc, bodyRoot: loading ? null : temp };
+  }
+
+  function mountPieceAudio(mount, piece, ui) {
+    if (!hasAudio(piece)) return;
+    const tools = mount.querySelector(".tools");
+    if (tools && !tools.querySelector('a[href="#listen"]')) {
+      const link = document.createElement("a");
+      link.className = "btn btn-ghost";
+      link.href = "#listen";
+      link.textContent = "Audio";
+      tools.insertBefore(link, tools.firstChild);
+    }
+    const bodyEl = mount.querySelector(".piece-body");
+    if (!bodyEl || mount.querySelector("#listen")) return;
+    const listen = document.createElement("div");
+    listen.id = "listen";
+    listen.innerHTML = playerMarkup(piece, ui);
+    bodyEl.insertAdjacentElement("afterend", listen);
+    bindPlayers(listen);
+  }
+
   function initNav(cfg) {
     const target = navMap[page] || page;
     document.querySelectorAll("[data-nav]").forEach(function (link) {
@@ -135,13 +192,13 @@
 
   function playerMarkup(p, ui) {
     const src = safeMediaUrl(p.audio);
-    const noAudio = (ui && ui.audioUnavailable) || "Audio not available";
+    if (!src) return "";
     return (
-      '<div class="player' + (src ? " is-ready" : "") + '" data-audio="' + escapeHtml(src) + '">' +
-        '<button class="player-play" type="button" aria-label="' + (src ? "Play" : noAudio) + '">' + (src ? "▶" : "●") + "</button>" +
+      '<div class="player is-ready" data-audio="' + escapeHtml(src) + '">' +
+        '<button class="player-play" type="button" aria-label="Play">▶</button>' +
         '<div><p class="player-kicker">Listen</p>' +
         '<p class="player-title">' + escapeHtml(p.title) + "</p>" +
-        '<p class="player-status">' + (src ? "Ready" : escapeHtml(noAudio)) + "</p></div>" +
+        '<p class="player-status">Ready</p></div>' +
         '<span class="player-time">--:--</span>' +
         '<div class="player-wave" aria-hidden="true">' + wave() + "</div>" +
         '<button class="player-bar" type="button" aria-label="Seek"><span></span></button>' +
@@ -231,6 +288,7 @@
         mount.innerHTML = '<p class="muted">' + escapeHtml(ui.thisWeekEmpty || "[CONTENT PENDING]") + "</p>";
       } else {
         const mins = readingMinutes(week.body);
+        const weekAudio = hasAudio(week);
         mount.innerHTML =
           '<div class="week-grid">' +
             '<div class="week-copy">' +
@@ -238,23 +296,51 @@
               '<h2>' + escapeHtml(week.title || "") + "</h2>" +
               (week.hebrewTitle ? '<p class="week-he hebrew" lang="he">' + escapeHtml(week.hebrewTitle) + "</p>" : "") +
               (week.excerpt ? "<p>" + escapeHtml(week.excerpt) + "</p>" : "") +
-              '<p class="meta-row">' +
-                [week.parsha, week.occasion || week.dateDisplay, mins ? mins + " min read" : ""].filter(Boolean).map(function (bit, i, arr) {
+              '<p class="meta-row" data-week-meta>' +
+                [week.parsha, week.occasion || week.dateDisplay, mins ? mins + " min read" : ""].filter(Boolean).map(function (bit, i) {
                   return (i ? '<span class="dot"></span>' : "") + "<span>" + escapeHtml(bit) + "</span>";
                 }).join("") +
               "</p>" +
               '<div class="actions">' +
                 '<a class="btn btn-navy" href="piece.html?id=' + encodeURIComponent(week.id) + '">Read the essay</a>' +
                 '<a class="btn btn-ghost" href="piece.html?id=' + encodeURIComponent(week.id) + '#sources">Sources</a>' +
-                '<a class="btn btn-ghost" href="piece.html?id=' + encodeURIComponent(week.id) + '#listen">Audio</a>' +
+                (weekAudio ? '<a class="btn btn-ghost" href="piece.html?id=' + encodeURIComponent(week.id) + '#listen">Audio</a>' : "") +
               "</div>" +
             "</div>" +
             '<div class="week-side">' +
               (week.parshaHe ? '<a class="scene ' + wash(week.scene) + '" href="piece.html?id=' + encodeURIComponent(week.id) + '"><span class="scene-word" dir="rtl" lang="he">' + escapeHtml(week.parshaHe) + "</span></a>" : "") +
-              playerMarkup(week, ui) +
+              (weekAudio ? playerMarkup(week, ui) : "") +
             "</div>" +
           "</div>";
-        bindPlayers(mount);
+        if (weekAudio) bindPlayers(mount);
+        const loadArticle = window.DIBURIM_loadArticle;
+        if (loadArticle && week.id) {
+          loadArticle(week.id).then(function (article) {
+            if (!document.getElementById("this-week") || !mount.querySelector(".week-grid")) return;
+            applyLoadedArticle(week, article);
+            const meta = mount.querySelector("[data-week-meta]");
+            const readMins = readingMinutes(week.body);
+            if (meta) {
+              meta.innerHTML = [week.parsha, week.occasion || week.dateDisplay, readMins ? readMins + " min read" : ""].filter(Boolean).map(function (bit, i) {
+                return (i ? '<span class="dot"></span>' : "") + "<span>" + escapeHtml(bit) + "</span>";
+              }).join("");
+            }
+            if (!weekAudio && hasAudio(week)) {
+              const actions = mount.querySelector(".actions");
+              if (actions) {
+                actions.insertAdjacentHTML(
+                  "beforeend",
+                  '<a class="btn btn-ghost" href="piece.html?id=' + encodeURIComponent(week.id) + '#listen">Audio</a>'
+                );
+              }
+              const side = mount.querySelector(".week-side");
+              if (side) {
+                side.insertAdjacentHTML("beforeend", playerMarkup(week, ui));
+                bindPlayers(mount);
+              }
+            }
+          });
+        }
       }
     }
     const recent = document.getElementById("recent-grid");
@@ -484,80 +570,21 @@
       : '<p class="muted">' + escapeHtml(ui.libraryEmpty || "[CONTENT PENDING]") + "</p>";
   }
 
-  function initPiece(pieces, cfg, ui) {
-    const id = new URLSearchParams(window.location.search).get("id");
-    const piece = byId(id, pieces);
-    const mount = document.getElementById("piece");
-    if (!mount) return;
-    if (!piece) {
-      mount.innerHTML = '<div class="empty"><p>That piece is not on the shelf. <a href="library.html">Return to the library</a>.</p></div>';
-      return;
-    }
-    document.title = piece.title + " · Diburim";
+  function finishPieceArticle(mount, piece, ui) {
+    const built = buildPieceBodyAndToc(piece, ui, false);
+    const bodyEl = mount.querySelector(".piece-body");
+    const tocEl = mount.querySelector(".toc ol");
+    const metaEl = mount.querySelector(".byline .muted");
+    if (bodyEl) bodyEl.innerHTML = built.bodyHtml;
+    if (tocEl) tocEl.innerHTML = built.tocHtml;
     const minutes = readingMinutes(piece.body);
-    const pending = ui.contentPending || "[CONTENT PENDING]";
-    const pdfUrl = safeMediaUrl(piece.pdf);
-    const temp = document.createElement("div");
-    if (piece.body) {
-      temp.innerHTML = piece.body;
-    } else if (pdfUrl) {
-      temp.innerHTML =
-        '<div class="pdf-study-guide">' +
-          '<p class="muted">Study guide (PDF). Use the viewer below or download for printing.</p>' +
-          '<p><a class="btn btn-navy" href="' + escapeHtml(pdfUrl) + '" download target="_blank" rel="noopener">Download PDF</a></p>' +
-          '<iframe class="pdf-frame" title="' + escapeHtml(piece.title) + '" src="' + escapeHtml(pdfUrl) + '"></iframe>' +
-        "</div>";
-    } else {
-      temp.innerHTML = "<p>" + escapeHtml(pending) + "</p>";
+    if (metaEl) {
+      metaEl.innerHTML = [piece.dateDisplay, minutes ? minutes + " min read" : "", piece.series].filter(Boolean).map(escapeHtml).join(" · ");
     }
-    const heads = Array.prototype.slice.call(temp.querySelectorAll("h2"));
-    heads.forEach(function (h, i) {
-      if (!h.id) h.id = "section-" + (i + 1);
-    });
-    const toc = heads.map(function (h) {
-      return '<li><a href="#' + h.id + '">' + escapeHtml(h.textContent) + "</a></li>";
-    }).join("");
-    const sources = (piece.sources || []).map(function (s) {
-      return "<li><strong>" + escapeHtml(s.t) + ".</strong> " + escapeHtml(s.n) + "</li>";
-    }).join("");
-    const related = pieces.filter(function (p) {
-      if (p.id === piece.id) return false;
-      if (piece.series && p.series === piece.series) return true;
-      return (p.topics || []).some(function (t) { return (piece.topics || []).indexOf(t) !== -1; });
-    }).slice(0, 3);
-    const prev = byId(piece.prevId, pieces);
-    const next = byId(piece.nextId, pieces);
-    mount.innerHTML =
-      '<div class="piece-layout">' +
-        '<article>' +
-          '<p class="crumbs"><a href="library.html">Library</a> · ' + escapeHtml(piece.kind === "study-guide" ? "Halacha" : (piece.parsha || piece.holiday || piece.sefer || "Torah")) + (piece.project === "halachah" ? ' · <a href="project.html?id=halachah">Study guides</a>' : "") + "</p>" +
-          '<p class="kicker">' + escapeHtml(piece.kind === "study-guide" ? studyGuideKicker(piece) : (piece.occasion || piece.series || "Diburim")) + "</p>" +
-          '<h1 class="piece-title">' + escapeHtml(piece.title) + "</h1>" +
-          (piece.hebrewTitle ? '<p class="piece-he hebrew" lang="he">' + escapeHtml(piece.hebrewTitle) + "</p>" : "") +
-          '<div class="byline">' +
-            '<img src="assets/rabbi-binyamin-goldberg.jpg" alt="Rabbi Binyamin Goldberg at the Kotel" width="120" height="150">' +
-            '<div><strong>' + escapeHtml((window.DIBURIM_SITE && window.DIBURIM_SITE.author) || "Rabbi Binyamin Goldberg") + "</strong><br><span class=\"muted\">" +
-              [piece.dateDisplay, minutes ? minutes + " min read" : "", piece.series].filter(Boolean).map(escapeHtml).join(" · ") +
-            "</span></div>" +
-          "</div>" +
-          '<div class="tools">' +
-            '<a class="btn btn-ghost" href="#listen">Audio</a>' +
-            '<button class="btn btn-ghost" type="button" id="print-piece">Print / Save as PDF</button>' +
-            '<a class="btn btn-ghost" href="#sources">Source sheet</a>' +
-            '<button class="btn btn-ghost" type="button" id="share-piece">Share link</button>' +
-          "</div>" +
-          '<div id="listen">' + playerMarkup(piece, ui) + "</div>" +
-          '<div class="piece-body">' + temp.innerHTML + "</div>" +
-          '<section class="sources" id="sources"><h2>Sources and Further Learning</h2><ol>' + sources + "</ol></section>" +
-          '<nav class="pager" aria-label="Adjacent pieces">' +
-            (prev ? '<a href="piece.html?id=' + encodeURIComponent(prev.id) + '"><small>Previous</small>' + escapeHtml(prev.title) + "</a>" : "<span></span>") +
-            (next ? '<a href="piece.html?id=' + encodeURIComponent(next.id) + '"><small>Next</small>' + escapeHtml(next.title) + "</a>" : (piece.nextLabel ? '<span><small>Next</small>' + escapeHtml(piece.nextLabel) + "</span>" : "<span></span>")) +
-          "</nav>" +
-          (related.length ? '<h2 style="margin-top:2.2rem">Related</h2><div class="card-grid">' + related.map(card).join("") + "</div>" : "") +
-        "</article>" +
-        '<aside class="toc"><p class="kicker">Contents</p><ol>' + toc + "</ol></aside>" +
-      "</div>";
-    bindPlayers(mount);
+    mountPieceAudio(mount, piece, ui);
+  }
+
+  function bindPieceChrome(mount) {
     const printBtn = document.getElementById("print-piece");
     if (printBtn) printBtn.addEventListener("click", function () { window.print(); });
     const shareBtn = document.getElementById("share-piece");
@@ -572,6 +599,74 @@
           shareBtn.textContent = url;
         }
       });
+    }
+  }
+
+  function initPiece(pieces, cfg, ui) {
+    const id = new URLSearchParams(window.location.search).get("id");
+    const piece = byId(id, pieces);
+    const mount = document.getElementById("piece");
+    if (!mount) return;
+    if (!piece) {
+      mount.innerHTML = '<div class="empty"><p>That piece is not on the shelf. <a href="library.html">Return to the library</a>.</p></div>';
+      return;
+    }
+    document.title = piece.title + " · Diburim";
+    const minutes = readingMinutes(piece.body);
+    const waitingForArticle = !piece.body && !safeMediaUrl(piece.pdf);
+    const built = buildPieceBodyAndToc(piece, ui, waitingForArticle);
+    const sources = (piece.sources || []).map(function (s) {
+      return "<li><strong>" + escapeHtml(s.t) + ".</strong> " + escapeHtml(s.n) + "</li>";
+    }).join("");
+    const related = pieces.filter(function (p) {
+      if (p.id === piece.id) return false;
+      if (piece.series && p.series === piece.series) return true;
+      return (p.topics || []).some(function (t) { return (piece.topics || []).indexOf(t) !== -1; });
+    }).slice(0, 3);
+    const prev = byId(piece.prevId, pieces);
+    const next = byId(piece.nextId, pieces);
+    mount.innerHTML =
+      '<div class="piece-layout" data-piece-id="' + escapeHtml(piece.id) + '">' +
+        '<article>' +
+          '<p class="crumbs"><a href="library.html">Library</a> · ' + escapeHtml(piece.kind === "study-guide" ? "Halacha" : (piece.parsha || piece.holiday || piece.sefer || "Torah")) + (piece.project === "halachah" ? ' · <a href="project.html?id=halachah">Study guides</a>' : "") + "</p>" +
+          '<p class="kicker">' + escapeHtml(piece.kind === "study-guide" ? studyGuideKicker(piece) : (piece.occasion || piece.series || "Diburim")) + "</p>" +
+          '<h1 class="piece-title">' + escapeHtml(piece.title) + "</h1>" +
+          (piece.hebrewTitle ? '<p class="piece-he hebrew" lang="he">' + escapeHtml(piece.hebrewTitle) + "</p>" : "") +
+          '<div class="byline">' +
+            '<img src="assets/rabbi-binyamin-goldberg.jpg" alt="Rabbi Binyamin Goldberg at the Kotel" width="120" height="150">' +
+            '<div><strong>' + escapeHtml((window.DIBURIM_SITE && window.DIBURIM_SITE.author) || "Rabbi Binyamin Goldberg") + "</strong><br><span class=\"muted\">" +
+              [piece.dateDisplay, minutes ? minutes + " min read" : "", piece.series].filter(Boolean).map(escapeHtml).join(" · ") +
+            "</span></div>" +
+          "</div>" +
+          '<div class="tools">' +
+            '<button class="btn btn-ghost" type="button" id="print-piece">Print / Save as PDF</button>' +
+            '<a class="btn btn-ghost" href="#sources">Source sheet</a>' +
+            '<button class="btn btn-ghost" type="button" id="share-piece">Share link</button>' +
+          "</div>" +
+          '<div class="piece-body">' + built.bodyHtml + "</div>" +
+          '<section class="sources" id="sources"><h2>Sources and Further Learning</h2><ol>' + sources + "</ol></section>" +
+          '<nav class="pager" aria-label="Adjacent pieces">' +
+            (prev ? '<a href="piece.html?id=' + encodeURIComponent(prev.id) + '"><small>Previous</small>' + escapeHtml(prev.title) + "</a>" : "<span></span>") +
+            (next ? '<a href="piece.html?id=' + encodeURIComponent(next.id) + '"><small>Next</small>' + escapeHtml(next.title) + "</a>" : (piece.nextLabel ? '<span><small>Next</small>' + escapeHtml(piece.nextLabel) + "</span>" : "<span></span>")) +
+          "</nav>" +
+          (related.length ? '<h2 style="margin-top:2.2rem">Related</h2><div class="card-grid">' + related.map(card).join("") + "</div>" : "") +
+        "</article>" +
+        '<aside class="toc"><p class="kicker">Contents</p><ol>' + built.tocHtml + "</ol></aside>" +
+      "</div>";
+    bindPieceChrome(mount);
+
+    function afterArticleLoaded(article) {
+      const layout = mount.querySelector(".piece-layout");
+      if (!layout || layout.dataset.pieceId !== piece.id) return;
+      applyLoadedArticle(piece, article);
+      finishPieceArticle(mount, piece, ui);
+    }
+
+    const loadArticle = window.DIBURIM_loadArticle;
+    if (loadArticle) {
+      loadArticle(piece.id).then(afterArticleLoaded);
+    } else if (!waitingForArticle) {
+      mountPieceAudio(mount, piece, ui);
     }
   }
 
@@ -654,9 +749,11 @@
         rows.push({ kind: "Source sheet", title: p.title, note: String((p.sources || []).length) + " sources", href: "piece.html?id=" + encodeURIComponent(p.id) + "#sources" });
       }
       rows.push({ kind: "Print / PDF", title: p.title, note: "Print or save as PDF", href: "piece.html?id=" + encodeURIComponent(p.id) });
-      rows.push({ kind: "Audio", title: p.title, note: p.audio ? "Recording attached" : (ui.audioUnavailable || "Audio not available"), href: "piece.html?id=" + encodeURIComponent(p.id) + "#listen" });
+      if (hasAudio(p)) {
+        rows.push({ kind: "Audio", title: p.title, note: "Recording attached", href: "piece.html?id=" + encodeURIComponent(p.id) + "#listen" });
+      }
     });
-    rows.unshift({ kind: "Video", title: "Parsha videos", note: "", href: "videos.html" });
+    rows.unshift({ kind: "Video", title: "Kids videos", note: "", href: "videos.html#kids" });
     mount.innerHTML = rows.length
       ? rows.map(function (row) {
         return '<a class="resource-row" href="' + row.href + '"><span class="tag">' + escapeHtml(row.kind) + "</span><span><strong>" + escapeHtml(row.title) + "</strong>" + (row.note ? '<br><span class="muted">' + escapeHtml(row.note) + "</span>" : "") + '</span><span>Open</span></a>';
@@ -664,16 +761,55 @@
       : '<p class="muted">' + escapeHtml(ui.libraryEmpty || "[CONTENT PENDING]") + "</p>";
   }
 
+  function videoCardMarkup(video, ui) {
+    const idOk = /^[A-Za-z0-9_-]{11}$/.test(video.youtubeId || "");
+    const label = video.title || video.occasion || video.parsha || "Video";
+    const frame = idOk
+      ? '<iframe src="https://www.youtube-nocookie.com/embed/' + video.youtubeId + '" title="' + escapeHtml(label) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>'
+      : '<div class="video-hold"><p class="muted">' + escapeHtml(ui.contentPending || "[CONTENT PENDING]") + "</p></div>";
+    const kicker = video.parsha || video.occasion || "";
+    const titleHtml = video.title
+      ? "<h2>" + escapeHtml(video.title) + "</h2>"
+      : (video.occasion ? "<h2>" + escapeHtml(video.occasion) + "</h2>" : "");
+    const pieceLink = video.pieceId
+      ? '<p><a href="piece.html?id=' + encodeURIComponent(video.pieceId) + '">Read the essay</a></p>'
+      : "";
+    return (
+      '<article class="video-card">' +
+        '<div class="video-frame">' + frame + "</div>" +
+        '<div class="pad">' +
+          (kicker && video.title ? '<p class="kicker">' + escapeHtml(kicker) + "</p>" : "") +
+          titleHtml +
+          pieceLink +
+        "</div>" +
+      "</article>"
+    );
+  }
+
   function initVideos(cfg, ui) {
-    const mount = document.getElementById("video-grid");
+    const mount = document.getElementById("video-sections") || document.getElementById("video-grid");
     if (!mount) return;
-    mount.innerHTML = (cfg.videos || []).map(function (video) {
-      const idOk = /^[A-Za-z0-9_-]{11}$/.test(video.youtubeId || "");
-      const frame = idOk
-        ? '<iframe src="https://www.youtube-nocookie.com/embed/' + video.youtubeId + '" title="' + escapeHtml(video.title) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>'
-        : '<div class="video-hold"><p class="muted">' + escapeHtml(ui.contentPending || "[CONTENT PENDING]") + "</p></div>";
-      return '<article class="video-card"><div class="video-frame">' + frame + '</div><div class="pad"><p class="kicker">' + escapeHtml(video.parsha || "") + '</p><h2>' + escapeHtml(video.title || "") + "</h2></div></article>";
-    }).join("");
+    const sections = cfg.videoSections;
+    if (sections && sections.length) {
+      mount.innerHTML = sections.map(function (section) {
+        const cards = (section.videos || []).map(function (video) {
+          return videoCardMarkup(video, ui);
+        }).join("");
+        if (!cards) return "";
+        return (
+          '<section class="video-section" id="' + escapeHtml(section.id || "") + '" aria-labelledby="video-section-' + escapeHtml(section.id || "") + '">' +
+            '<header class="video-section-head">' +
+              '<h2 id="video-section-' + escapeHtml(section.id || "") + '">' + escapeHtml(section.heading || "") + "</h2>" +
+            "</header>" +
+            '<div class="video-grid">' + cards + "</div>" +
+          "</section>"
+        );
+      }).join("");
+      return;
+    }
+    mount.innerHTML = '<div class="video-grid">' + (cfg.videos || []).map(function (video) {
+      return videoCardMarkup(video, ui);
+    }).join("") + "</div>";
   }
 
   function renderShulchan() {
@@ -856,7 +992,4 @@
   }
 
   document.addEventListener("diburim:ready", startApp);
-  document.addEventListener("diburim:bodies-ready", function () {
-    if (page === "piece" || page === "search") startApp();
-  });
 })();
