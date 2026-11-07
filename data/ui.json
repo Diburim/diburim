@@ -5,5 +5,7 @@
   "loadingArticle": "Loading…",
   "libraryEmpty": "No pieces in the library yet.",
   "thisWeekEmpty": "No weekly piece is published for this Shabbat yet.",
-  "newsletterInactive": "Newsletter signup is not connected yet."
+  "newsletterInactive": "Newsletter signup is not connected yet.",
+  "shulchanHostedElsewhere": "The working translation is published in a separate project.",
+  "shulchanHubPending": "Link the translation site and repository in js/config.js."
 }

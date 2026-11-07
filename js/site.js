@@ -66,6 +66,106 @@
     return "";
   }
 
+  function safeExternalUrl(url) {
+    return safeMediaUrl(url);
+  }
+
+  function shulchanUrls(cfg) {
+    cfg = cfg || {};
+    return {
+      reader: safeExternalUrl(cfg.externalShulchanAruchUrl),
+      repo: safeExternalUrl(cfg.shulchanAruchRepoUrl),
+    };
+  }
+
+  function shulchanActionButtons(cfg, ui, opts) {
+    opts = opts || {};
+    const urls = shulchanUrls(cfg);
+    const readerLabel = (cfg && cfg.externalShulchanAruchLabel) || "Open translation";
+    const repoLabel = (cfg && cfg.shulchanAruchRepoLabel) || "GitHub repository";
+    let html = "";
+    if (urls.reader) {
+      const extra = opts.readerNewTab === false ? "" : ' target="_blank" rel="noopener noreferrer"';
+      html += '<a class="btn btn-navy" href="' + escapeHtml(urls.reader) + '"' + extra + ">" + escapeHtml(readerLabel) + "</a>";
+    }
+    if (urls.repo) {
+      html += '<a class="btn btn-ghost" href="' + escapeHtml(urls.repo) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(repoLabel) + "</a>";
+    }
+    if (opts.hubLink) {
+      html += '<a class="btn btn-ghost" href="shulchan-aruch.html">Outline on Diburim</a>';
+    }
+    if (!html && opts.pending) {
+      html = '<p class="muted">' + escapeHtml((ui && ui.shulchanHubPending) || "[CONTENT PENDING]") + "</p>";
+    }
+    return html;
+  }
+
+  function wireShulchanProject(cfg, ui) {
+    const urls = shulchanUrls(cfg);
+    const readerLabel = (cfg && cfg.externalShulchanAruchLabel) || "Open translation";
+    const repoLabel = (cfg && cfg.shulchanAruchRepoLabel) || "GitHub repository";
+    document.querySelectorAll("[data-sa-reader], [data-external-sa]").forEach(function (node) {
+      if (!urls.reader) {
+        node.hidden = true;
+        return;
+      }
+      node.hidden = false;
+      const anchor = node.matches("a") ? node : node.querySelector("a");
+      if (anchor) {
+        anchor.href = urls.reader;
+        anchor.textContent = readerLabel;
+        if (!anchor.hasAttribute("target")) {
+          anchor.target = "_blank";
+          anchor.rel = "noopener noreferrer";
+        }
+      }
+    });
+    document.querySelectorAll("[data-sa-repo]").forEach(function (anchor) {
+      if (!urls.repo) {
+        anchor.hidden = true;
+        return;
+      }
+      anchor.hidden = false;
+      anchor.href = urls.repo;
+      anchor.textContent = repoLabel;
+    });
+    document.querySelectorAll("[data-sa-hub]").forEach(function (anchor) {
+      anchor.hidden = !urls.reader;
+    });
+    const note = document.getElementById("sa-config-note");
+    if (note) {
+      if (urls.reader) {
+        note.hidden = false;
+        note.textContent = (ui && ui.shulchanHostedElsewhere) || "";
+      } else {
+        note.hidden = false;
+        note.textContent = (ui && ui.shulchanHubPending) || "[CONTENT PENDING]";
+      }
+    }
+    const saStats = document.querySelector(".sa-hero .stat-row");
+    if (saStats) saStats.hidden = Boolean(urls.reader);
+    const hero = document.getElementById("hero-sa-link");
+    if (hero) {
+      if (urls.reader) {
+        hero.href = urls.reader;
+        hero.target = "_blank";
+        hero.rel = "noopener noreferrer";
+      } else {
+        hero.href = "shulchan-aruch.html";
+        hero.removeAttribute("target");
+        hero.removeAttribute("rel");
+      }
+    }
+    document.querySelectorAll("[data-sa-primary]").forEach(function (link) {
+      if (link.id === "hero-sa-link") return;
+      if (urls.reader) {
+        link.href = urls.reader;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      }
+    });
+  }
+
   function hasAudio(p) {
     return Boolean(safeMediaUrl(p && p.audio));
   }
@@ -136,19 +236,7 @@
         toggle.setAttribute("aria-expanded", open ? "true" : "false");
       });
     }
-    const external = cfg.externalShulchanAruchUrl;
-    document.querySelectorAll("[data-external-sa]").forEach(function (node) {
-      if (!external) {
-        node.hidden = true;
-        return;
-      }
-      node.hidden = false;
-      const anchor = node.matches("a") ? node : node.querySelector("a");
-      if (anchor) {
-        anchor.href = external;
-        anchor.textContent = cfg.externalShulchanAruchLabel || "Earlier public edition";
-      }
-    });
+    wireShulchanProject(cfg, window.DIBURIM_UI || {});
     document.querySelectorAll("[data-contact]").forEach(function (node) {
       if (!cfg.contactEmail) {
         node.hidden = true;
@@ -379,14 +467,16 @@
     }
     const homeProjects = document.getElementById("home-projects-grid");
     if (homeProjects) {
+      const cfg = (window.DIBURIM_CONFIG || {});
       homeProjects.innerHTML = projects.slice(0, 3).map(function (project) {
-        const href = project.href || ("project.html?id=" + encodeURIComponent(project.id));
+        const href = projectOpenHref(project, cfg);
+        const ext = project.id === "shulchan-aruch" && shulchanUrls(cfg).reader;
         return (
           '<article class="' + (project.id === "shulchan-aruch" ? "sa-home-card" : "plain-card") + '">' +
             (project.status ? '<p class="kicker">' + escapeHtml(project.status) + "</p>" : "") +
             "<h3>" + escapeHtml(project.title) + "</h3>" +
             (project.summary ? "<p>" + escapeHtml(project.summary) + "</p>" : "") +
-            '<p><a class="btn btn-' + (project.id === "shulchan-aruch" ? "gold" : "ghost") + '" href="' + escapeHtml(href) + '">Open</a></p>' +
+            '<p><a class="btn btn-' + (project.id === "shulchan-aruch" ? "gold" : "ghost") + '" href="' + escapeHtml(href) + '"' + (ext ? ' target="_blank" rel="noopener noreferrer"' : "") + ">Open</a></p>" +
           "</article>"
         );
       }).join("");
@@ -670,21 +760,29 @@
     }
   }
 
-  function initProjects(projects) {
+  function projectOpenHref(project, cfg) {
+    if (project.id === "shulchan-aruch" && shulchanUrls(cfg).reader) {
+      return shulchanUrls(cfg).reader;
+    }
+    return project.href || ("project.html?id=" + encodeURIComponent(project.id));
+  }
+
+  function initProjects(projects, cfg) {
     const mount = document.getElementById("project-list");
     if (!mount) return;
     mount.innerHTML = projects.map(function (project) {
-      const href = project.href || ("project.html?id=" + encodeURIComponent(project.id));
+      const href = projectOpenHref(project, cfg);
+      const external = project.id === "shulchan-aruch" && shulchanUrls(cfg).reader;
       return '<article class="plain-card">' +
         (project.status ? '<p class="kicker">' + escapeHtml(project.status) + "</p>" : "") +
-        '<h2><a href="' + href + '">' + escapeHtml(project.title) + "</a></h2>" +
+        '<h2><a href="' + href + '"' + (external ? ' target="_blank" rel="noopener noreferrer"' : "") + ">" + escapeHtml(project.title) + "</a></h2>" +
         (project.hebrew ? '<p class="hebrew" lang="he">' + escapeHtml(project.hebrew) + "</p>" : "") +
         (project.summary ? "<p>" + escapeHtml(project.summary) + "</p>" : "") +
         "</article>";
     }).join("");
   }
 
-  function initProject(projects, pieces, ui) {
+  function initProject(projects, pieces, ui, cfg) {
     const id = new URLSearchParams(window.location.search).get("id");
     const project = projects.find(function (item) { return item.id === id; });
     const mount = document.getElementById("project");
@@ -705,7 +803,9 @@
       "<h1>" + escapeHtml(project.title) + "</h1>" +
       (project.hebrew ? '<p class="piece-he hebrew" lang="he">' + escapeHtml(project.hebrew) + "</p>" : "") +
       (project.body ? '<div class="piece-body">' + project.body + "</div>" : "<p class=\"muted\">" + escapeHtml(ui.contentPending || "[CONTENT PENDING]") + "</p>") +
-      (project.href ? '<p><a class="btn btn-navy" href="' + project.href + '">Open</a></p>' : "") +
+      (project.id === "shulchan-aruch"
+        ? '<div class="actions">' + shulchanActionButtons(cfg, ui, { hubLink: true }) + "</div>"
+        : (project.href ? '<p><a class="btn btn-navy" href="' + escapeHtml(project.href) + '">Open</a></p>' : "")) +
       (linked.length ? '<h2>Published pieces</h2><div class="card-grid">' + linked.map(card).join("") + "</div>" : "");
   }
 
@@ -977,16 +1077,22 @@
       library: function () { initLibrary(pieces, cfg, ui); },
       articles: function () { initArticles(pieces, ui); },
       piece: function () { initPiece(pieces, cfg, ui); },
-      projects: function () { initProjects(projects); },
-      project: function () { initProject(projects, pieces, ui); },
+      projects: function () { initProjects(projects, cfg); },
+      project: function () { initProject(projects, pieces, ui, cfg); },
       search: function () { initSearch(pieces, ui); },
       resources: function () { initResources(pieces, ui); },
       videos: function () { initVideos(cfg, ui); }
     };
     if (routes[page]) routes[page]();
     if (page === "shulchan") {
-      window.addEventListener("hashchange", renderShulchan);
-      renderShulchan();
+      const reader = shulchanUrls(cfg).reader;
+      const root = document.getElementById("shulchan");
+      if (reader && root) {
+        root.innerHTML = '<p class="muted">' + escapeHtml(ui.shulchanHostedElsewhere || "") + "</p>";
+      } else {
+        window.addEventListener("hashchange", renderShulchan);
+        renderShulchan();
+      }
     }
     initSubscribeForms(cfg, ui);
   }

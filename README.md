@@ -99,10 +99,12 @@ Or a single **CNAME** `@` → **`diburim.github.io`** if Cloudflare CNAME flatte
 
 Use a **Redirect rule** in Cloudflare so `www.diburim.org` → `https://diburim.org` (301), if you want one canonical host.
 
-### 3. Cloudflare SSL
+### 3. Cloudflare SSL and proxy (important for GitHub)
 
 - **SSL/TLS** → **Overview**: start with **Full**; after GitHub shows a valid certificate, you can use **Full (strict)**.
 - Do not use **Flexible** only with GitHub Pages (can cause redirect loops).
+- While GitHub reports **DNS check** or **`www` InvalidDNSError**, set every GitHub record to **DNS only** (grey cloud). Proxied records hide the apex **A** answers and the **www** **CNAME** to `diburim.github.io`, so GitHub cannot verify the domain.
+- After **Enforce HTTPS** works, you may turn proxy back on for `diburim.org` if you want Cloudflare in front.
 
 ### 4. Runtime config
 
