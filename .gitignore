@@ -5,3 +5,4 @@ _import/
 __pycache__/
 *.pyc
 scripts/commit-message.txt
+.cursor/

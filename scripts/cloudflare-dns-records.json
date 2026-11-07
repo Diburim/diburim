@@ -1,0 +1,21 @@
+{
+  "comment": "Import via Cloudflare Dashboard → DNS → (or API). Apex to GitHub Pages; www to GitHub with optional redirect rule.",
+  "records": [
+    { "type": "A", "name": "@", "content": "185.199.108.153", "ttl": 1, "proxied": false },
+    { "type": "A", "name": "@", "content": "185.199.109.153", "ttl": 1, "proxied": false },
+    { "type": "A", "name": "@", "content": "185.199.110.153", "ttl": 1, "proxied": false },
+    { "type": "A", "name": "@", "content": "185.199.111.153", "ttl": 1, "proxied": false },
+    { "type": "CNAME", "name": "www", "content": "diburim.github.io", "ttl": 1, "proxied": false }
+  ],
+  "redirect_rule": {
+    "name": "www to apex",
+    "expression": "(http.host eq \"www.diburim.org\")",
+    "action": "301",
+    "destination": "https://diburim.org"
+  },
+  "ssl_mode": "full",
+  "github_pages": {
+    "custom_domain": "diburim.org",
+    "enforce_https": true
+  }
+}

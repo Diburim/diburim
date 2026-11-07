@@ -1,6 +1,6 @@
 /* Layer 2 — technical/runtime settings only. No Torah prose. See data/site.json for approved site copy. */
 window.DIBURIM_CONFIG = {
-  siteUrl: "",
+  siteUrl: "https://diburim.org",
   externalShulchanAruchUrl: "",
   externalShulchanAruchLabel: "Earlier public edition",
   subscribeEndpoint: "",

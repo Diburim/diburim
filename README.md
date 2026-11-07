@@ -64,6 +64,52 @@ If Git still uses the wrong account, remove the saved entry: Windows **Credentia
 
 After push, enable **GitHub Pages** → Build and deployment → **GitHub Actions** (workflow already in `.github/workflows/pages.yml`).
 
+## Custom domain (`diburim.org`) via Cloudflare
+
+The repo includes a root **`CNAME`** file (`diburim.org`) so GitHub Pages can serve the site on your domain (not only `diburim.github.io`).
+
+### 1. GitHub
+
+1. Repo **Settings → Pages**.
+2. Under **Custom domain**, enter **`diburim.org`**, save, and wait for DNS check (can take minutes to a day).
+3. When available, enable **Enforce HTTPS**.
+
+If GitHub reports conflicting DNS, finish Cloudflare step 2 first, then retry.
+
+### 2. Cloudflare DNS
+
+Add records for the zone **diburim.org** (nameservers must be Cloudflare’s).
+
+**Apex (`diburim.org`)** — use either:
+
+| Type | Name | Content | Proxy |
+| --- | --- | --- | --- |
+| A | `@` | `185.199.108.153` | DNS only (grey cloud) or proxied |
+| A | `@` | `185.199.109.153` | same |
+| A | `@` | `185.199.110.153` | same |
+| A | `@` | `185.199.111.153` | same |
+
+Or a single **CNAME** `@` → **`diburim.github.io`** if Cloudflare CNAME flattening is enabled on your plan.
+
+**`www` (optional but recommended):**
+
+| Type | Name | Content | Proxy |
+| --- | --- | --- | --- |
+| CNAME | `www` | `diburim.github.io` | same |
+
+Use a **Redirect rule** in Cloudflare so `www.diburim.org` → `https://diburim.org` (301), if you want one canonical host.
+
+### 3. Cloudflare SSL
+
+- **SSL/TLS** → **Overview**: start with **Full**; after GitHub shows a valid certificate, you can use **Full (strict)**.
+- Do not use **Flexible** only with GitHub Pages (can cause redirect loops).
+
+### 4. Runtime config
+
+`js/config.js` sets **`siteUrl`** to `https://diburim.org` for future canonical/share use.
+
+After DNS and HTTPS work, the live site should be **https://diburim.org/** (library and pieces at the domain root, not `/diburim/`).
+
 ## Assets
 
 - Logo: `assets/logo-diburim.jpg`
