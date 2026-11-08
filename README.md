@@ -15,7 +15,7 @@ Torah library site for **Rabbi Binyamin Goldberg** — static GitHub Pages.
 ## Adding a published piece
 
 1. Add metadata to `data/catalog.json` (no invented `excerpt` unless approved).
-2. Set `"thisWeekId"` when it is the weekly feature.
+2. Weekly hero: default `"thisWeekMode": "auto"` picks this Shabbat’s parsha from `data/parsha-calendar.json` (falls back to an older edition with the same `parsha` when needed). Set `"thisWeekMode": "manual"` and `"thisWeekId"` to pin a piece.
 3. Add `content/articles/{id}.json` with `{ "body": "..." }` or `null` until ready.
 
 See `content/articles/README.md`.

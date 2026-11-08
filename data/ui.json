@@ -5,6 +5,7 @@
   "loadingArticle": "Loading…",
   "libraryEmpty": "No pieces in the library yet.",
   "thisWeekEmpty": "No weekly piece is published for this Shabbat yet.",
+  "thisWeekAudioOnly": "Audio is ready; written text may follow.",
   "newsletterInactive": "Newsletter signup is not connected yet.",
   "shulchanOnSite": "The translation reader is part of this site.",
   "shulchanSyncPending": "The reader build is not in shulchan_aruch/ yet. Run scripts/sync-shulchan-aruch.ps1, then commit and push.",

@@ -378,6 +378,10 @@
       } else {
         const mins = readingMinutes(week.body);
         const weekAudio = hasAudio(week);
+        const hasPdf = Boolean(safeMediaUrl(week.pdf));
+        const hasEssay = Boolean(week.body);
+        const pieceUrl = "piece.html?id=" + encodeURIComponent(week.id);
+        const primaryLabel = hasEssay ? "Read the essay" : hasPdf ? "Read the piece" : weekAudio ? "Open piece" : "Read the essay";
         mount.innerHTML =
           '<div class="week-grid">' +
             '<div class="week-copy">' +
@@ -385,15 +389,16 @@
               '<h2>' + escapeHtml(week.title || "") + "</h2>" +
               (week.hebrewTitle ? '<p class="week-he hebrew" lang="he">' + escapeHtml(week.hebrewTitle) + "</p>" : "") +
               (week.excerpt ? "<p>" + escapeHtml(week.excerpt) + "</p>" : "") +
+              (!hasEssay && weekAudio && ui.thisWeekAudioOnly ? '<p class="muted">' + escapeHtml(ui.thisWeekAudioOnly) + "</p>" : "") +
               '<p class="meta-row" data-week-meta>' +
-                [week.parsha, week.occasion || week.dateDisplay, mins ? mins + " min read" : ""].filter(Boolean).map(function (bit, i) {
+                [week.parsha, week.occasion || week.dateDisplay, mins ? mins + " min read" : "", weekAudio && !hasEssay ? "Audio" : ""].filter(Boolean).map(function (bit, i) {
                   return (i ? '<span class="dot"></span>' : "") + "<span>" + escapeHtml(bit) + "</span>";
                 }).join("") +
               "</p>" +
               '<div class="actions">' +
-                '<a class="btn btn-navy" href="piece.html?id=' + encodeURIComponent(week.id) + '">Read the essay</a>' +
-                '<a class="btn btn-ghost" href="piece.html?id=' + encodeURIComponent(week.id) + '#sources">Sources</a>' +
-                (weekAudio ? '<a class="btn btn-ghost" href="piece.html?id=' + encodeURIComponent(week.id) + '#listen">Audio</a>' : "") +
+                '<a class="btn btn-navy" href="' + escapeHtml(pieceUrl) + '">' + escapeHtml(primaryLabel) + "</a>" +
+                (weekAudio ? '<a class="btn btn-ghost" href="' + escapeHtml(pieceUrl) + '#listen">Listen</a>' : "") +
+                (hasEssay ? '<a class="btn btn-ghost" href="' + escapeHtml(pieceUrl) + '#sources">Sources</a>' : "") +
               "</div>" +
             "</div>" +
             '<div class="week-side">' +
