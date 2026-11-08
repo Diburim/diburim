@@ -695,6 +695,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 242,
       "chelek": "OC",
       "categories": [
@@ -707,8 +708,7 @@
         "Orach Chaim"
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ב· הלכות שבת",
-      "nextId": "hilchos-shabbos-243",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-243"
     },
     {
       "id": "hilchos-shabbos-243",
@@ -716,6 +716,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 243,
       "chelek": "OC",
       "categories": [
@@ -729,8 +730,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ג· הלכות שבת",
       "prevId": "hilchos-shabbos-242",
-      "nextId": "hilchos-shabbos-244",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-244"
     },
     {
       "id": "hilchos-shabbos-244",
@@ -738,6 +738,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 244,
       "chelek": "OC",
       "categories": [
@@ -751,8 +752,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ד· הלכות שבת",
       "prevId": "hilchos-shabbos-243",
-      "nextId": "hilchos-shabbos-245",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-245"
     },
     {
       "id": "hilchos-shabbos-245",
@@ -760,6 +760,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 245,
       "chelek": "OC",
       "categories": [
@@ -773,8 +774,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ה· הלכות שבת",
       "prevId": "hilchos-shabbos-244",
-      "nextId": "hilchos-shabbos-246",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-246"
     },
     {
       "id": "hilchos-shabbos-246",
@@ -782,6 +782,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 246,
       "chelek": "OC",
       "categories": [
@@ -795,8 +796,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ו· הלכות שבת",
       "prevId": "hilchos-shabbos-245",
-      "nextId": "hilchos-shabbos-247",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-247"
     },
     {
       "id": "hilchos-shabbos-247",
@@ -804,6 +804,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 247,
       "chelek": "OC",
       "categories": [
@@ -817,8 +818,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ז· הלכות שבת",
       "prevId": "hilchos-shabbos-246",
-      "nextId": "hilchos-shabbos-248",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-248"
     },
     {
       "id": "hilchos-shabbos-248",
@@ -826,6 +826,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 248,
       "chelek": "OC",
       "categories": [
@@ -839,8 +840,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ח· הלכות שבת",
       "prevId": "hilchos-shabbos-247",
-      "nextId": "hilchos-shabbos-249",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-249"
     },
     {
       "id": "hilchos-shabbos-249",
@@ -848,6 +848,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 249,
       "chelek": "OC",
       "categories": [
@@ -861,8 +862,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רמ״ט· הלכות שבת",
       "prevId": "hilchos-shabbos-248",
-      "nextId": "hilchos-shabbos-250",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-250"
     },
     {
       "id": "hilchos-shabbos-250",
@@ -870,6 +870,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 250,
       "chelek": "OC",
       "categories": [
@@ -883,8 +884,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן ר״נ· הלכות שבת",
       "prevId": "hilchos-shabbos-249",
-      "nextId": "hilchos-shabbos-251",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-251"
     },
     {
       "id": "hilchos-shabbos-251",
@@ -892,6 +892,7 @@
       "kind": "study-guide",
       "series": "Hilchos Shabbos",
       "project": "halachah",
+      "sefer": "Halachah",
       "siman": 251,
       "chelek": "OC",
       "categories": [
@@ -905,7 +906,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רנ״א· הלכות שבת",
       "prevId": "hilchos-shabbos-250",
-      "sefer": "Halachah"
+      "nextId": "hilchos-shabbos-252"
     },
     {
       "id": "bereishis",
@@ -1029,6 +1030,313 @@
       ],
       "date": "2025-10-10",
       "dateDisplay": "October 10, 2025"
+    },
+    {
+      "id": "hilchos-shabbos-252",
+      "title": "Hilchos Shabbos Shiur 11 – Siman 252",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 252,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ב· הלכות שבת",
+      "prevId": "hilchos-shabbos-251",
+      "nextId": "hilchos-shabbos-253"
+    },
+    {
+      "id": "hilchos-shabbos-253",
+      "title": "Hilchos Shabbos Shiur 12 – Siman 253",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 253,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ג· הלכות שבת",
+      "prevId": "hilchos-shabbos-252",
+      "nextId": "hilchos-shabbos-254"
+    },
+    {
+      "id": "hilchos-shabbos-254",
+      "title": "Hilchos Shabbos Shiur 13 – Siman 254",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 254,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ד· הלכות שבת",
+      "prevId": "hilchos-shabbos-253",
+      "nextId": "hilchos-shabbos-256"
+    },
+    {
+      "id": "hilchos-shabbos-256",
+      "title": "Hilchos Shabbos Shiur 15 – Siman 256",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 256,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ו· הלכות שבת",
+      "prevId": "hilchos-shabbos-254",
+      "nextId": "hilchos-shabbos-257"
+    },
+    {
+      "id": "hilchos-shabbos-257",
+      "title": "Hilchos Shabbos Shiur 16 – Siman 257",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 257,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ז· הלכות שבת",
+      "prevId": "hilchos-shabbos-256",
+      "nextId": "hilchos-shabbos-258"
+    },
+    {
+      "id": "hilchos-shabbos-258",
+      "title": "Hilchos Shabbos Shiur 17 – Siman 258",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 258,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ח· הלכות שבת",
+      "prevId": "hilchos-shabbos-257",
+      "nextId": "hilchos-shabbos-259"
+    },
+    {
+      "id": "hilchos-shabbos-259",
+      "title": "Hilchos Shabbos Shiur 18 – Siman 259",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 259,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ט· הלכות שבת",
+      "prevId": "hilchos-shabbos-258",
+      "nextId": "hilchos-shabbos-260"
+    },
+    {
+      "id": "hilchos-shabbos-260",
+      "title": "Hilchos Shabbos Shiur 19 – Siman 260",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 260,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן ר״ס· הלכות שבת",
+      "prevId": "hilchos-shabbos-259",
+      "nextId": "hilchos-shabbos-261"
+    },
+    {
+      "id": "hilchos-shabbos-261",
+      "title": "Hilchos Shabbos Shiur 20 – Siman 261",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 261,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רס״א· הלכות שבת",
+      "prevId": "hilchos-shabbos-260",
+      "nextId": "hilchos-shabbos-262"
+    },
+    {
+      "id": "hilchos-shabbos-262",
+      "title": "Hilchos Shabbos Shiur 21 – Siman 262",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 262,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רס״ב· הלכות שבת",
+      "prevId": "hilchos-shabbos-261",
+      "nextId": "hilchos-shabbos-263"
+    },
+    {
+      "id": "hilchos-shabbos-263",
+      "title": "Hilchos Shabbos Shiur 22 – Siman 263",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 263,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רס״ג· הלכות שבת",
+      "prevId": "hilchos-shabbos-262",
+      "nextId": "hilchos-shabbos-264"
+    },
+    {
+      "id": "hilchos-shabbos-264",
+      "title": "Hilchos Shabbos Shiur 23 – Siman 264",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 264,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רס״ד· הלכות שבת",
+      "prevId": "hilchos-shabbos-263",
+      "nextId": "hilchos-shabbos-265"
+    },
+    {
+      "id": "hilchos-shabbos-265",
+      "title": "Hilchos Shabbos Shiur 24 – Siman 265",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 265,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רס״ה· הלכות שבת",
+      "prevId": "hilchos-shabbos-264",
+      "nextId": "hilchos-shabbos-266"
+    },
+    {
+      "id": "hilchos-shabbos-266",
+      "title": "Hilchos Shabbos Shiur 25 – Siman 266",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 266,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רס״ו· הלכות שבת",
+      "prevId": "hilchos-shabbos-265"
     }
   ],
   "calendarSource": "data/parsha-calendar.json"
