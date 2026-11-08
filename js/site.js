@@ -177,13 +177,7 @@
 
   function piecePrintPdfUrl(piece) {
     if (!piece) return "";
-    const explicit = safeMediaUrl(piece.pdf);
-    if (explicit) return explicit;
-    if (piece.kind === "study-guide") return "";
-    if (piece.parsha || piece.holiday || piece.kind === "parsha") {
-      return "assets/parsha/" + encodeURIComponent(piece.id) + ".pdf";
-    }
-    return "";
+    return safeMediaUrl(piece.pdf) || "";
   }
 
   function applyLoadedArticle(piece, article) {
