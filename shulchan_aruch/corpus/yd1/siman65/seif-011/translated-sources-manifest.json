@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "siman": 65,
+  "seif": 11,
+  "description": "Published from YD_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    },
+    {
+      "slug": "turei-zahav",
+      "title": "Turei Zahav (Taz)",
+      "long": false,
+      "dataKey": "turei_zahav",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    },
+    {
+      "slug": "beur-hagra",
+      "title": "Biur HaGRA",
+      "long": true,
+      "dataKey": "beur_hagra",
+      "includeInReader": true
+    },
+    {
+      "slug": "nekudot-hakesef",
+      "title": "Nekudot HaKesef",
+      "long": false,
+      "dataKey": "nekudot_hakesef",
+      "includeInReader": true
+    },
+    {
+      "slug": "kaf-hachayim",
+      "title": "Kaf HaChayim (YD)",
+      "long": false,
+      "dataKey": "kaf_hachayim",
+      "includeInReader": true
+    },
+    {
+      "slug": "kereti",
+      "title": "Kereti",
+      "long": false,
+      "dataKey": "kereti",
+      "includeInReader": true
+    }
+  ]
+}

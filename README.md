@@ -112,6 +112,20 @@ Use a **Redirect rule** in Cloudflare so `www.diburim.org` → `https://diburim.
 
 After DNS and HTTPS work, the live site should be **https://diburim.org/** (library and pieces at the domain root, not `/diburim/`).
 
+## Shulchan Aruch translation (same-origin)
+
+The English Shulchan Aruch web reader is served on Diburim at **`/shulchan_aruch/`** (e.g. **https://diburim.org/shulchan_aruch/**), not in an iframe and not on a separate GitHub Pages host.
+
+- **Runtime:** `js/config.js` → `shulchanAruchPath: "shulchan_aruch/"` wires hero, projects, and hub links to that path (repo link still opens GitHub in a new tab).
+- **Source:** [bennyg83/shulchan_aruch](https://github.com/bennyg83/shulchan_aruch) (Vite app under `newtry/OC_Mobile/oc-web-reader`).
+- **Sync:** from the repo root, run:
+
+```powershell
+.\scripts\sync-shulchan-aruch.ps1
+```
+
+This keeps a sparse clone at `_import/shulchan_aruch_src/`, runs `npm ci` and `npm run build` with `VITE_BASE=/shulchan_aruch/`, and copies `dist/` into `shulchan_aruch/`. `_import/` is gitignored (edit reader source there; rebuild with the script). Commit `shulchan_aruch/` and push to publish on diburim.org.
+
 ## Assets
 
 - Logo: `assets/logo-diburim.jpg`

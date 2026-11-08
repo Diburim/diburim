@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siman": 186,
+  "seif": 5,
+  "description": "Published from YD_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    }
+  ]
+}

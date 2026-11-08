@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "siman": 267,
+  "seif": 64,
+  "description": "Published from YD_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    }
+  ]
+}

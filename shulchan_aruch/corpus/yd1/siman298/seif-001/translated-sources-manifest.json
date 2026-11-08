@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "siman": 298,
+  "seif": 1,
+  "description": "Published from YD_001/output block files.",
+  "sources": [
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    },
+    {
+      "slug": "beur-hagra",
+      "title": "Biur HaGRA",
+      "long": true,
+      "dataKey": "beur_hagra",
+      "includeInReader": true
+    },
+    {
+      "slug": "pitchei-teshuva",
+      "title": "Pitchei Teshuva",
+      "long": false,
+      "dataKey": "pitchei_teshuva",
+      "includeInReader": true
+    }
+  ]
+}

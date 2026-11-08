@@ -6,6 +6,7 @@
   "libraryEmpty": "No pieces in the library yet.",
   "thisWeekEmpty": "No weekly piece is published for this Shabbat yet.",
   "newsletterInactive": "Newsletter signup is not connected yet.",
-  "shulchanHostedElsewhere": "The working translation is published in a separate project.",
-  "shulchanHubPending": "Link the translation site and repository in js/config.js."
+  "shulchanOnSite": "The translation reader is part of this site.",
+  "shulchanSyncPending": "The reader build is not in shulchan_aruch/ yet. Run scripts/sync-shulchan-aruch.ps1, then commit and push.",
+  "shulchanHubPending": "Link the reader in js/config.js (shulchanAruchPath)."
 }

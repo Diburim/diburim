@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#0e1120"/>
+  <!-- Accent glow circle -->
+  <circle cx="256" cy="256" r="190" fill="#7c9ef0" opacity="0.08"/>
+  <!-- Decorative arc ring -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#7c9ef0" stroke-width="6" opacity="0.25"/>
+  <!-- Hebrew letter Shin (ש) — the opening letter of Shulchan Aruch -->
+  <text
+    x="256" y="330"
+    font-family="'Frank Ruhl Libre','Noto Serif Hebrew','David','Times New Roman',serif"
+    font-size="260"
+    font-weight="700"
+    text-anchor="middle"
+    fill="#7c9ef0"
+  >ש</text>
+  <!-- Small "OC" label at bottom -->
+  <text
+    x="256" y="430"
+    font-family="'Georgia','Times New Roman',serif"
+    font-size="52"
+    font-weight="400"
+    letter-spacing="8"
+    text-anchor="middle"
+    fill="#9ba3c4"
+    opacity="0.7"
+  >OC</text>
+</svg>

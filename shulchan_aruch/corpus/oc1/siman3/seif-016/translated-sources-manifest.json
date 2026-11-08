@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "siman": 3,
+  "seif": 16,
+  "description": "Prepared for translation pipeline. Slugs match folder names under this directory; aligned with Sefaria simanim/001 bundles and OC001 extract.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber"
+    },
+    {
+      "slug": "ateret-zekenim",
+      "title": "Ateret Zekeinim",
+      "long": false,
+      "dataKey": "ateret_zekenim",
+      "includeInReader": false
+    },
+    {
+      "slug": "baer-heitev",
+      "title": "Baer Hetev",
+      "long": false,
+      "dataKey": "baer_heitev",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    },
+    {
+      "slug": "beur-hagra",
+      "title": "Biur HaGRA",
+      "long": true,
+      "dataKey": "beur_hagra",
+      "includeInReader": true
+    },
+    {
+      "slug": "biur-halacha",
+      "title": "Biur Halacha",
+      "long": true,
+      "dataKey": "biur_halacha",
+      "includeInReader": true
+    },
+    {
+      "slug": "chatam-sofer",
+      "title": "Chatam Sofer",
+      "long": false,
+      "dataKey": "chatam_sofer",
+      "includeInReader": false
+    },
+    {
+      "slug": "chokhmat-shlomo",
+      "title": "Chokhmat Shlomo",
+      "long": false,
+      "dataKey": "chokhmat_shlomo",
+      "includeInReader": false
+    },
+    {
+      "slug": "dagul-merevavah",
+      "title": "Dagul Merevavah",
+      "long": false,
+      "dataKey": "dagul_merevavah",
+      "includeInReader": false
+    },
+    {
+      "slug": "eliyah-rabbah",
+      "title": "Eliyah Rabbah",
+      "long": true,
+      "dataKey": "eliyah_rabbah",
+      "includeInReader": true
+    },
+    {
+      "slug": "eshel-avraham",
+      "title": "Eshel Avraham",
+      "long": false,
+      "dataKey": "eshel_avraham",
+      "includeInReader": false
+    },
+    {
+      "slug": "kaf-hachayim",
+      "title": "Kaf HaChayyim",
+      "long": true,
+      "dataKey": "kaf_hachayim",
+      "includeInReader": true
+    },
+    {
+      "slug": "levushei-serad",
+      "title": "Levushei Serad",
+      "long": false,
+      "dataKey": "levushei_serad",
+      "includeInReader": true
+    },
+    {
+      "slug": "machatzit-hashekel",
+      "title": "Machatzit HaShekel",
+      "long": false,
+      "dataKey": "machatzit_hashekel",
+      "includeInReader": false
+    },
+    {
+      "slug": "magen-avraham",
+      "title": "Magen Avraham",
+      "long": false,
+      "dataKey": "magen_avraham",
+      "includeInReader": true
+    },
+    {
+      "slug": "mishnah-berurah",
+      "title": "Mishnah Berurah",
+      "long": true,
+      "dataKey": "mishnah_berurah",
+      "includeInReader": true
+    },
+    {
+      "slug": "netiv-chayim",
+      "title": "Netiv Chayim",
+      "long": false,
+      "dataKey": "netiv_chayim",
+      "includeInReader": false
+    },
+    {
+      "slug": "peri-megadim",
+      "title": "Pri Megadim",
+      "long": true,
+      "dataKey": "peri_megadim",
+      "includeInReader": false
+    },
+    {
+      "slug": "rabbi-akiva-eiger",
+      "title": "Rabbi Akiva Eiger",
+      "long": false,
+      "dataKey": "rabbi_akiva_eiger",
+      "includeInReader": false
+    },
+    {
+      "slug": "shaarei-teshuvah",
+      "title": "Shaarei Teshuvah",
+      "long": false,
+      "dataKey": "shaarei_teshuvah",
+      "includeInReader": true
+    },
+    {
+      "slug": "turei-zahav",
+      "title": "Turei Zahav (Taz)",
+      "long": false,
+      "dataKey": "turei_zahav",
+      "includeInReader": false
+    },
+    {
+      "slug": "yad-ephraim",
+      "title": "Yad Ephraim",
+      "long": false,
+      "dataKey": "yad_ephraim",
+      "includeInReader": false
+    }
+  ],
+  "hookToSlug": {
+    "Be'er HaGolah": "beer-hagolah",
+    "Turei Zahav": "turei-zahav",
+    "Ba'er Hetev": "baer-heitev",
+    "Sha'arei Teshuvah": "shaarei-teshuvah",
+    "Mishnah Berurah": "mishnah-berurah",
+    "Magen Avraham": "magen-avraham",
+    "Ateret Zekenim": "ateret-zekenim"
+  },
+  "excludedFromTranslatedReader": [
+    {
+      "slug": "ateret-zekenim",
+      "reason": "English translation omitted by project policy for this siman."
+    },
+    {
+      "slug": "chok-yaakov",
+      "reason": "No commentary text in Sefaria bundle for OC siman 1 (seifim 1–9)."
+    },
+    {
+      "slug": "kol-yaakov",
+      "reason": "No commentary text in Sefaria bundle for OC siman 1 (seifim 1–9)."
+    }
+  ]
+}

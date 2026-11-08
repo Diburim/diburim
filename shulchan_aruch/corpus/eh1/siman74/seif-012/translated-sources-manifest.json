@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "siman": 74,
+  "seif": 12,
+  "description": "Published from EH_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    },
+    {
+      "slug": "beit-shmuel",
+      "title": "Beit Shmuel",
+      "long": false,
+      "dataKey": "beit_shmuel",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    }
+  ]
+}

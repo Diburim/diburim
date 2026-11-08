@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "siman": 261,
+  "seif": 1,
+  "description": "Published from YD_001/output block files.",
+  "sources": [
+    {
+      "slug": "baer-heitev",
+      "title": "Ba'er Hetev",
+      "long": false,
+      "dataKey": "baer_heitev",
+      "includeInReader": true
+    },
+    {
+      "slug": "beur-hagra",
+      "title": "Biur HaGRA",
+      "long": true,
+      "dataKey": "beur_hagra",
+      "includeInReader": true
+    },
+    {
+      "slug": "yad-avraham",
+      "title": "Yad Avraham",
+      "long": false,
+      "dataKey": "yad_avraham",
+      "includeInReader": true
+    }
+  ]
+}

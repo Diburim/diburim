@@ -70,10 +70,19 @@
     return safeMediaUrl(url);
   }
 
+  function shulchanReaderPath(cfg) {
+    const raw = String((cfg && cfg.shulchanAruchPath) || "").trim();
+    if (!raw) return "";
+    const rel = raw.replace(/^\/+/, "");
+    return rel.endsWith("/") ? rel : rel + "/";
+  }
+
   function shulchanUrls(cfg) {
     cfg = cfg || {};
+    const reader = shulchanReaderPath(cfg);
     return {
-      reader: safeExternalUrl(cfg.externalShulchanAruchUrl),
+      reader: reader,
+      hasReader: Boolean(reader),
       repo: safeExternalUrl(cfg.shulchanAruchRepoUrl),
     };
   }
@@ -81,18 +90,17 @@
   function shulchanActionButtons(cfg, ui, opts) {
     opts = opts || {};
     const urls = shulchanUrls(cfg);
-    const readerLabel = (cfg && cfg.externalShulchanAruchLabel) || "Open translation";
+    const readerLabel = (cfg && cfg.shulchanAruchReaderLabel) || "Open translation";
     const repoLabel = (cfg && cfg.shulchanAruchRepoLabel) || "GitHub repository";
     let html = "";
-    if (urls.reader) {
-      const extra = opts.readerNewTab === false ? "" : ' target="_blank" rel="noopener noreferrer"';
-      html += '<a class="btn btn-navy" href="' + escapeHtml(urls.reader) + '"' + extra + ">" + escapeHtml(readerLabel) + "</a>";
+    if (urls.hasReader) {
+      html += '<a class="btn btn-navy" href="' + escapeHtml(urls.reader) + '">' + escapeHtml(readerLabel) + "</a>";
     }
     if (urls.repo) {
       html += '<a class="btn btn-ghost" href="' + escapeHtml(urls.repo) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(repoLabel) + "</a>";
     }
     if (opts.hubLink) {
-      html += '<a class="btn btn-ghost" href="shulchan-aruch.html">Outline on Diburim</a>';
+      html += '<a class="btn btn-ghost" href="shulchan-aruch.html">Project hub</a>';
     }
     if (!html && opts.pending) {
       html = '<p class="muted">' + escapeHtml((ui && ui.shulchanHubPending) || "[CONTENT PENDING]") + "</p>";
@@ -102,10 +110,10 @@
 
   function wireShulchanProject(cfg, ui) {
     const urls = shulchanUrls(cfg);
-    const readerLabel = (cfg && cfg.externalShulchanAruchLabel) || "Open translation";
+    const readerLabel = (cfg && cfg.shulchanAruchReaderLabel) || "Open translation";
     const repoLabel = (cfg && cfg.shulchanAruchRepoLabel) || "GitHub repository";
     document.querySelectorAll("[data-sa-reader], [data-external-sa]").forEach(function (node) {
-      if (!urls.reader) {
+      if (!urls.hasReader) {
         node.hidden = true;
         return;
       }
@@ -114,10 +122,8 @@
       if (anchor) {
         anchor.href = urls.reader;
         anchor.textContent = readerLabel;
-        if (!anchor.hasAttribute("target")) {
-          anchor.target = "_blank";
-          anchor.rel = "noopener noreferrer";
-        }
+        anchor.removeAttribute("target");
+        anchor.removeAttribute("rel");
       }
     });
     document.querySelectorAll("[data-sa-repo]").forEach(function (anchor) {
@@ -129,39 +135,34 @@
       anchor.href = urls.repo;
       anchor.textContent = repoLabel;
     });
-    document.querySelectorAll("[data-sa-hub]").forEach(function (anchor) {
-      anchor.hidden = !urls.reader;
-    });
     const note = document.getElementById("sa-config-note");
     if (note) {
-      if (urls.reader) {
+      if (urls.hasReader) {
         note.hidden = false;
-        note.textContent = (ui && ui.shulchanHostedElsewhere) || "";
+        note.textContent = (ui && ui.shulchanOnSite) || "";
       } else {
         note.hidden = false;
         note.textContent = (ui && ui.shulchanHubPending) || "[CONTENT PENDING]";
       }
     }
     const saStats = document.querySelector(".sa-hero .stat-row");
-    if (saStats) saStats.hidden = Boolean(urls.reader);
+    if (saStats) saStats.hidden = Boolean(urls.hasReader);
     const hero = document.getElementById("hero-sa-link");
     if (hero) {
-      if (urls.reader) {
+      if (urls.hasReader) {
         hero.href = urls.reader;
-        hero.target = "_blank";
-        hero.rel = "noopener noreferrer";
-      } else {
-        hero.href = "shulchan-aruch.html";
         hero.removeAttribute("target");
         hero.removeAttribute("rel");
+      } else {
+        hero.href = "shulchan-aruch.html";
       }
     }
     document.querySelectorAll("[data-sa-primary]").forEach(function (link) {
       if (link.id === "hero-sa-link") return;
-      if (urls.reader) {
+      if (urls.hasReader) {
         link.href = urls.reader;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
+        link.removeAttribute("target");
+        link.removeAttribute("rel");
       }
     });
   }
@@ -470,13 +471,12 @@
       const cfg = (window.DIBURIM_CONFIG || {});
       homeProjects.innerHTML = projects.slice(0, 3).map(function (project) {
         const href = projectOpenHref(project, cfg);
-        const ext = project.id === "shulchan-aruch" && shulchanUrls(cfg).reader;
         return (
           '<article class="' + (project.id === "shulchan-aruch" ? "sa-home-card" : "plain-card") + '">' +
             (project.status ? '<p class="kicker">' + escapeHtml(project.status) + "</p>" : "") +
             "<h3>" + escapeHtml(project.title) + "</h3>" +
             (project.summary ? "<p>" + escapeHtml(project.summary) + "</p>" : "") +
-            '<p><a class="btn btn-' + (project.id === "shulchan-aruch" ? "gold" : "ghost") + '" href="' + escapeHtml(href) + '"' + (ext ? ' target="_blank" rel="noopener noreferrer"' : "") + ">Open</a></p>" +
+            '<p><a class="btn btn-' + (project.id === "shulchan-aruch" ? "gold" : "ghost") + '" href="' + escapeHtml(href) + '">Open</a></p>' +
           "</article>"
         );
       }).join("");
@@ -761,7 +761,7 @@
   }
 
   function projectOpenHref(project, cfg) {
-    if (project.id === "shulchan-aruch" && shulchanUrls(cfg).reader) {
+    if (project.id === "shulchan-aruch" && shulchanUrls(cfg).hasReader) {
       return shulchanUrls(cfg).reader;
     }
     return project.href || ("project.html?id=" + encodeURIComponent(project.id));
@@ -772,10 +772,9 @@
     if (!mount) return;
     mount.innerHTML = projects.map(function (project) {
       const href = projectOpenHref(project, cfg);
-      const external = project.id === "shulchan-aruch" && shulchanUrls(cfg).reader;
       return '<article class="plain-card">' +
         (project.status ? '<p class="kicker">' + escapeHtml(project.status) + "</p>" : "") +
-        '<h2><a href="' + href + '"' + (external ? ' target="_blank" rel="noopener noreferrer"' : "") + ">" + escapeHtml(project.title) + "</a></h2>" +
+        '<h2><a href="' + escapeHtml(href) + '">' + escapeHtml(project.title) + "</a></h2>" +
         (project.hebrew ? '<p class="hebrew" lang="he">' + escapeHtml(project.hebrew) + "</p>" : "") +
         (project.summary ? "<p>" + escapeHtml(project.summary) + "</p>" : "") +
         "</article>";
@@ -1085,11 +1084,13 @@
     };
     if (routes[page]) routes[page]();
     if (page === "shulchan") {
-      const reader = shulchanUrls(cfg).reader;
+      const urls = shulchanUrls(cfg);
       const root = document.getElementById("shulchan");
-      if (reader && root) {
-        root.innerHTML = '<p class="muted">' + escapeHtml(ui.shulchanHostedElsewhere || "") + "</p>";
-      } else {
+      if (urls.hasReader && root) {
+        root.innerHTML =
+          '<p class="actions"><a class="btn btn-navy" href="' + escapeHtml(urls.reader) + '">' +
+          escapeHtml(cfg.shulchanAruchReaderLabel || "Open translation") + "</a></p>";
+      } else if (root) {
         window.addEventListener("hashchange", renderShulchan);
         renderShulchan();
       }

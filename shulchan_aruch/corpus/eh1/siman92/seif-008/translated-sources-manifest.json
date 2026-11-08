@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "siman": 92,
+  "seif": 8,
+  "description": "Published from EH_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    },
+    {
+      "slug": "beit-shmuel",
+      "title": "Beit Shmuel",
+      "long": false,
+      "dataKey": "beit_shmuel",
+      "includeInReader": true
+    },
+    {
+      "slug": "turei-zahav",
+      "title": "Turei Zahav (Taz)",
+      "long": false,
+      "dataKey": "turei_zahav",
+      "includeInReader": true
+    },
+    {
+      "slug": "baer-hetev",
+      "title": "Ba'er Hetev",
+      "long": false,
+      "dataKey": "baer_hetev",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    }
+  ]
+}

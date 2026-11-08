@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "siman": 31,
+  "seif": 3,
+  "description": "Published from EH_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    },
+    {
+      "slug": "beit-shmuel",
+      "title": "Beit Shmuel",
+      "long": false,
+      "dataKey": "beit_shmuel",
+      "includeInReader": true
+    },
+    {
+      "slug": "turei-zahav",
+      "title": "Turei Zahav (Taz)",
+      "long": false,
+      "dataKey": "turei_zahav",
+      "includeInReader": true
+    },
+    {
+      "slug": "baer-hetev",
+      "title": "Ba'er Hetev",
+      "long": false,
+      "dataKey": "baer_hetev",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    },
+    {
+      "slug": "beur-hagra",
+      "title": "Biur HaGRA",
+      "long": true,
+      "dataKey": "beur_hagra",
+      "includeInReader": true
+    },
+    {
+      "slug": "pitchei-teshuva",
+      "title": "Pitchei Teshuva",
+      "long": false,
+      "dataKey": "pitchei_teshuva",
+      "includeInReader": true
+    },
+    {
+      "slug": "rabbi-akiva-eiger",
+      "title": "Rabbi Akiva Eiger (EH)",
+      "long": false,
+      "dataKey": "rabbi_akiva_eiger",
+      "includeInReader": true
+    },
+    {
+      "slug": "beit-meir",
+      "title": "Beit Meir",
+      "long": false,
+      "dataKey": "beit_meir",
+      "includeInReader": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "siman": 244,
+  "seif": 3,
+  "description": "Published from YD_001/output block files.",
+  "sources": [
+    {
+      "slug": "mechaber",
+      "title": "Mechaber + Rema",
+      "long": false,
+      "dataKey": "mechaber",
+      "includeInReader": true
+    },
+    {
+      "slug": "beer-hagolah",
+      "title": "Be'er HaGolah",
+      "long": false,
+      "dataKey": "beer_hagolah",
+      "includeInReader": true
+    },
+    {
+      "slug": "pitchei-teshuva",
+      "title": "Pitchei Teshuva",
+      "long": false,
+      "dataKey": "pitchei_teshuva",
+      "includeInReader": true
+    }
+  ]
+}

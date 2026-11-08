@@ -1,0 +1,2836 @@
+{
+ "schemaVersion": 1,
+ "simanim": [
+  {
+   "siman": 1,
+   "title": "Siman 1",
+   "subtitle": "Who are fit to slaughter",
+   "corpusPath": "/corpus/yd1/siman1",
+   "subtitleHe": "מי הם הכשרים לשחוט"
+  },
+  {
+   "siman": 2,
+   "title": "Siman 2",
+   "subtitle": "Whether the shechitah of a non-Jew and a mumar is kosher",
+   "corpusPath": "/corpus/yd1/siman2",
+   "subtitleHe": "אם שחיטת עובד כוכבים ומומר כשרה"
+  },
+  {
+   "siman": 3,
+   "title": "Siman 3",
+   "subtitle": "Shechitah does not require intent",
+   "corpusPath": "/corpus/yd1/siman3",
+   "subtitleHe": "שחיטה אינה צריכה כוונה"
+  },
+  {
+   "siman": 4,
+   "title": "Siman 4",
+   "subtitle": "One who slaughters for idol worship or for another matter—what is his law",
+   "corpusPath": "/corpus/yd1/siman4",
+   "subtitleHe": "השוחט לשם עבודת כוכבים או לשם דבר אחר מה דינו"
+  },
+  {
+   "siman": 5,
+   "title": "Siman 5",
+   "subtitle": "Slaughtering for consecrated purposes",
+   "corpusPath": "/corpus/yd1/siman5",
+   "subtitleHe": "השוחט לשם קדשים מה דינו"
+  },
+  {
+   "siman": 6,
+   "title": "Siman 6",
+   "subtitle": "With what one slaughters",
+   "corpusPath": "/corpus/yd1/siman6",
+   "subtitleHe": "במה שוחטין"
+  },
+  {
+   "siman": 7,
+   "title": "Siman 7",
+   "subtitle": "Slaughtering with a knife fixed in a wheel",
+   "corpusPath": "/corpus/yd1/siman7",
+   "subtitleHe": "הקובע סכין בגלגל אם מותר לשחוט בו"
+  },
+  {
+   "siman": 8,
+   "title": "Siman 8",
+   "subtitle": "Size of a shechitah knife",
+   "corpusPath": "/corpus/yd1/siman8",
+   "subtitleHe": "שעור סכין של שחיטה"
+  },
+  {
+   "siman": 9,
+   "title": "Siman 9",
+   "subtitle": "Slaughtering with a heated knife",
+   "corpusPath": "/corpus/yd1/siman9",
+   "subtitleHe": "השוחט בסכין מלובנת"
+  },
+  {
+   "siman": 10,
+   "title": "Siman 10",
+   "subtitle": "Additional shechitah knife rules",
+   "corpusPath": "/corpus/yd1/siman10",
+   "subtitleHe": "יתר דיני סכין"
+  },
+  {
+   "siman": 11,
+   "title": "Siman 11",
+   "subtitle": "At what times one may slaughter. And the law of one who slaughters in water",
+   "corpusPath": "/corpus/yd1/siman11",
+   "subtitleHe": "באיזה זמן שוחטין. ודין השוחט בתוך המים"
+  },
+  {
+   "siman": 12,
+   "title": "Siman 12",
+   "subtitle": "Not to slaughter into a pit",
+   "corpusPath": "/corpus/yd1/siman12",
+   "subtitleHe": "שלא לשחוט בתוך גומא"
+  },
+  {
+   "siman": 13,
+   "title": "Siman 13",
+   "subtitle": "Animals that do not require shechitah",
+   "corpusPath": "/corpus/yd1/siman13",
+   "subtitleHe": "בעלי חיים שאינם צריכים שחיטה"
+  },
+  {
+   "siman": 14,
+   "title": "Siman 14",
+   "subtitle": "A fetus in an animal's womb",
+   "corpusPath": "/corpus/yd1/siman14",
+   "subtitleHe": "דין עובר במעי בהמה"
+  },
+  {
+   "siman": 15,
+   "title": "Siman 15",
+   "subtitle": "Not to slaughter an animal until the eighth day from its birth",
+   "corpusPath": "/corpus/yd1/siman15",
+   "subtitleHe": "שלא לשחוט בהמה עד יום שמיני ללידתה"
+  },
+  {
+   "siman": 16,
+   "title": "Siman 16",
+   "subtitle": "Oto v'et beno (it and its offspring)",
+   "corpusPath": "/corpus/yd1/siman16",
+   "subtitleHe": "דין אותו ואת בנו"
+  },
+  {
+   "siman": 17,
+   "title": "Siman 17",
+   "subtitle": "One who slaughters a dangerously ill animal",
+   "corpusPath": "/corpus/yd1/siman17",
+   "subtitleHe": "דין השוחט בהמה המסוכנת למות"
+  },
+  {
+   "siman": 18,
+   "title": "Siman 18",
+   "subtitle": "Checking the shechitah knife and its flaws",
+   "corpusPath": "/corpus/yd1/siman18",
+   "subtitleHe": "דין בדיקת הסכין ופגימותיו"
+  },
+  {
+   "siman": 19,
+   "title": "Siman 19",
+   "subtitle": "The blessing on shechita",
+   "corpusPath": "/corpus/yd1/siman19",
+   "subtitleHe": "דיני ברכת השחיטה"
+  },
+  {
+   "siman": 20,
+   "title": "Siman 20",
+   "subtitle": "The place of shechitah in the neck",
+   "corpusPath": "/corpus/yd1/siman20",
+   "subtitleHe": "מקום השחיטה בצואר"
+  },
+  {
+   "siman": 21,
+   "title": "Siman 21",
+   "subtitle": "The measure of shechitah in quantity",
+   "corpusPath": "/corpus/yd1/siman21",
+   "subtitleHe": "שיעור השחיטה בכמותה"
+  },
+  {
+   "siman": 22,
+   "title": "Siman 22",
+   "subtitle": "Cutting the jugular veins in shechitah",
+   "corpusPath": "/corpus/yd1/siman22",
+   "subtitleHe": "באיזו מין צריך לשחוט הורידין"
+  },
+  {
+   "siman": 23,
+   "title": "Siman 23",
+   "subtitle": "Shehiyah in shechitah",
+   "corpusPath": "/corpus/yd1/siman23",
+   "subtitleHe": "דיני שהייה בשחיטה"
+  },
+  {
+   "siman": 24,
+   "title": "Siman 24",
+   "subtitle": "Darsah, haladah, hagramah, and ikkur",
+   "corpusPath": "/corpus/yd1/siman24",
+   "subtitleHe": "דיני דרסה וחלדה הגרמה ועיקור"
+  },
+  {
+   "siman": 25,
+   "title": "Siman 25",
+   "subtitle": "That one must check simanim after shechitah",
+   "corpusPath": "/corpus/yd1/siman25",
+   "subtitleHe": "שצריך לבדוק אחר השחיטה"
+  },
+  {
+   "siman": 26,
+   "title": "Siman 26",
+   "subtitle": "Perforation of the esophagus or intestines before shechitah is completed",
+   "corpusPath": "/corpus/yd1/siman26",
+   "subtitleHe": "דין נקב בוושט או בבני מעים קודם [גמר] השחיטה"
+  },
+  {
+   "siman": 27,
+   "title": "Siman 27",
+   "subtitle": "Not to cut a limb from the animal while it is still convulsing",
+   "corpusPath": "/corpus/yd1/siman27",
+   "subtitleHe": "שלא לחתוך אבר מהבהמה בעודה מפרכסת"
+  },
+  {
+   "siman": 28,
+   "title": "Siman 28",
+   "subtitle": "Covering the blood",
+   "corpusPath": "/corpus/yd1/siman28",
+   "subtitleHe": "דיני כסוי הדם"
+  },
+  {
+   "siman": 29,
+   "title": "Siman 29",
+   "subtitle": "Eight types of treifot and their mnemonic",
+   "corpusPath": "/corpus/yd1/siman29",
+   "subtitleHe": "שמונה מיני טריפות וסימנם"
+  },
+  {
+   "siman": 30,
+   "title": "Siman 30",
+   "subtitle": "A blow to the skull bone",
+   "corpusPath": "/corpus/yd1/siman30",
+   "subtitleHe": "דין מכה בעצם הגולגולת"
+  },
+  {
+   "siman": 31,
+   "title": "Siman 31",
+   "subtitle": "Perforation of the brain and its membranes",
+   "corpusPath": "/corpus/yd1/siman31",
+   "subtitleHe": "דין נקיבת המוח וקרומיו"
+  },
+  {
+   "siman": 32,
+   "title": "Siman 32",
+   "subtitle": "Striking the spinal cord",
+   "corpusPath": "/corpus/yd1/siman32",
+   "subtitleHe": "דין מכה בחוט השדרה"
+  },
+  {
+   "siman": 33,
+   "title": "Siman 33",
+   "subtitle": "Removal of the lower jaw and injury to the esophagus",
+   "corpusPath": "/corpus/yd1/siman33",
+   "subtitleHe": "דין אם ניטל הלחי ומכה בוושט"
+  },
+  {
+   "siman": 34,
+   "title": "Siman 34",
+   "subtitle": "A blow to the gargeret",
+   "corpusPath": "/corpus/yd1/siman34",
+   "subtitleHe": "דין מכת הגרגרת"
+  },
+  {
+   "siman": 35,
+   "title": "Siman 35",
+   "subtitle": "Treifos of the lung and its lobes (onot)",
+   "corpusPath": "/corpus/yd1/siman35",
+   "subtitleHe": "דין טריפות הריאה ואונותיה"
+  },
+  {
+   "siman": 36,
+   "title": "Siman 36",
+   "subtitle": "Lung treifot",
+   "corpusPath": "/corpus/yd1/siman36",
+   "subtitleHe": "כמה מיני טריפות בריאה"
+  },
+  {
+   "siman": 37,
+   "title": "Siman 37",
+   "subtitle": "Lung blisters and adhesions",
+   "corpusPath": "/corpus/yd1/siman37",
+   "subtitleHe": "דיני אבעבועות וסרכות הריאה"
+  },
+  {
+   "siman": 38,
+   "title": "Siman 38",
+   "subtitle": "Lung appearances",
+   "corpusPath": "/corpus/yd1/siman38",
+   "subtitleHe": "דיני מראות הריאה"
+  },
+  {
+   "siman": 39,
+   "title": "Siman 39",
+   "subtitle": "Inspecting the lungs",
+   "corpusPath": "/corpus/yd1/siman39",
+   "subtitleHe": "דיני בדיקת הריאה"
+  },
+  {
+   "siman": 40,
+   "title": "Siman 40",
+   "subtitle": "Heart treifot",
+   "corpusPath": "/corpus/yd1/siman40",
+   "subtitleHe": "דיני טריפות הלב"
+  },
+  {
+   "siman": 41,
+   "title": "Siman 41",
+   "subtitle": "Liver treifot",
+   "corpusPath": "/corpus/yd1/siman41",
+   "subtitleHe": "דיני טרפות הכבד"
+  },
+  {
+   "siman": 42,
+   "title": "Siman 42",
+   "subtitle": "Gall-bladder treifot",
+   "corpusPath": "/corpus/yd1/siman42",
+   "subtitleHe": "דיני טריפות המרה"
+  },
+  {
+   "siman": 43,
+   "title": "Siman 43",
+   "subtitle": "Treifot regarding the spleen",
+   "corpusPath": "/corpus/yd1/siman43",
+   "subtitleHe": "דיני טריפות בטחול"
+  },
+  {
+   "siman": 44,
+   "title": "Siman 44",
+   "subtitle": "Kidney treifot",
+   "corpusPath": "/corpus/yd1/siman44",
+   "subtitleHe": "דיני טריפות בכליות"
+  },
+  {
+   "siman": 45,
+   "title": "Siman 45",
+   "subtitle": "Removal of the placenta",
+   "corpusPath": "/corpus/yd1/siman45",
+   "subtitleHe": "דין אם ניטל השליא"
+  },
+  {
+   "siman": 46,
+   "title": "Siman 46",
+   "subtitle": "Intestinal treifot",
+   "corpusPath": "/corpus/yd1/siman46",
+   "subtitleHe": "דיני טריפות בבני מעים"
+  },
+  {
+   "siman": 47,
+   "title": "Siman 47",
+   "subtitle": "Extra intestinal ducts",
+   "corpusPath": "/corpus/yd1/siman47",
+   "subtitleHe": "דין אם נמצאו בני מעיים יתרים"
+  },
+  {
+   "siman": 48,
+   "title": "Siman 48",
+   "subtitle": "Treifot in the kivah and kereis",
+   "corpusPath": "/corpus/yd1/siman48",
+   "subtitleHe": "דיני טריפות בקיבה ובכרס"
+  },
+  {
+   "siman": 49,
+   "title": "Siman 49",
+   "subtitle": "Treifot in the kurkavan",
+   "corpusPath": "/corpus/yd1/siman49",
+   "subtitleHe": "דיני טרפות בקורקבן"
+  },
+  {
+   "siman": 50,
+   "title": "Siman 50",
+   "subtitle": "General rules of organ perforation",
+   "corpusPath": "/corpus/yd1/siman50",
+   "subtitleHe": "דינים כלליים בנקיבת האברים"
+  },
+  {
+   "siman": 51,
+   "title": "Siman 51",
+   "subtitle": "A needle or thorn found in an animal",
+   "corpusPath": "/corpus/yd1/siman51",
+   "subtitleHe": "דין מחט או קוץ שנמצא בבהמה"
+  },
+  {
+   "siman": 52,
+   "title": "Siman 52",
+   "subtitle": "A bird that fell into fire and organ discoloration",
+   "corpusPath": "/corpus/yd1/siman52",
+   "subtitleHe": "דין עוף שנפל לאור ושינוי מראה באיברים"
+  },
+  {
+   "siman": 53,
+   "title": "Siman 53",
+   "subtitle": "Fractures and injuries in animals and birds",
+   "corpusPath": "/corpus/yd1/siman53",
+   "subtitleHe": "דין שבר או מכה בבהמה ובעוף"
+  },
+  {
+   "siman": 54,
+   "title": "Siman 54",
+   "subtitle": "Treifot in its ribs",
+   "corpusPath": "/corpus/yd1/siman54",
+   "subtitleHe": "דיני טריפות בצלעותיה"
+  },
+  {
+   "siman": 55,
+   "title": "Siman 55",
+   "subtitle": "Leg and joint treifot",
+   "corpusPath": "/corpus/yd1/siman55",
+   "subtitleHe": "דיני טריפות ברגל ובפרקיו"
+  },
+  {
+   "siman": 56,
+   "title": "Siman 56",
+   "subtitle": "Treifot at the junction of sinews",
+   "corpusPath": "/corpus/yd1/siman56",
+   "subtitleHe": "דיני טרפות בצומת הגידים"
+  },
+  {
+   "siman": 57,
+   "title": "Siman 57",
+   "subtitle": "An animal mauled by a predator",
+   "corpusPath": "/corpus/yd1/siman57",
+   "subtitleHe": "דין בהמה דרוסה מחיה הדורסת"
+  },
+  {
+   "siman": 58,
+   "title": "Siman 58",
+   "subtitle": "An animal that fell",
+   "corpusPath": "/corpus/yd1/siman58",
+   "subtitleHe": "דין בהמה נפולה"
+  },
+  {
+   "siman": 59,
+   "title": "Siman 59",
+   "subtitle": "An animal skinned while alive",
+   "corpusPath": "/corpus/yd1/siman59",
+   "subtitleHe": "בהמה שנפשטה בחייה"
+  },
+  {
+   "siman": 60,
+   "title": "Siman 60",
+   "subtitle": "An animal that ate poison",
+   "corpusPath": "/corpus/yd1/siman60",
+   "subtitleHe": "דין בהמה שאכלה סם המות"
+  },
+  {
+   "siman": 61,
+   "title": "Siman 61",
+   "subtitle": "The gifts of the foreleg, cheeks, and maw to the kohen",
+   "corpusPath": "/corpus/yd1/siman61",
+   "subtitleHe": "דיני מתנות זרוע לחיים וקיבה לכהן"
+  },
+  {
+   "siman": 62,
+   "title": "Siman 62",
+   "subtitle": "Eivar min hachai (limb from a living animal)",
+   "corpusPath": "/corpus/yd1/siman62",
+   "subtitleHe": "דיני אבר מן החי"
+  },
+  {
+   "siman": 63,
+   "title": "Siman 63",
+   "subtitle": "Meat that is found and whose identity is unknown",
+   "corpusPath": "/corpus/yd1/siman63",
+   "subtitleHe": "דין בשר הנמצא ולא נודע מהו"
+  },
+  {
+   "siman": 64,
+   "title": "Siman 64",
+   "subtitle": "Which chelevim are permitted and forbidden to eat",
+   "corpusPath": "/corpus/yd1/siman64",
+   "subtitleHe": "איזו חלבים הם המותרין והאסורין לאכילה"
+  },
+  {
+   "siman": 65,
+   "title": "Siman 65",
+   "subtitle": "The forbidden veins due to blood and due to milk, and the laws of the sciatic nerve",
+   "corpusPath": "/corpus/yd1/siman65",
+   "subtitleHe": "חוטין האסורין משום דם ומשום חלב ודיני גיד הנשה"
+  },
+  {
+   "siman": 66,
+   "title": "Siman 66",
+   "subtitle": "Things forbidden because of blood",
+   "corpusPath": "/corpus/yd1/siman66",
+   "subtitleHe": "דברים האסורים משום דם"
+  },
+  {
+   "siman": 67,
+   "title": "Siman 67",
+   "subtitle": "Several matters forbidden because of blood",
+   "corpusPath": "/corpus/yd1/siman67",
+   "subtitleHe": "כמה דברים האסורים משום דם"
+  },
+  {
+   "siman": 68,
+   "title": "Siman 68",
+   "subtitle": "Scalding the head and poultry",
+   "corpusPath": "/corpus/yd1/siman68",
+   "subtitleHe": "דיני מליגת הראש והעופות"
+  },
+  {
+   "siman": 69,
+   "title": "Siman 69",
+   "subtitle": "Salting and rinsing meat",
+   "corpusPath": "/corpus/yd1/siman69",
+   "subtitleHe": "דיני מליחה והדחה"
+  },
+  {
+   "siman": 70,
+   "title": "Siman 70",
+   "subtitle": "Salting many pieces of meat together",
+   "corpusPath": "/corpus/yd1/siman70",
+   "subtitleHe": "דין מליחת הרבה בשר ביחד"
+  },
+  {
+   "siman": 71,
+   "title": "Siman 71",
+   "subtitle": "Salting the head, hooves, and brain",
+   "corpusPath": "/corpus/yd1/siman71",
+   "subtitleHe": "דין מליחת הראש והטלפים והמוח"
+  },
+  {
+   "siman": 72,
+   "title": "Siman 72",
+   "subtitle": "Salting the heart and lung",
+   "corpusPath": "/corpus/yd1/siman72",
+   "subtitleHe": "דין מליחת הלב והריאה"
+  },
+  {
+   "siman": 73,
+   "title": "Siman 73",
+   "subtitle": "Roasting liver",
+   "corpusPath": "/corpus/yd1/siman73",
+   "subtitleHe": "דין צליית הכבד"
+  },
+  {
+   "siman": 74,
+   "title": "Siman 74",
+   "subtitle": "The spleen",
+   "corpusPath": "/corpus/yd1/siman74",
+   "subtitleHe": "הטחול דינו כשאר בשר"
+  },
+  {
+   "siman": 75,
+   "title": "Siman 75",
+   "subtitle": "Salting intestines",
+   "corpusPath": "/corpus/yd1/siman75",
+   "subtitleHe": "דין מליחת המעיים"
+  },
+  {
+   "siman": 76,
+   "title": "Siman 76",
+   "subtitle": "Meat for roasting",
+   "corpusPath": "/corpus/yd1/siman76",
+   "subtitleHe": "דין בשר לצלי"
+  },
+  {
+   "siman": 77,
+   "title": "Siman 77",
+   "subtitle": "Birds filled with unsalted meat",
+   "corpusPath": "/corpus/yd1/siman77",
+   "subtitleHe": "דין עופות שנמלאו בשר שלא נמלח"
+  },
+  {
+   "siman": 78,
+   "title": "Siman 78",
+   "subtitle": "Dough attached to unsalted meat",
+   "corpusPath": "/corpus/yd1/siman78",
+   "subtitleHe": "שלא לדבק בצק בבשר שלא נמלח"
+  },
+  {
+   "siman": 79,
+   "title": "Siman 79",
+   "subtitle": "Signs of pure domestic animal and wild animal",
+   "corpusPath": "/corpus/yd1/siman79",
+   "subtitleHe": "סימני בהמה וחיה טהורה"
+  },
+  {
+   "siman": 80,
+   "title": "Siman 80",
+   "subtitle": "A pure chayah (wild animal)",
+   "corpusPath": "/corpus/yd1/siman80",
+   "subtitleHe": "דין חיה טהורה"
+  },
+  {
+   "siman": 81,
+   "title": "Siman 81",
+   "subtitle": "Products of non-kosher species and permitted products from living animals",
+   "corpusPath": "/corpus/yd1/siman81",
+   "subtitleHe": "שכל היוצא מן הטמא טמא (ודברים היוצאים מן החי והם מותרים)"
+  },
+  {
+   "siman": 82,
+   "title": "Siman 82",
+   "subtitle": "Signs of pure fowl",
+   "corpusPath": "/corpus/yd1/siman82",
+   "subtitleHe": "סימני עוף טהור"
+  },
+  {
+   "siman": 83,
+   "title": "Siman 83",
+   "subtitle": "Signs of fish and salted fish",
+   "corpusPath": "/corpus/yd1/siman83",
+   "subtitleHe": "דין סימני דגים ודגים מלוחים"
+  },
+  {
+   "siman": 84,
+   "title": "Siman 84",
+   "subtitle": "Sheratzim found in water, in fruit, in flour, and in cheese",
+   "corpusPath": "/corpus/yd1/siman84",
+   "subtitleHe": "דין שרצים הנמצאים במים בפירות בקמח ובגבינה"
+  },
+  {
+   "siman": 85,
+   "title": "Siman 85",
+   "subtitle": "The signs of locusts",
+   "corpusPath": "/corpus/yd1/siman85",
+   "subtitleHe": "סימני חגבים"
+  },
+  {
+   "siman": 86,
+   "title": "Siman 86",
+   "subtitle": "The signs of eggs and their laws",
+   "corpusPath": "/corpus/yd1/siman86",
+   "subtitleHe": "סימני ביצים ודיניהם"
+  },
+  {
+   "siman": 87,
+   "title": "Siman 87",
+   "subtitle": "In which meat does the law of basar b'chalav apply and how is cooking called",
+   "corpusPath": "/corpus/yd1/siman87",
+   "subtitleHe": "באיזו בשר נוהג דין בשר בחלב והיאך נקרא בשול"
+  },
+  {
+   "siman": 88,
+   "title": "Siman 88",
+   "subtitle": "Not to place meat on the table where one eats cheese",
+   "corpusPath": "/corpus/yd1/siman88",
+   "subtitleHe": "שלא להעלות בשר על השלחן שאוכלין גבינה"
+  },
+  {
+   "siman": 89,
+   "title": "Siman 89",
+   "subtitle": "Eating cheese after meat",
+   "corpusPath": "/corpus/yd1/siman89",
+   "subtitleHe": "שלא לאכול גבינה אחר בשר"
+  },
+  {
+   "siman": 90,
+   "title": "Siman 90",
+   "subtitle": "The udder",
+   "corpusPath": "/corpus/yd1/siman90",
+   "subtitleHe": "דיני כחל"
+  },
+  {
+   "siman": 91,
+   "title": "Siman 91",
+   "subtitle": "Meat and milk that touched",
+   "corpusPath": "/corpus/yd1/siman91",
+   "subtitleHe": "דין בשר וחלב שנתערבו"
+  },
+  {
+   "siman": 92,
+   "title": "Siman 92",
+   "subtitle": "Milk that fell into a pot of meat",
+   "corpusPath": "/corpus/yd1/siman92",
+   "subtitleHe": "דינין אם נפל חלב לקדירה של בשר"
+  },
+  {
+   "siman": 93,
+   "title": "Siman 93",
+   "subtitle": "A meat pot used for milk",
+   "corpusPath": "/corpus/yd1/siman93",
+   "subtitleHe": "קדירה שבשלו בה בשר לא יבשלו בה חלב"
+  },
+  {
+   "siman": 94,
+   "title": "Siman 94",
+   "subtitle": "One who inserts a dairy spoon into a meat pot",
+   "corpusPath": "/corpus/yd1/siman94",
+   "subtitleHe": "דין התוחב כף חולבת בקדרה של בשר"
+  },
+  {
+   "siman": 95,
+   "title": "Siman 95",
+   "subtitle": "Fish and egg cooked in a meat pot — whether permitted to eat with cheese",
+   "corpusPath": "/corpus/yd1/siman95",
+   "subtitleHe": "דגים וביצה שנתבשלו בקדירה של בשר אם מותר לאכלן עם גבינה"
+  },
+  {
+   "siman": 96,
+   "title": "Siman 96",
+   "subtitle": "Sharp food cut with a meat knife",
+   "corpusPath": "/corpus/yd1/siman96",
+   "subtitleHe": "דין מאכל חריף שנחתך בסכין של בשר"
+  },
+  {
+   "siman": 97,
+   "title": "Siman 97",
+   "subtitle": "Kneading dough with milk",
+   "corpusPath": "/corpus/yd1/siman97",
+   "subtitleHe": "שלא ללוש עיסה בחלב"
+  },
+  {
+   "siman": 98,
+   "title": "Siman 98",
+   "subtitle": "A forbidden item that became mixed with permitted food and the manner of its nullification",
+   "corpusPath": "/corpus/yd1/siman98",
+   "subtitleHe": "דין איסור שנתערב בהיתר ואופן ביטולו"
+  },
+  {
+   "siman": 99,
+   "title": "Siman 99",
+   "subtitle": "Bones joining to nullify a prohibition and intentional nullification",
+   "corpusPath": "/corpus/yd1/siman99",
+   "subtitleHe": "דין העצמות אם מצטרפין לבטל איסור ושלא לבטל איסור לכתחלה"
+  },
+  {
+   "siman": 100,
+   "title": "Siman 100",
+   "subtitle": "A beriah is not nullified even in a thousand",
+   "corpusPath": "/corpus/yd1/siman100",
+   "subtitleHe": "בריה אפילו באלף לא בטיל"
+  },
+  {
+   "siman": 101,
+   "title": "Siman 101",
+   "subtitle": "A distinguished piece of food",
+   "corpusPath": "/corpus/yd1/siman101",
+   "subtitleHe": "דין חתיכה הראויה להתכבד"
+  },
+  {
+   "siman": 102,
+   "title": "Siman 102",
+   "subtitle": "Davar sheyesh lo matirin",
+   "corpusPath": "/corpus/yd1/siman102",
+   "subtitleHe": "דין דבר שיש לו מתירין"
+  },
+  {
+   "siman": 103,
+   "title": "Siman 103",
+   "subtitle": "Noten taam lifgam",
+   "corpusPath": "/corpus/yd1/siman103",
+   "subtitleHe": "דין נותן טעם לפגם"
+  },
+  {
+   "siman": 104,
+   "title": "Siman 104",
+   "subtitle": "A mouse found in wine or beer",
+   "corpusPath": "/corpus/yd1/siman104",
+   "subtitleHe": "דין עכבר שנמצא ביין או בשכר"
+  },
+  {
+   "siman": 105,
+   "title": "Siman 105",
+   "subtitle": "An issur that fell into heter",
+   "corpusPath": "/corpus/yd1/siman105",
+   "subtitleHe": "דין איסור שנפל לתוך היתר"
+  },
+  {
+   "siman": 106,
+   "title": "Siman 106",
+   "subtitle": "Nullification in sixty",
+   "corpusPath": "/corpus/yd1/siman106",
+   "subtitleHe": "דין היאך מבטלין בששים"
+  },
+  {
+   "siman": 107,
+   "title": "Siman 107",
+   "subtitle": "Cooking eggs and repulsive matter found in food",
+   "corpusPath": "/corpus/yd1/siman107",
+   "subtitleHe": "דין המבשל ביצה ודבר מיאוס הנמצא בתבשיל"
+  },
+  {
+   "siman": 108,
+   "title": "Siman 108",
+   "subtitle": "Baking permitted and prohibited foods in one oven",
+   "corpusPath": "/corpus/yd1/siman108",
+   "subtitleHe": "שלא לאפות היתר ואיסור בתנור א"
+  },
+  {
+   "siman": 109,
+   "title": "Siman 109",
+   "subtitle": "Dry mixtures of prohibited and permitted food",
+   "corpusPath": "/corpus/yd1/siman109",
+   "subtitleHe": "דין יבש ביבש שנתערב"
+  },
+  {
+   "siman": 110,
+   "title": "Siman 110",
+   "subtitle": "A doubt of treifot arising in meat",
+   "corpusPath": "/corpus/yd1/siman110",
+   "subtitleHe": "דין ספק טריפות שאירע בבשר"
+  },
+  {
+   "siman": 111,
+   "title": "Siman 111",
+   "subtitle": "Pots of tereifah meat that became mixed with kosher ones",
+   "corpusPath": "/corpus/yd1/siman111",
+   "subtitleHe": "דין כלים טריפות שנתערבו בכשרות"
+  },
+  {
+   "siman": 112,
+   "title": "Siman 112",
+   "subtitle": "Pat akum",
+   "corpusPath": "/corpus/yd1/siman112",
+   "subtitleHe": "דיני פת של עובדי כוכבים"
+  },
+  {
+   "siman": 113,
+   "title": "Siman 113",
+   "subtitle": "Bishul akum",
+   "corpusPath": "/corpus/yd1/siman113",
+   "subtitleHe": "דיני בשולי עובדי כוכבים"
+  },
+  {
+   "siman": 114,
+   "title": "Siman 114",
+   "subtitle": "Non-Jewish beer and other beverages",
+   "corpusPath": "/corpus/yd1/siman114",
+   "subtitleHe": "דיני שכר ושאר משקין של עובד כוכבים"
+  },
+  {
+   "siman": 115,
+   "title": "Siman 115",
+   "subtitle": "Milk milked by a non-Jew, cheese, and butter",
+   "corpusPath": "/corpus/yd1/siman115",
+   "subtitleHe": "דין חלב שחלבו עובד כוכבים ואין ישראל רואהו וגבינה וחמאה"
+  },
+  {
+   "siman": 116,
+   "title": "Siman 116",
+   "subtitle": "Foods prohibited because of uncovered liquids",
+   "corpusPath": "/corpus/yd1/siman116",
+   "subtitleHe": "דברים האסורים משום גלוי"
+  },
+  {
+   "siman": 117,
+   "title": "Siman 117",
+   "subtitle": "Commerce in prohibited foods",
+   "corpusPath": "/corpus/yd1/siman117",
+   "subtitleHe": "שלא לעשות סחורה מדבר איסור"
+  },
+  {
+   "siman": 118,
+   "title": "Siman 118",
+   "subtitle": "Food sent through a non-Jew",
+   "corpusPath": "/corpus/yd1/siman118",
+   "subtitleHe": "דין חתיכת בשר או דבר מאכל הנשלח על ידי עובד כוכבים"
+  },
+  {
+   "siman": 119,
+   "title": "Siman 119",
+   "subtitle": "Reliance on one suspected of violating food prohibitions",
+   "corpusPath": "/corpus/yd1/siman119",
+   "subtitleHe": "החשוד לדבר איסור אין לסמוך עליו בדברים הנאכלים"
+  },
+  {
+   "siman": 120,
+   "title": "Siman 120",
+   "subtitle": "Immersing utensils",
+   "corpusPath": "/corpus/yd1/siman120",
+   "subtitleHe": "דיני טבילת הכלים"
+  },
+  {
+   "siman": 121,
+   "title": "Siman 121",
+   "subtitle": "Kashering utensils purchased from a non-Jew",
+   "corpusPath": "/corpus/yd1/siman121",
+   "subtitleHe": "סדר הכשר כלים הנקנים מן העובד כוכבים"
+  },
+  {
+   "siman": 122,
+   "title": "Siman 122",
+   "subtitle": "Noten ta'am lifgam in utensils",
+   "corpusPath": "/corpus/yd1/siman122",
+   "subtitleHe": "דין נותן טעם לפגם בכלים"
+  },
+  {
+   "siman": 123,
+   "title": "Siman 123",
+   "subtitle": "Yayin nesech",
+   "corpusPath": "/corpus/yd1/siman123",
+   "subtitleHe": "כמה דינין מיין נסך (ואיזו יין נאסור משום יין נסך)"
+  },
+  {
+   "siman": 124,
+   "title": "Siman 124",
+   "subtitle": "Who is the one who makes yayin nesech, and the laws of a non-Jew’s touching a barrel",
+   "corpusPath": "/corpus/yd1/siman124",
+   "subtitleHe": "מי הוא העושה יין נסך ודיני נגיעת העובד כוכבים בחבית"
+  },
+  {
+   "siman": 125,
+   "title": "Siman 125",
+   "subtitle": "Wine that comes through the ko’ach of a non-Jew, and the ko’ach of his ko’ach",
+   "corpusPath": "/corpus/yd1/siman125",
+   "subtitleHe": "דין יין הבא מכח עובד כוכבים וכח כחו"
+  },
+  {
+   "siman": 126,
+   "title": "Siman 126",
+   "subtitle": "Wine that became mixed with yayin nesech, and the law of nitzok as a connection",
+   "corpusPath": "/corpus/yd1/siman126",
+   "subtitleHe": "דין יין שנתערב ביין נסך ודין נצוק חבור"
+  },
+  {
+   "siman": 127,
+   "title": "Siman 127",
+   "subtitle": "If a person is trusted to forbid the wine of his fellow",
+   "corpusPath": "/corpus/yd1/siman127",
+   "subtitleHe": "אם נאמן האדם לאסור יינו של חבירו"
+  },
+  {
+   "siman": 128,
+   "title": "Siman 128",
+   "subtitle": "A place where",
+   "corpusPath": "/corpus/yd1/siman128",
+   "subtitleHe": "דין מקום שיש בו יין ונתיחד עובד כוכבים שמה"
+  },
+  {
+   "siman": 129,
+   "title": "Siman 129",
+   "subtitle": "Wine left with a non-Jew while a Jew comes and goes",
+   "corpusPath": "/corpus/yd1/siman129",
+   "subtitleHe": "דין המניח יין ביד עובד כוכבים וישראל יוצא ונכנס (וכה\"ג)"
+  },
+  {
+   "siman": 130,
+   "title": "Siman 130",
+   "subtitle": "Sealing wine",
+   "corpusPath": "/corpus/yd1/siman130",
+   "subtitleHe": "דיני חתימת היין"
+  },
+  {
+   "siman": 131,
+   "title": "Siman 131",
+   "subtitle": "Kosher wine kept on non-Jewish premises",
+   "corpusPath": "/corpus/yd1/siman131",
+   "subtitleHe": "דין יין כשר שנעשה ברשות עובד כוכבים"
+  },
+  {
+   "siman": 132,
+   "title": "Siman 132",
+   "subtitle": "Benefit from yayin nesech",
+   "corpusPath": "/corpus/yd1/siman132",
+   "subtitleHe": "שלא ליהנות מיין נסך"
+  },
+  {
+   "siman": 133,
+   "title": "Siman 133",
+   "subtitle": "Earning from or trading in yayin nesech",
+   "corpusPath": "/corpus/yd1/siman133",
+   "subtitleHe": "שלא להשתכר ביין נסך ולא לעשות ממנו סחורה"
+  },
+  {
+   "siman": 134,
+   "title": "Siman 134",
+   "subtitle": "Wine that was poured as a libation and became mixed",
+   "corpusPath": "/corpus/yd1/siman134",
+   "subtitleHe": "דין יין שנתנסך ונתערב"
+  },
+  {
+   "siman": 135,
+   "title": "Siman 135",
+   "subtitle": "Vessels that raise a concern of wine libation",
+   "corpusPath": "/corpus/yd1/siman135",
+   "subtitleHe": "באיזו כלים יש לחוש משום ניסוך"
+  },
+  {
+   "siman": 136,
+   "title": "Siman 136",
+   "subtitle": "Sending a wine vessel with a non-Jew",
+   "corpusPath": "/corpus/yd1/siman136",
+   "subtitleHe": "שהשולח כלי יין ביד עובד כוכבים צריך לחתמו"
+  },
+  {
+   "siman": 137,
+   "title": "Siman 137",
+   "subtitle": "Kosher wine placed in an unkashered vessel",
+   "corpusPath": "/corpus/yd1/siman137",
+   "subtitleHe": "דין יין כשר שהושם לתוך כלי שלא נכשר"
+  },
+  {
+   "siman": 138,
+   "title": "Siman 138",
+   "subtitle": "Making kosher wine vessels",
+   "corpusPath": "/corpus/yd1/siman138",
+   "subtitleHe": "דיני הכשר כלי היין"
+  },
+  {
+   "siman": 139,
+   "title": "Siman 139",
+   "subtitle": "Elilim, their nullification, and their appurtenances and vessels",
+   "corpusPath": "/corpus/yd1/siman139",
+   "subtitleHe": "דיני אלילים וביטולם ומשמשיהם וכליהם"
+  },
+  {
+   "siman": 140,
+   "title": "Siman 140",
+   "subtitle": "Offerings of idolatry that became mixed",
+   "corpusPath": "/corpus/yd1/siman140",
+   "subtitleHe": "דין תקרובת עבודת כוכבים שנתערב"
+  },
+  {
+   "siman": 141,
+   "title": "Siman 141",
+   "subtitle": "Idols and idolatrous images",
+   "corpusPath": "/corpus/yd1/siman141",
+   "subtitleHe": "דין הצלמים והצורות של עבודת כוכבים"
+  },
+  {
+   "siman": 142,
+   "title": "Siman 142",
+   "subtitle": "Elilim and their appurtenances are forbidden in benefit",
+   "corpusPath": "/corpus/yd1/siman142",
+   "subtitleHe": "שהאלילים ותשמישיהם אסורים בהנאה"
+  },
+  {
+   "siman": 143,
+   "title": "Siman 143",
+   "subtitle": "Building near idolatry and deriving benefit from idolatry",
+   "corpusPath": "/corpus/yd1/siman143",
+   "subtitleHe": "שלא לבנות ביתו סמוך לבית עבודת כוכבים ובאיזה אופן מותר ליהנות מעבודת כוכבים"
+  },
+  {
+   "siman": 144,
+   "title": "Siman 144",
+   "subtitle": "The money of idolatry, what is its law",
+   "corpusPath": "/corpus/yd1/siman144",
+   "subtitleHe": "דמי עבודת כוכבים מה דינם"
+  },
+  {
+   "siman": 145,
+   "title": "Siman 145",
+   "subtitle": "Which idols of gentiles are permitted in benefit",
+   "corpusPath": "/corpus/yd1/siman145",
+   "subtitleHe": "איזו אלילים של עובדי כוכבים המותרים בהנאה"
+  },
+  {
+   "siman": 146,
+   "title": "Siman 146",
+   "subtitle": "Which idolatry has nullification and which does not",
+   "corpusPath": "/corpus/yd1/siman146",
+   "subtitleHe": "איזו עבודת כוכבים יש לה ביטול ואיזו אין לה ביטול"
+  },
+  {
+   "siman": 147,
+   "title": "Siman 147",
+   "subtitle": "That one should not swear by the name of the elilim of non-Jews, and the laws of mentioning its name",
+   "corpusPath": "/corpus/yd1/siman147",
+   "subtitleHe": "שלא להשביע בשם אלילים של עובדי כוכבים ודיני הזכרת שמה"
+  },
+  {
+   "siman": 148,
+   "title": "Siman 148",
+   "subtitle": "The festivals of elilim",
+   "corpusPath": "/corpus/yd1/siman148",
+   "subtitleHe": "דיני חגי האלילים"
+  },
+  {
+   "siman": 149,
+   "title": "Siman 149",
+   "subtitle": "The fair of non-Jews",
+   "corpusPath": "/corpus/yd1/siman149",
+   "subtitleHe": "דיני יריד מעובדי כוכבים"
+  },
+  {
+   "siman": 150,
+   "title": "Siman 150",
+   "subtitle": "To distance oneself from the way of elilim, and that one should not bow before it",
+   "corpusPath": "/corpus/yd1/siman150",
+   "subtitleHe": "להתרחק מדרך אלילים ושלא לשחות בפניה"
+  },
+  {
+   "siman": 151,
+   "title": "Siman 151",
+   "subtitle": "Things needed for idolatry — it is forbidden for a Jew to sell them",
+   "corpusPath": "/corpus/yd1/siman151",
+   "subtitleHe": "דברים המוצרכים לעבודת כוכבים אסור לישראל למוכרם"
+  },
+  {
+   "siman": 152,
+   "title": "Siman 152",
+   "subtitle": "Eating with a non-Jew even when each eats his own food",
+   "corpusPath": "/corpus/yd1/siman152",
+   "subtitleHe": "שלא יאכל הישראל עם העובד כוכבים אף על פי שאוכל משלו"
+  },
+  {
+   "siman": 153,
+   "title": "Siman 153",
+   "subtitle": "Yichud of a Jew and a Jewess with a non-Jew",
+   "corpusPath": "/corpus/yd1/siman153",
+   "subtitleHe": "דיני יחוד ישראל וישראלית עם העובד כוכבים"
+  },
+  {
+   "siman": 154,
+   "title": "Siman 154",
+   "subtitle": "A non-Jewish and Jewish midwife",
+   "corpusPath": "/corpus/yd1/siman154",
+   "subtitleHe": "דיני מיילדת עובדת כוכבים וישראלית"
+  },
+  {
+   "siman": 155,
+   "title": "Siman 155",
+   "subtitle": "Whether it is permitted to receive medical treatment from a non-Jew",
+   "corpusPath": "/corpus/yd1/siman155",
+   "subtitleHe": "אם מותר להתרפאות מעובד כוכבים"
+  },
+  {
+   "siman": 156,
+   "title": "Siman 156",
+   "subtitle": "Receiving a haircut from a non-Jew",
+   "corpusPath": "/corpus/yd1/siman156",
+   "subtitleHe": "אם מותר להסתפר מעובד כוכבים"
+  },
+  {
+   "siman": 157,
+   "title": "Siman 157",
+   "subtitle": "Regarding for which transgressions one must be killed and not transgress",
+   "corpusPath": "/corpus/yd1/siman157",
+   "subtitleHe": "על איזה עבירות יהרג ואל יעבור"
+  },
+  {
+   "siman": 158,
+   "title": "Siman 158",
+   "subtitle": "Saving idolaters from death",
+   "corpusPath": "/corpus/yd1/siman158",
+   "subtitleHe": "עובדי עבודת כוכבים להצילם מהמות"
+  },
+  {
+   "siman": 159,
+   "title": "Siman 159",
+   "subtitle": "Regarding that it is permitted to lend to a non-Jew and to a meshumad with interest",
+   "corpusPath": "/corpus/yd1/siman159",
+   "subtitleHe": "שמותר להלוות לעובד כוכבים ולמומר ברבית"
+  },
+  {
+   "siman": 160,
+   "title": "Siman 160",
+   "subtitle": "Severity and scope of the prohibition of ribbit",
+   "corpusPath": "/corpus/yd1/siman160",
+   "subtitleHe": "גודל איסור הרבית ועד היכן צריך ליזהר ממנו"
+  },
+  {
+   "siman": 161,
+   "title": "Siman 161",
+   "subtitle": "Avak ribbit and Torah-level ribbit",
+   "corpusPath": "/corpus/yd1/siman161",
+   "subtitleHe": "דין אבק רבית ואיזו נקרא רבית דאורייתא"
+  },
+  {
+   "siman": 162,
+   "title": "Siman 162",
+   "subtitle": "Seah-for-seah loans",
+   "corpusPath": "/corpus/yd1/siman162",
+   "subtitleHe": "שלא להלוות סאה בסאה"
+  },
+  {
+   "siman": 163,
+   "title": "Siman 163",
+   "subtitle": "One who sets a price of wheat to obligate him at today’s rate",
+   "corpusPath": "/corpus/yd1/siman163",
+   "subtitleHe": "דין הפוסק חיטין לחייבו כשער של עכשיו"
+  },
+  {
+   "siman": 164,
+   "title": "Siman 164",
+   "subtitle": "Mortgaging a field and leasing it back",
+   "corpusPath": "/corpus/yd1/siman164",
+   "subtitleHe": "הממשכן שדה לא יחכירנו"
+  },
+  {
+   "siman": 165,
+   "title": "Siman 165",
+   "subtitle": "A currency loan after the currency is increased",
+   "corpusPath": "/corpus/yd1/siman165",
+   "subtitleHe": "דין המלוה על המטבע והוסיפו עליו"
+  },
+  {
+   "siman": 166,
+   "title": "Siman 166",
+   "subtitle": "One who lends to his fellow should not do labor with his slave, and should not live in his courtyard",
+   "corpusPath": "/corpus/yd1/siman166",
+   "subtitleHe": "המלוה לחבירו לא יעשה מלאכה בעבדו ולא ידור בחצרו"
+  },
+  {
+   "siman": 167,
+   "title": "Siman 167",
+   "subtitle": "Permissible investment loans",
+   "corpusPath": "/corpus/yd1/siman167",
+   "subtitleHe": "באיזה אופן מותר להלות מעות בתנאי שיתעסק בו לריוח"
+  },
+  {
+   "siman": 168,
+   "title": "Simanim 168–169",
+   "subtitle": "Ribbit transactions through a non-Jew",
+   "corpusPath": "/corpus/yd1/siman168",
+   "searchAliases": [
+    169
+   ],
+   "comment": "Standard Shulchan Aruch numbering: siman 169 (קסט) is merged into siman 168 (קסח–קסט, ribbis via a non-Jew). No separate siman 169 folder.",
+   "subtitleHe": "קסח-קסט כמה דיני רבית הנעשית באמצעות העובד כוכבים"
+  },
+  {
+   "siman": 170,
+   "title": "Siman 170",
+   "subtitle": "That a Jew cannot be a guarantor for a Jew who borrowed from a non-Jew with interest",
+   "corpusPath": "/corpus/yd1/siman170",
+   "subtitleHe": "שלא יוכל ישראל להיות ערב לישראל שלוה מן העובד כוכבים ברבית"
+  },
+  {
+   "siman": 171,
+   "title": "Siman 171",
+   "subtitle": "A non-Jew who lent with interest and converted",
+   "corpusPath": "/corpus/yd1/siman171",
+   "subtitleHe": "דין עובד כוכבים שהלוה ברבית ונתגייר"
+  },
+  {
+   "siman": 172,
+   "title": "Siman 172",
+   "subtitle": "Mortgaging a house or field for use of its produce",
+   "corpusPath": "/corpus/yd1/siman172",
+   "subtitleHe": "הממשכן בית או שדה על מנת שיאכל פירות"
+  },
+  {
+   "siman": 173,
+   "title": "Siman 173",
+   "subtitle": "Detailed ribbit rules",
+   "corpusPath": "/corpus/yd1/siman173",
+   "subtitleHe": "הרבה פרטי דיני רבית"
+  },
+  {
+   "siman": 174,
+   "title": "Siman 174",
+   "subtitle": "One who sells to his fellow on condition to return",
+   "corpusPath": "/corpus/yd1/siman174",
+   "subtitleHe": "דין המוכר לחבירו על מנת להחזיר"
+  },
+  {
+   "siman": 175,
+   "title": "Siman 175",
+   "subtitle": "Forward purchase of produce at the market rate",
+   "corpusPath": "/corpus/yd1/siman175",
+   "subtitleHe": "דין הפוסק על הפירות כפי השער"
+  },
+  {
+   "siman": 176,
+   "title": "Siman 176",
+   "subtitle": "Permitted and prohibited rentals",
+   "corpusPath": "/corpus/yd1/siman176",
+   "subtitleHe": "איזה השכרה מותרת ואיזה אסורה"
+  },
+  {
+   "siman": 177,
+   "title": "Siman 177",
+   "subtitle": "Tzon barzel and other transactions prohibited as ribbit",
+   "corpusPath": "/corpus/yd1/siman177",
+   "subtitleHe": "שלא יקבל צאן ברזל מישראל וכמה דיני משא ומתן האסורים משום רבית"
+  },
+  {
+   "siman": 178,
+   "title": "Siman 178",
+   "subtitle": "Avoiding non-Jewish dress",
+   "corpusPath": "/corpus/yd1/siman178",
+   "subtitleHe": "שלא ללבוש כמלבושי עובדי כוכבים"
+  },
+  {
+   "siman": 179,
+   "title": "Siman 179",
+   "subtitle": "That one may not practice kishuf, onen, or nichush",
+   "corpusPath": "/corpus/yd1/siman179",
+   "subtitleHe": "שלא לכשף לעונן ולנחש"
+  },
+  {
+   "siman": 180,
+   "title": "Siman 180",
+   "subtitle": "The prohibition of tattooing and making bald spots over a dead person",
+   "corpusPath": "/corpus/yd1/siman180",
+   "subtitleHe": "איסור כתובת קעקע וקריחה על מת"
+  },
+  {
+   "siman": 181,
+   "title": "Siman 181",
+   "subtitle": "The prohibition of shaving the pe’os",
+   "corpusPath": "/corpus/yd1/siman181",
+   "subtitleHe": "איסור גילוח הפאות"
+  },
+  {
+   "siman": 182,
+   "title": "Siman 182",
+   "subtitle": "Lo yilbash: cross-gender dress and related prohibitions",
+   "corpusPath": "/corpus/yd1/siman182",
+   "subtitleHe": "דברים האסורים משום לא ילבש גבר שמלת אשה"
+  },
+  {
+   "siman": 183,
+   "title": "Siman 183",
+   "subtitle": "Seven clean days after seeing any blood",
+   "corpusPath": "/corpus/yd1/siman183",
+   "subtitleHe": "אשה שרואה טיפת דם צריכה לישב ז' נקיים"
+  },
+  {
+   "siman": 184,
+   "title": "Siman 184",
+   "subtitle": "Separation before the expected menstrual period",
+   "corpusPath": "/corpus/yd1/siman184",
+   "subtitleHe": "שצריך לפרוש מהאשה עונה קודם לוסתה"
+  },
+  {
+   "siman": 185,
+   "title": "Siman 185",
+   "subtitle": "A woman who retracts a declaration of tumah",
+   "corpusPath": "/corpus/yd1/siman185",
+   "subtitleHe": "דין אשה שאמרה טמאה אני ואחר כך אמרה טהורה אני"
+  },
+  {
+   "siman": 186,
+   "title": "Siman 186",
+   "subtitle": "A woman’s checking, whether before tashmish or after tashmish",
+   "corpusPath": "/corpus/yd1/siman186",
+   "subtitleHe": "דיני בדיקת אשה בין לפני תשמיש בין לאחר תשמיש"
+  },
+  {
+   "siman": 187,
+   "title": "Siman 187",
+   "subtitle": "Bleeding caused by intercourse",
+   "corpusPath": "/corpus/yd1/siman187",
+   "subtitleHe": "דיני אשה הרואה דם מחמת תשמיש"
+  },
+  {
+   "siman": 188,
+   "title": "Siman 188",
+   "subtitle": "Colors of blood",
+   "corpusPath": "/corpus/yd1/siman188",
+   "subtitleHe": "דיני מראות הדם"
+  },
+  {
+   "siman": 189,
+   "title": "Siman 189",
+   "subtitle": "A woman who has a fixed veset and who does not have a fixed veset",
+   "corpusPath": "/corpus/yd1/siman189",
+   "subtitleHe": "דיני אשה שיש לה וסת קבוע ושאין לה וסת קבוע"
+  },
+  {
+   "siman": 190,
+   "title": "Siman 190",
+   "subtitle": "Ketamim and the bedikah of a woman",
+   "corpusPath": "/corpus/yd1/siman190",
+   "subtitleHe": "דיני כתמים ובדיקת האשה"
+  },
+  {
+   "siman": 191,
+   "title": "Siman 191",
+   "subtitle": "Blood found during urination",
+   "corpusPath": "/corpus/yd1/siman191",
+   "subtitleHe": "דין אשה שמצאה דם בהשתנה"
+  },
+  {
+   "siman": 192,
+   "title": "Siman 192",
+   "subtitle": "A kallah entering the chuppah",
+   "corpusPath": "/corpus/yd1/siman192",
+   "subtitleHe": "דיני כלה הנכנסת לחופה"
+  },
+  {
+   "siman": 193,
+   "title": "Siman 193",
+   "subtitle": "Hymenal blood",
+   "corpusPath": "/corpus/yd1/siman193",
+   "subtitleHe": "דין דם בתולים"
+  },
+  {
+   "siman": 194,
+   "title": "Siman 194",
+   "subtitle": "Childbirth and miscarriage",
+   "corpusPath": "/corpus/yd1/siman194",
+   "subtitleHe": "דיני יולדת ומפלת"
+  },
+  {
+   "siman": 195,
+   "title": "Siman 195",
+   "subtitle": "The matters that are forbidden during the time of her niddah",
+   "corpusPath": "/corpus/yd1/siman195",
+   "subtitleHe": "דברים האסורין בזמן נדותה"
+  },
+  {
+   "siman": 196,
+   "title": "Siman 196",
+   "subtitle": "Wearing white and conducting the hefsek taharah checks",
+   "corpusPath": "/corpus/yd1/siman196",
+   "subtitleHe": "דיני לבישת הלבון ובדיקתה"
+  },
+  {
+   "siman": 197,
+   "title": "Siman 197",
+   "subtitle": "A woman should not immerse in the day",
+   "corpusPath": "/corpus/yd1/siman197",
+   "subtitleHe": "שלא תטבול האשה ביום"
+  },
+  {
+   "siman": 198,
+   "title": "Siman 198",
+   "subtitle": "Immersion and chatzitzah",
+   "corpusPath": "/corpus/yd1/siman198",
+   "subtitleHe": "דיני טבילה וחציצתה"
+  },
+  {
+   "siman": 199,
+   "title": "Siman 199",
+   "subtitle": "A woman must check her concealed places and the laws of chafifah on Shabbos and on a weekday",
+   "corpusPath": "/corpus/yd1/siman199",
+   "subtitleHe": "שצריכה האשה לבדוק בית הסתרים ודיני חפיפה בשבת ובחול"
+  },
+  {
+   "siman": 200,
+   "title": "Siman 200",
+   "subtitle": "When to recite the immersion blessing",
+   "corpusPath": "/corpus/yd1/siman200",
+   "subtitleHe": "אימתי תעשה ברכת הטבילה"
+  },
+  {
+   "siman": 201,
+   "title": "Siman 201",
+   "subtitle": "A mikveh and its waters",
+   "corpusPath": "/corpus/yd1/siman201",
+   "subtitleHe": "דיני המקוה ומימיו"
+  },
+  {
+   "siman": 202,
+   "title": "Siman 202",
+   "subtitle": "Things that interpose in the immersion of utensils",
+   "corpusPath": "/corpus/yd1/siman202",
+   "subtitleHe": "דיני דברים החוצצים בטבילת כלים"
+  },
+  {
+   "siman": 203,
+   "title": "Siman 203",
+   "subtitle": "Which things are praiseworthy and which are contemptible",
+   "corpusPath": "/corpus/yd1/siman203",
+   "subtitleHe": "איזה דברים משובחים ואיזה הם מגונים"
+  },
+  {
+   "siman": 204,
+   "title": "Siman 204",
+   "subtitle": "One who associates in a vow",
+   "corpusPath": "/corpus/yd1/siman204",
+   "subtitleHe": "דין המתפיס בנדר"
+  },
+  {
+   "siman": 205,
+   "title": "Siman 205",
+   "subtitle": "Accepting a Torah prohibition upon oneself",
+   "corpusPath": "/corpus/yd1/siman205",
+   "subtitleHe": "דין האוסר דבר עליו באיסור תורה"
+  },
+  {
+   "siman": 206,
+   "title": "Siman 206",
+   "subtitle": "Yados of vows",
+   "corpusPath": "/corpus/yd1/siman206",
+   "subtitleHe": "דיני ידות הנדרים"
+  },
+  {
+   "siman": 207,
+   "title": "Siman 207",
+   "subtitle": "Designations of vows",
+   "corpusPath": "/corpus/yd1/siman207",
+   "subtitleHe": "דין כנויי נדרים"
+  },
+  {
+   "siman": 208,
+   "title": "Siman 208",
+   "subtitle": "Unspecified vows and one who vows by cherem",
+   "corpusPath": "/corpus/yd1/siman208",
+   "subtitleHe": "דיני סתם נדרים והנודר בחרם"
+  },
+  {
+   "siman": 209,
+   "title": "Siman 209",
+   "subtitle": "One who hears that his fellow vowed and said amen",
+   "corpusPath": "/corpus/yd1/siman209",
+   "subtitleHe": "השומע שחבירו נודר ואמר אמן"
+  },
+  {
+   "siman": 210,
+   "title": "Siman 210",
+   "subtitle": "That one must specify the vow as his lips intend",
+   "corpusPath": "/corpus/yd1/siman210",
+   "subtitleHe": "שצריך לפרוט הנדר כשפתיו"
+  },
+  {
+   "siman": 211,
+   "title": "Siman 211",
+   "subtitle": "Stipulating that future vows will be invalid",
+   "corpusPath": "/corpus/yd1/siman211",
+   "subtitleHe": "המתנה שנדריו לא יהיו נדרים"
+  },
+  {
+   "siman": 212,
+   "title": "Siman 212",
+   "subtitle": "One who vows by the Torah",
+   "corpusPath": "/corpus/yd1/siman212",
+   "subtitleHe": "דין הנודר בתורה"
+  },
+  {
+   "siman": 213,
+   "title": "Siman 213",
+   "subtitle": "Vows concerning intangible matters",
+   "corpusPath": "/corpus/yd1/siman213",
+   "subtitleHe": "שאין הנדרים חלים על דבר שאין בו ממש"
+  },
+  {
+   "siman": 214,
+   "title": "Siman 214",
+   "subtitle": "To transgress a custom requires release",
+   "corpusPath": "/corpus/yd1/siman214",
+   "subtitleHe": "לעבור על מנהג צריך התרה"
+  },
+  {
+   "siman": 215,
+   "title": "Siman 215",
+   "subtitle": "Vows concerning mitzvot",
+   "corpusPath": "/corpus/yd1/siman215",
+   "subtitleHe": "הנדרים חלים על דבר מצוה"
+  },
+  {
+   "siman": 216,
+   "title": "Siman 216",
+   "subtitle": "Wording of vows: these fruits, cooked food, and Torah terminology",
+   "corpusPath": "/corpus/yd1/siman216",
+   "subtitleHe": "חילוק בין האומר פירות אלו או לא אמר אלו ודין הנודר מהמבושל (וכיצד הולכין בנדרים אחר לשון תורה)"
+  },
+  {
+   "siman": 217,
+   "title": "Siman 217",
+   "subtitle": "Vows concerning foods and interpretation by common usage",
+   "corpusPath": "/corpus/yd1/siman217",
+   "subtitleHe": "דין הנודר מהמבושל מהמליח ממעשה קדירה ודומיהם וכיצד הולכין בנדרים אחר לשון בני אדם"
+  },
+  {
+   "siman": 218,
+   "title": "Siman 218",
+   "subtitle": "Determining a person's intent in a vow",
+   "corpusPath": "/corpus/yd1/siman218",
+   "subtitleHe": "כיצד הולכין אחר כוונת הנודר"
+  },
+  {
+   "siman": 219,
+   "title": "Siman 219",
+   "subtitle": "One who vows without setting a time",
+   "corpusPath": "/corpus/yd1/siman219",
+   "subtitleHe": "דין הנודר בלא קביעות זמן"
+  },
+  {
+   "siman": 220,
+   "title": "Siman 220",
+   "subtitle": "A wine vow for today or for a period and vows about non-fixed matters",
+   "corpusPath": "/corpus/yd1/siman220",
+   "subtitleHe": "חילוק שבין קונם יין להיום או לזמן ודין הנודר על דבר שאינו קבוע"
+  },
+  {
+   "siman": 221,
+   "title": "Siman 221",
+   "subtitle": "Vowing not to benefit from another person",
+   "corpusPath": "/corpus/yd1/siman221",
+   "subtitleHe": "דיני הנודר הנאה מחבירו"
+  },
+  {
+   "siman": 222,
+   "title": "Siman 222",
+   "subtitle": "One who stipulated that one is forbidden benefit from him and wants to give a gift to his daughter",
+   "corpusPath": "/corpus/yd1/siman222",
+   "subtitleHe": "מי שהתנו מודר הנאה ממנו ורוצה ליתן טעות לבתו"
+  },
+  {
+   "siman": 223,
+   "title": "Siman 223",
+   "subtitle": "One who forbids himself benefit from his son for the sake of Torah study",
+   "corpusPath": "/corpus/yd1/siman223",
+   "subtitleHe": "דין המדיר בנו לתלמוד תורה"
+  },
+  {
+   "siman": 224,
+   "title": "Siman 224",
+   "subtitle": "Saying 'your property is cherem to me'",
+   "corpusPath": "/corpus/yd1/siman224",
+   "subtitleHe": "מי שאמר נכסך עלי חרם"
+  },
+  {
+   "siman": 225,
+   "title": "Siman 225",
+   "subtitle": "Forbidding another person's produce to someone",
+   "corpusPath": "/corpus/yd1/siman225",
+   "subtitleHe": "האוסר פירות פלוני על חבירו"
+  },
+  {
+   "siman": 226,
+   "title": "Siman 226",
+   "subtitle": "Partners who prohibit benefit from one another",
+   "corpusPath": "/corpus/yd1/siman226",
+   "subtitleHe": "שותפים שהדירו זה את זה"
+  },
+  {
+   "siman": 227,
+   "title": "Siman 227",
+   "subtitle": "One who forbade himself from all Israel",
+   "corpusPath": "/corpus/yd1/siman227",
+   "subtitleHe": "דין מי שאסר עצמו מכל ישראל"
+  },
+  {
+   "siman": 228,
+   "title": "Siman 228",
+   "subtitle": "Hatarat nedarim: petach, charatah, and al daat rabim",
+   "corpusPath": "/corpus/yd1/siman228",
+   "subtitleHe": "דין התרת נדרים וההבדל שבין פתח לחרטה והיאך נקרא על דעת רבים"
+  },
+  {
+   "siman": 229,
+   "title": "Siman 229",
+   "subtitle": "A vow part of which was released, or one who vowed regarding one matter twice",
+   "corpusPath": "/corpus/yd1/siman229",
+   "subtitleHe": "דין נדר שהותר מקצתו או מי שנדר על דבר א' שני פעמים"
+  },
+  {
+   "siman": 230,
+   "title": "Siman 230",
+   "subtitle": "Releasing vows and oaths",
+   "corpusPath": "/corpus/yd1/siman230",
+   "subtitleHe": "התרת שבועות ונדרים"
+  },
+  {
+   "siman": 231,
+   "title": "Siman 231",
+   "subtitle": "Conditional vows and vows dependent on another person",
+   "corpusPath": "/corpus/yd1/siman231",
+   "subtitleHe": "הנודר על תנאי או מי שתולה נדרו בדעת אחרים"
+  },
+  {
+   "siman": 232,
+   "title": "Siman 232",
+   "subtitle": "Vows of urging, empty vows, erroneous vows, and vows under compulsion",
+   "corpusPath": "/corpus/yd1/siman232",
+   "subtitleHe": "דין נדרי זרוזין והבאי ושגגות ואונסין"
+  },
+  {
+   "siman": 233,
+   "title": "Siman 233",
+   "subtitle": "Age of vows for males and females",
+   "corpusPath": "/corpus/yd1/siman233",
+   "subtitleHe": "עונת נדרים לזכר ולנקבה"
+  },
+  {
+   "siman": 234,
+   "title": "Siman 234",
+   "subtitle": "Annulment of vows by a father, husband, or both together",
+   "corpusPath": "/corpus/yd1/siman234",
+   "subtitleHe": "מתי האב והבעל מפירין ומתי מפירין שניהם יחד"
+  },
+  {
+   "siman": 235,
+   "title": "Siman 235",
+   "subtitle": "One who forbids his wife from marital relations, or from going to her father's house, and the like",
+   "corpusPath": "/corpus/yd1/siman235",
+   "subtitleHe": "המדיר אשתו מתשמיש או שלא תלך לבית אביה ודומיו"
+  },
+  {
+   "siman": 236,
+   "title": "Siman 236",
+   "subtitle": "What is a shevuat bitui and a shevuat shav",
+   "corpusPath": "/corpus/yd1/siman236",
+   "subtitleHe": "מה היא שבועת ביטוי ושבועת שוא"
+  },
+  {
+   "siman": 237,
+   "title": "Siman 237",
+   "subtitle": "Whether an oath requires the Divine Name or a substitute",
+   "corpusPath": "/corpus/yd1/siman237",
+   "subtitleHe": "הנשבע אם צריך לישבע בשם או בכינוי"
+  },
+  {
+   "siman": 238,
+   "title": "Siman 238",
+   "subtitle": "An oath that one will not eat, unspecified or if he specified",
+   "corpusPath": "/corpus/yd1/siman238",
+   "subtitleHe": "דין שבועה שלא אוכל סתם או אם פירש"
+  },
+  {
+   "siman": 239,
+   "title": "Siman 239",
+   "subtitle": "Oaths concerning intangible matters or negating a mitzvah",
+   "corpusPath": "/corpus/yd1/siman239",
+   "subtitleHe": "נשבע על דבר שאין בו ממש או לבטל המצוה"
+  },
+  {
+   "siman": 240,
+   "title": "Siman 240",
+   "subtitle": "What is honor and what is reverence, and their laws",
+   "corpusPath": "/corpus/yd1/siman240",
+   "subtitleHe": "איזהו כבוד ואיזהו מורא ודיניהם"
+  },
+  {
+   "siman": 241,
+   "title": "Siman 241",
+   "subtitle": "Striking or cursing a parent",
+   "corpusPath": "/corpus/yd1/siman241",
+   "subtitleHe": "דיני מכה ומקלל אביו ואמו"
+  },
+  {
+   "siman": 242,
+   "title": "Siman 242",
+   "subtitle": "Not to rule before one's rabbi, and the law of a rabbi who waives his honor",
+   "corpusPath": "/corpus/yd1/siman242",
+   "subtitleHe": "שלא להורות בפני הרב ודין רב שמחל על כבודו"
+  },
+  {
+   "siman": 243,
+   "title": "Siman 243",
+   "subtitle": "A Torah scholar was exempt from tax and his merchandise was sold first",
+   "corpusPath": "/corpus/yd1/siman243",
+   "subtitleHe": "תלמיד חכם היה פטור ממס ומכירת סחורתו מוקדם"
+  },
+  {
+   "siman": 244,
+   "title": "Siman 244",
+   "subtitle": "Standing and showing honor before a Torah scholar even if he is not one's teacher",
+   "corpusPath": "/corpus/yd1/siman244",
+   "subtitleHe": "קימה והידור בפני חכם אפילו אינו רבו"
+  },
+  {
+   "siman": 245,
+   "title": "Siman 245",
+   "subtitle": "Teaching Torah to children and establishing students",
+   "corpusPath": "/corpus/yd1/siman245",
+   "subtitleHe": "חייב כל אדם ללמד לבנו ולהעמיד תלמידים"
+  },
+  {
+   "siman": 246,
+   "title": "Siman 246",
+   "subtitle": "That every person is obligated in Torah study and how they learn for pay",
+   "corpusPath": "/corpus/yd1/siman246",
+   "subtitleHe": "שחייב כל אדם בתלמוד תורה והיאך לומדים בשכר"
+  },
+  {
+   "siman": 247,
+   "title": "Siman 247",
+   "subtitle": "The greatness of the reward of charity and whether they coerce for it",
+   "corpusPath": "/corpus/yd1/siman247",
+   "subtitleHe": "גודל שכר צדקה ואם כופין עליה"
+  },
+  {
+   "siman": 248,
+   "title": "Siman 248",
+   "subtitle": "Who is obligated in it and who is fit to receive it",
+   "corpusPath": "/corpus/yd1/siman248",
+   "subtitleHe": "מי חייב בה ומי ראוי לקבלה"
+  },
+  {
+   "siman": 249,
+   "title": "Siman 249",
+   "subtitle": "How much tzedakah one must give and how to give it",
+   "corpusPath": "/corpus/yd1/siman249",
+   "subtitleHe": "כמה חייב ליתן וכיצד יתננה"
+  },
+  {
+   "siman": 250,
+   "title": "Siman 250",
+   "subtitle": "How much tzedakah to give each recipient",
+   "corpusPath": "/corpus/yd1/siman250",
+   "subtitleHe": "כמה ראוי ליתן לכל אחד ואחד"
+  },
+  {
+   "siman": 251,
+   "title": "Siman 251",
+   "subtitle": "Recipients and priorities in tzedakah",
+   "corpusPath": "/corpus/yd1/siman251",
+   "subtitleHe": "למי נותנין הצדקה ואיזה קודם לחבירו"
+  },
+  {
+   "siman": 252,
+   "title": "Siman 252",
+   "subtitle": "Redeeming captives",
+   "corpusPath": "/corpus/yd1/siman252",
+   "subtitleHe": "דין פדיון שבויים וכיצד פודין אותם"
+  },
+  {
+   "siman": 253,
+   "title": "Siman 253",
+   "subtitle": "Who is fit to take charity",
+   "corpusPath": "/corpus/yd1/siman253",
+   "subtitleHe": "מי הוא הראוי ליטול צדקה"
+  },
+  {
+   "siman": 254,
+   "title": "Siman 254",
+   "subtitle": "Not to receive charity from others",
+   "corpusPath": "/corpus/yd1/siman254",
+   "subtitleHe": "שלא לקבל צדקה מאחרים"
+  },
+  {
+   "siman": 255,
+   "title": "Siman 255",
+   "subtitle": "To distance oneself from receiving charity",
+   "corpusPath": "/corpus/yd1/siman255",
+   "subtitleHe": "להרחיק מקבלתה"
+  },
+  {
+   "siman": 256,
+   "title": "Siman 256",
+   "subtitle": "The charity fund and the daily food distribution — how they are collected and divided",
+   "corpusPath": "/corpus/yd1/siman256",
+   "subtitleHe": "קופה ותמחוי היאך נגבים ומתחלקים"
+  },
+  {
+   "siman": 257,
+   "title": "Siman 257",
+   "subtitle": "The order for collecting charity and the prohibition against delaying it",
+   "corpusPath": "/corpus/yd1/siman257",
+   "subtitleHe": "סדר גביית הצדקה ושלא לאחרה"
+  },
+  {
+   "siman": 258,
+   "title": "Siman 258",
+   "subtitle": "Pledging property to tzedakah",
+   "corpusPath": "/corpus/yd1/siman258",
+   "subtitleHe": "דין המתפיס בצדקה"
+  },
+  {
+   "siman": 259,
+   "title": "Siman 259",
+   "subtitle": "An uncertain vow, speech to hekdesh, and administration of tzedakah",
+   "corpusPath": "/corpus/yd1/siman259",
+   "subtitleHe": "הנודר ואינו יודע מה נדר ודין אמירה לגבוה (ודין אם מותר לשנות צדקה והנהגת הגבאי עם הצדקה או הממונה עליה)"
+  },
+  {
+   "siman": 260,
+   "title": "Siman 260",
+   "subtitle": "A father's obligation to circumcise his son",
+   "corpusPath": "/corpus/yd1/siman260",
+   "subtitleHe": "מצות האב למול את בנו"
+  },
+  {
+   "siman": 261,
+   "title": "Siman 261",
+   "subtitle": "Circumcision when the father fails",
+   "corpusPath": "/corpus/yd1/siman261",
+   "subtitleHe": "חיוב בית דין והבן במילה"
+  },
+  {
+   "siman": 262,
+   "title": "Siman 262",
+   "subtitle": "The time of circumcision for a healthy child, a sick one, and an androgynous",
+   "corpusPath": "/corpus/yd1/siman262",
+   "subtitleHe": "זמן מילה לבריא ולחולה ולאנדרוגינוס"
+  },
+  {
+   "siman": 263,
+   "title": "Siman 263",
+   "subtitle": "A child who is red or green, and one whose children die from circumcision",
+   "corpusPath": "/corpus/yd1/siman263",
+   "subtitleHe": "ילד שהוא אדום או ירוק ומי שבניו מתים מחמת מילה"
+  },
+  {
+   "siman": 264,
+   "title": "Siman 264",
+   "subtitle": "Who is fit to circumcise, with what one circumcises, and how one circumcises",
+   "corpusPath": "/corpus/yd1/siman264",
+   "subtitleHe": "מי ראוי למול ובמה מלין וכיצד מלין"
+  },
+  {
+   "siman": 265,
+   "title": "Siman 265",
+   "subtitle": "The order of circumcision blessings and the law of circumcision on a public fast day",
+   "corpusPath": "/corpus/yd1/siman265",
+   "subtitleHe": "סדר ברכת המילה ודין מילה ביום התענית"
+  },
+  {
+   "siman": 266,
+   "title": "Siman 266",
+   "subtitle": "Which circumcision overrides Shabbat and Yom Tov",
+   "corpusPath": "/corpus/yd1/siman266",
+   "subtitleHe": "איזה מילה דוחה שבת וי\"ט"
+  },
+  {
+   "siman": 267,
+   "title": "Siman 267",
+   "subtitle": "Acquiring a slave: circumcision, immersion, and related obligations",
+   "corpusPath": "/corpus/yd1/siman267",
+   "subtitleHe": "הלוקח עבד אסור לקיימו ערל וטבילתו וברכתו ומילתו וכל דיני עבד ושפחה"
+  },
+  {
+   "siman": 268,
+   "title": "Siman 268",
+   "subtitle": "How they convert a male and female convert, and laws of convert sanctity",
+   "corpusPath": "/corpus/yd1/siman268",
+   "subtitleHe": "כיצד מגיירין הגר והגיורת ודיני קדושת הגר"
+  },
+  {
+   "siman": 269,
+   "title": "Siman 269",
+   "subtitle": "Prohibition of forbidden relations with converts and their law regarding testimony and chalitzah",
+   "corpusPath": "/corpus/yd1/siman269",
+   "subtitleHe": "איסור עריות בגרים ודינן לענין עדות וחליצה"
+  },
+  {
+   "siman": 270,
+   "title": "Siman 270",
+   "subtitle": "Reward for the mitzvah of writing a Sefer Torah",
+   "corpusPath": "/corpus/yd1/siman270",
+   "subtitleHe": "שכר מצות כתיבת ס\"ת"
+  },
+  {
+   "siman": 271,
+   "title": "Siman 271",
+   "subtitle": "Parchment, scoring, and ink for a Sefer Torah",
+   "corpusPath": "/corpus/yd1/siman271",
+   "subtitleHe": "העור שנכתבה עליו ושרטוטה ודין הדיו"
+  },
+  {
+   "siman": 272,
+   "title": "Siman 272",
+   "subtitle": "The width of the pages",
+   "corpusPath": "/corpus/yd1/siman272",
+   "subtitleHe": "דין רוחב הדפין"
+  },
+  {
+   "siman": 273,
+   "title": "Siman 273",
+   "subtitle": "The measure of the margin and spacing between line and line and between page and page",
+   "corpusPath": "/corpus/yd1/siman273",
+   "subtitleHe": "שיעור הגליון וריוח בין שיטה לשיטה ובין דף לדף"
+  },
+  {
+   "siman": 274,
+   "title": "Siman 274",
+   "subtitle": "That one must write it for its sake, and the law of correcting letters and their adornment",
+   "corpusPath": "/corpus/yd1/siman274",
+   "subtitleHe": "שצריך לכתוב אותה לשמה ודין תיקון האותיות וזיונן"
+  },
+  {
+   "siman": 275,
+   "title": "Siman 275",
+   "subtitle": "The forms of an open parashah and a closed parashah, and the form of song",
+   "corpusPath": "/corpus/yd1/siman275",
+   "subtitleHe": "צורות פרשה פתוחה וסתומה וצורת השירה"
+  },
+  {
+   "siman": 276,
+   "title": "Siman 276",
+   "subtitle": "Hanging an omission and the law of one who errs in writing the Name",
+   "corpusPath": "/corpus/yd1/siman276",
+   "subtitleHe": "דין תליית הדילוג ודין הטועה בכתיבת השם"
+  },
+  {
+   "siman": 277,
+   "title": "Siman 277",
+   "subtitle": "Not to turn the sheet face down",
+   "corpusPath": "/corpus/yd1/siman277",
+   "subtitleHe": "שלא להפוך היריעה על פניה"
+  },
+  {
+   "siman": 278,
+   "title": "Siman 278",
+   "subtitle": "Sewing a Sefer Torah",
+   "corpusPath": "/corpus/yd1/siman278",
+   "subtitleHe": "דין תפירת ספר תורה"
+  },
+  {
+   "siman": 279,
+   "title": "Siman 279",
+   "subtitle": "Proofreading a Sefer Torah and not leaving it in error",
+   "corpusPath": "/corpus/yd1/siman279",
+   "subtitleHe": "דיני הגהת ספר תורה ושלא ישהנו מוטעה"
+  },
+  {
+   "siman": 280,
+   "title": "Siman 280",
+   "subtitle": "If a sheet was torn after it was sewn",
+   "corpusPath": "/corpus/yd1/siman280",
+   "subtitleHe": "נקרעה היריעה לאחר תפירתה"
+  },
+  {
+   "siman": 281,
+   "title": "Siman 281",
+   "subtitle": "Eligible Sefer Torah scribes and writing Divine Names lishmah",
+   "corpusPath": "/corpus/yd1/siman281",
+   "subtitleHe": "מי כשר לכתיבת ס\"ת ואם אמר הסופר שלא כתב האזכרות לשמן"
+  },
+  {
+   "siman": 282,
+   "title": "Siman 282",
+   "subtitle": "To conduct oneself with honor toward a Sefer Torah, and the law of its accessories",
+   "corpusPath": "/corpus/yd1/siman282",
+   "subtitleHe": "לנהוג כבוד בספר תורה ודין תשמישיה"
+  },
+  {
+   "siman": 283,
+   "title": "Siman 283",
+   "subtitle": "That one may paste Torah, Prophets, and Writings together",
+   "corpusPath": "/corpus/yd1/siman283",
+   "subtitleHe": "שיכול לדבק תורה נביאים וכתובים יחד"
+  },
+  {
+   "siman": 284,
+   "title": "Siman 284",
+   "subtitle": "Not to write without sirtut",
+   "corpusPath": "/corpus/yd1/siman284",
+   "subtitleHe": "שלא לכתוב בלא שרטוט"
+  },
+  {
+   "siman": 285,
+   "title": "Siman 285",
+   "subtitle": "Reward for the mitzvah of mezuzah",
+   "corpusPath": "/corpus/yd1/siman285",
+   "subtitleHe": "שכר מצות מזוזה"
+  },
+  {
+   "siman": 286,
+   "title": "Siman 286",
+   "subtitle": "Places requiring a mezuzah",
+   "corpusPath": "/corpus/yd1/siman286",
+   "subtitleHe": "מקומות החייבים במזוזה"
+  },
+  {
+   "siman": 287,
+   "title": "Siman 287",
+   "subtitle": "Which doorway requires a mezuzah",
+   "corpusPath": "/corpus/yd1/siman287",
+   "subtitleHe": "איזו פתח חייב במזוזה"
+  },
+  {
+   "siman": 288,
+   "title": "Siman 288",
+   "subtitle": "With what and how it is written",
+   "corpusPath": "/corpus/yd1/siman288",
+   "subtitleHe": "במה והיאך נכתבת"
+  },
+  {
+   "siman": 289,
+   "title": "Siman 289",
+   "subtitle": "The place of its affixing, how it is affixed, and its blessing",
+   "corpusPath": "/corpus/yd1/siman289",
+   "subtitleHe": "מקום קביעותה וכיצד נקבעת וברכתה"
+  },
+  {
+   "siman": 290,
+   "title": "Siman 290",
+   "subtitle": "Not writing a mezuzah on the margin of a Sefer Torah",
+   "corpusPath": "/corpus/yd1/siman290",
+   "subtitleHe": "שלא לכתוב אותה על גליון ספר תורה"
+  },
+  {
+   "siman": 291,
+   "title": "Siman 291",
+   "subtitle": "When a mezuzah is checked and who is obligated in it",
+   "corpusPath": "/corpus/yd1/siman291",
+   "subtitleHe": "מזוזה מתי נבדקת ומי חייב בה"
+  },
+  {
+   "siman": 292,
+   "title": "Siman 292",
+   "subtitle": "Several laws of sending away the mother bird",
+   "corpusPath": "/corpus/yd1/siman292",
+   "subtitleHe": "כמה דינים משלוח הקן"
+  },
+  {
+   "siman": 293,
+   "title": "Siman 293",
+   "subtitle": "Chadash and when it applies",
+   "corpusPath": "/corpus/yd1/siman293",
+   "subtitleHe": "דיני חדש ומתי נוהג"
+  },
+  {
+   "siman": 294,
+   "title": "Siman 294",
+   "subtitle": "Orlah—where it applies and for whom",
+   "corpusPath": "/corpus/yd1/siman294",
+   "subtitleHe": "דיני ערלה באיזה מקום נוהגת ובשל מי"
+  },
+  {
+   "siman": 295,
+   "title": "Siman 295",
+   "subtitle": "Grafting trees",
+   "corpusPath": "/corpus/yd1/siman295",
+   "subtitleHe": "דיני הרכבת האילן"
+  },
+  {
+   "siman": 296,
+   "title": "Siman 296",
+   "subtitle": "Kilay hakerem and kilay zera'im",
+   "corpusPath": "/corpus/yd1/siman296",
+   "subtitleHe": "דיני כלאי הכרם וכלאי זרעים"
+  },
+  {
+   "siman": 297,
+   "title": "Siman 297",
+   "subtitle": "Kilay zera'im and its details",
+   "corpusPath": "/corpus/yd1/siman297",
+   "subtitleHe": "דיני כלאי זרעים ופרטיהם"
+  },
+  {
+   "siman": 298,
+   "title": "Siman 298",
+   "subtitle": "Things forbidden because of kilayim of garments",
+   "corpusPath": "/corpus/yd1/siman298",
+   "subtitleHe": "דברים האסורים משום כלאי בגדים"
+  },
+  {
+   "siman": 299,
+   "title": "Siman 299",
+   "subtitle": "Species subject to kilayim",
+   "corpusPath": "/corpus/yd1/siman299",
+   "subtitleHe": "באיזו מינים נוהג בהם כלאים"
+  },
+  {
+   "siman": 300,
+   "title": "Siman 300",
+   "subtitle": "Which kilayim is d'oraisa and which is d'rabbanan",
+   "corpusPath": "/corpus/yd1/siman300",
+   "subtitleHe": "איזו כלאים דאורייתא ואיזו דרבנן"
+  },
+  {
+   "siman": 301,
+   "title": "Siman 301",
+   "subtitle": "Whether it is permitted to spread kilayim beneath oneself, and the law of a pack-saddle and shrouds",
+   "corpusPath": "/corpus/yd1/siman301",
+   "subtitleHe": "אם מותר להציע כלאים תחתיו ודין מרדעת ותכריכים"
+  },
+  {
+   "siman": 302,
+   "title": "Siman 302",
+   "subtitle": "A garment in which kilayim was lost",
+   "corpusPath": "/corpus/yd1/siman302",
+   "subtitleHe": "דין בגד שאבד בו כלאים"
+  },
+  {
+   "siman": 303,
+   "title": "Siman 303",
+   "subtitle": "That one may remove kilayim from his fellow even in the marketplace",
+   "corpusPath": "/corpus/yd1/siman303",
+   "subtitleHe": "שמותר לפשוט כלאים מחבירו אפילו בשוק"
+  },
+  {
+   "siman": 304,
+   "title": "Siman 304",
+   "subtitle": "Making and keeping shaatnez",
+   "corpusPath": "/corpus/yd1/siman304",
+   "subtitleHe": "עשיית וקיום כלאי בגדים"
+  },
+  {
+   "siman": 305,
+   "title": "Siman 305",
+   "subtitle": "Who is obligated in pidyon ha'ben, when it is fit for redemption, and all its laws",
+   "corpusPath": "/corpus/yd1/siman305",
+   "subtitleHe": "מי חייב בפדיון בכור ומתי ראוי לפדיון וכל דיניו"
+  },
+  {
+   "siman": 306,
+   "title": "Siman 306",
+   "subtitle": "A firstborn kosher animal, when and where it applies",
+   "corpusPath": "/corpus/yd1/siman306",
+   "subtitleHe": "דין בכור בהמה טהורה באיזה זמן ובאיזה מקום נוהג"
+  },
+  {
+   "siman": 307,
+   "title": "Siman 307",
+   "subtitle": "The bechor after slaughter and one who cannot sell it or slaughter it until a blemish falls upon it",
+   "corpusPath": "/corpus/yd1/siman307",
+   "subtitleHe": "דין הבכור אחר שחיטה ושאינו יכול למכרו ולא לשוחט ועד שיפול בו מום"
+  },
+  {
+   "siman": 308,
+   "title": "Siman 308",
+   "subtitle": "The prohibition of working a firstborn and the prohibition of its shearing",
+   "corpusPath": "/corpus/yd1/siman308",
+   "subtitleHe": "איסור עבודת הבכור ואיסור גיזתו"
+  },
+  {
+   "siman": 309,
+   "title": "Siman 309",
+   "subtitle": "Bechor in this time",
+   "corpusPath": "/corpus/yd1/siman309",
+   "subtitleHe": "דיני בכור בזמן הזה"
+  },
+  {
+   "siman": 310,
+   "title": "Siman 310",
+   "subtitle": "One who slaughters a bechor not according to a sage",
+   "corpusPath": "/corpus/yd1/siman310",
+   "subtitleHe": "דין בכור שנשחט שלא על פי חכם"
+  },
+  {
+   "siman": 311,
+   "title": "Siman 311",
+   "subtitle": "One suspected of selling the firstborn",
+   "corpusPath": "/corpus/yd1/siman311",
+   "subtitleHe": "דין החשוד למכור הבכור"
+  },
+  {
+   "siman": 312,
+   "title": "Siman 312",
+   "subtitle": "One who takes wages to inspect a firstborn",
+   "corpusPath": "/corpus/yd1/siman312",
+   "subtitleHe": "דין הנוטל שכר לראות בכור"
+  },
+  {
+   "siman": 313,
+   "title": "Siman 313",
+   "subtitle": "Not to inflict a blemish on a bechor",
+   "corpusPath": "/corpus/yd1/siman313",
+   "subtitleHe": "שלא להטיל מום בבכור"
+  },
+  {
+   "siman": 314,
+   "title": "Siman 314",
+   "subtitle": "Who is believed regarding inflicting a blemish on a bechor",
+   "corpusPath": "/corpus/yd1/siman314",
+   "subtitleHe": "מי נאמן על הטלת מום בבכור"
+  },
+  {
+   "siman": 315,
+   "title": "Siman 315",
+   "subtitle": "A doubtful firstborn, cesarean birth, tumtum, and androgynos",
+   "corpusPath": "/corpus/yd1/siman315",
+   "subtitleHe": "דין ספק בכור ויוצא דופן וטומטום ואנדרוניגוס"
+  },
+  {
+   "siman": 316,
+   "title": "Siman 316",
+   "subtitle": "One who buys an animal from a non-Jew and does not know whether it had previously given birth",
+   "corpusPath": "/corpus/yd1/siman316",
+   "subtitleHe": "דין הלוקח בהמה מן העובד כוכבים ואינו יודע אם בכרה"
+  },
+  {
+   "siman": 317,
+   "title": "Siman 317",
+   "subtitle": "A firstborn that became mixed and one of the animals died",
+   "corpusPath": "/corpus/yd1/siman317",
+   "subtitleHe": "דין בכור שנתערב ומת אחד מהבהמות"
+  },
+  {
+   "siman": 318,
+   "title": "Siman 318",
+   "subtitle": "Doubtful cases involving a firstborn animal",
+   "corpusPath": "/corpus/yd1/siman318",
+   "subtitleHe": "כמה ספיקות בדיני בכור בהמה"
+  },
+  {
+   "siman": 319,
+   "title": "Siman 319",
+   "subtitle": "Cutting limbs of the bechor and the remaining laws of bechor",
+   "corpusPath": "/corpus/yd1/siman319",
+   "subtitleHe": "דין חתוך אבר הבכור ויתר דיני בכור"
+  },
+  {
+   "siman": 320,
+   "title": "Siman 320",
+   "subtitle": "Who are obligated in bechor of a pure animal and the laws of partnership with a non-Jew",
+   "corpusPath": "/corpus/yd1/siman320",
+   "subtitleHe": "מי הם החייבים בבכור בהמה טהורה ודיני שותפות העובד כוכבים"
+  },
+  {
+   "siman": 321,
+   "title": "Siman 321",
+   "subtitle": "Firstborn non-kosher animals and their redemption",
+   "corpusPath": "/corpus/yd1/siman321",
+   "subtitleHe": "בכור בהמה טמאה במה ובמי ובאיזה מקום נוהג וכן פדיונו ועריפתו"
+  },
+  {
+   "siman": 322,
+   "title": "Siman 322",
+   "subtitle": "The difference between challah of Eretz Yisrael and challah outside the land",
+   "corpusPath": "/corpus/yd1/siman322",
+   "subtitleHe": "הפרש חלה שיש בין חלת ארץ ישראל לחלת חוצה לארץ"
+  },
+  {
+   "siman": 323,
+   "title": "Siman 323",
+   "subtitle": "Rabbinic challah—how it is given and eaten, and the law of its mixture with non-sacred dough",
+   "corpusPath": "/corpus/yd1/siman323",
+   "subtitleHe": "חלה דרבנן היאך ניתנת ונאכלת ודין תערובתה בחולין"
+  },
+  {
+   "siman": 324,
+   "title": "Siman 324",
+   "subtitle": "Challah quantity, combining species, and exempt bread mixed with obligated bread",
+   "corpusPath": "/corpus/yd1/siman324",
+   "subtitleHe": "שיעור חיוב חלה ומינים המצטרפים ודין פת פטור שנתערב בחיוב"
+  },
+  {
+   "siman": 325,
+   "title": "Siman 325",
+   "subtitle": "Two doughs each below the challah quantity",
+   "corpusPath": "/corpus/yd1/siman325",
+   "subtitleHe": "דין ב' עיסות שאין בהן כשיעור"
+  },
+  {
+   "siman": 326,
+   "title": "Siman 326",
+   "subtitle": "Combining two undersized doughs",
+   "corpusPath": "/corpus/yd1/siman326",
+   "subtitleHe": "אחד שלש שתי עיסות ואין בשום א' מהם כשיעור ונתערבו"
+  },
+  {
+   "siman": 327,
+   "title": "Siman 327",
+   "subtitle": "When challah obligation takes effect on the dough",
+   "corpusPath": "/corpus/yd1/siman327",
+   "subtitleHe": "מתי חל על העיסה חיוב חלה"
+  },
+  {
+   "siman": 328,
+   "title": "Siman 328",
+   "subtitle": "The blessing on challah and who is fit to separate it",
+   "corpusPath": "/corpus/yd1/siman328",
+   "subtitleHe": "דין ברכת חלה ומי ראוי להפרישה"
+  },
+  {
+   "siman": 329,
+   "title": "Siman 329",
+   "subtitle": "Which bread is obligated in challah",
+   "corpusPath": "/corpus/yd1/siman329",
+   "subtitleHe": "איזה פת חייב בחלה"
+  },
+  {
+   "siman": 330,
+   "title": "Siman 330",
+   "subtitle": "Dough of a gentile, partners, hefker, and dogs",
+   "corpusPath": "/corpus/yd1/siman330",
+   "subtitleHe": "דין עיסת עובד כוכבים ושותפין והפקר וכלבים"
+  },
+  {
+   "siman": 331,
+   "title": "Siman 331",
+   "subtitle": "Where priestly gifts are given and their halachic status",
+   "corpusPath": "/corpus/yd1/siman331",
+   "subtitleHe": "דין נתינתם באיזה מקום וכיצד הכהן מקבלם ואם הם דאורייתא או דרבנן"
+  },
+  {
+   "siman": 332,
+   "title": "Siman 332",
+   "subtitle": "Gifts to the poor",
+   "corpusPath": "/corpus/yd1/siman332",
+   "subtitleHe": "דין מתנות עניים"
+  },
+  {
+   "siman": 333,
+   "title": "Siman 333",
+   "subtitle": "Reishit ha'gez",
+   "corpusPath": "/corpus/yd1/siman333",
+   "subtitleHe": "דיני ראשית הגז"
+  },
+  {
+   "siman": 334,
+   "title": "Siman 334",
+   "subtitle": "Nidui and cherem: grounds, conduct, and release",
+   "corpusPath": "/corpus/yd1/siman334",
+   "subtitleHe": "היאך היו נוהגין עם המנודה או המוחרם ועל מה מנדין ודין התרתו"
+  },
+  {
+   "siman": 335,
+   "title": "Siman 335",
+   "subtitle": "When one visits the sick, which sick people one visits, and how one prays for him",
+   "corpusPath": "/corpus/yd1/siman335",
+   "subtitleHe": "מתי מבקרין החולה ואיזה חולים מבקרין וכיצד מתפללין עליו"
+  },
+  {
+   "siman": 336,
+   "title": "Siman 336",
+   "subtitle": "The physician",
+   "corpusPath": "/corpus/yd1/siman336",
+   "subtitleHe": "דיני הרופא"
+  },
+  {
+   "siman": 337,
+   "title": "Siman 337",
+   "subtitle": "A sick person to whom a relative died",
+   "corpusPath": "/corpus/yd1/siman337",
+   "subtitleHe": "חולה שמת לו מת"
+  },
+  {
+   "siman": 338,
+   "title": "Siman 338",
+   "subtitle": "Confession of the sick person and how they speak to him",
+   "corpusPath": "/corpus/yd1/siman338",
+   "subtitleHe": "וידוי החולה וכיצד אומרים לו"
+  },
+  {
+   "siman": 339,
+   "title": "Siman 339",
+   "subtitle": "A dying person, Tzidduk HaDin, and favorable signs",
+   "corpusPath": "/corpus/yd1/siman339",
+   "subtitleHe": "דיני הגוסס (ואמירת צידוק הדין) ומה הם הסימנים היפים [מהסימנים נשמטו בשו\"ע ונמצאו בטור יו\"ד ע\"ש]"
+  },
+  {
+   "siman": 340,
+   "title": "Siman 340",
+   "subtitle": "The matter of tearing: its measure, place, for whom one tears, and in what time one tears",
+   "corpusPath": "/corpus/yd1/siman340",
+   "subtitleHe": "ענין הקריעה שיעורה ומקומה ועל מי קורעין ובאיזה זמן קורעין"
+  },
+  {
+   "siman": 341,
+   "title": "Siman 341",
+   "subtitle": "One whose dead lies before him on Shabbat or Yom Tov, and the laws of the onen",
+   "corpusPath": "/corpus/yd1/siman341",
+   "subtitleHe": "מי שמתו מוטל לפניו בשבת או בי\"ט ודיני האונן"
+  },
+  {
+   "siman": 342,
+   "title": "Siman 342",
+   "subtitle": "Wedding preparations interrupted by a death requiring mourning",
+   "corpusPath": "/corpus/yd1/siman342",
+   "subtitleHe": "מי שהכין צרכי חופתו ומת לו מת שחייב עליו אבילות"
+  },
+  {
+   "siman": 343,
+   "title": "Siman 343",
+   "subtitle": "The mitzvah of escorting the dead",
+   "corpusPath": "/corpus/yd1/siman343",
+   "subtitleHe": "מצות הלויית המת"
+  },
+  {
+   "siman": 344,
+   "title": "Siman 344",
+   "subtitle": "Suicide, nidui, execution by beit din, and separation from the community",
+   "corpusPath": "/corpus/yd1/siman344",
+   "subtitleHe": "דין המאבד עצמו לדעת ומנודה והרוגי ב\"ד והפורשין מן הצבור"
+  },
+  {
+   "siman": 345,
+   "title": "Siman 345",
+   "subtitle": "Suicide, nidui, execution by beit din, and separation from the community",
+   "corpusPath": "/corpus/yd1/siman345",
+   "subtitleHe": "דין המאבד עצמו לדעת ומנודה והרוגי ב\"ד והפורשין מן הצבור"
+  },
+  {
+   "siman": 346,
+   "title": "Siman 346",
+   "subtitle": "One whose relative is crucified in the city should not dwell in it",
+   "corpusPath": "/corpus/yd1/siman346",
+   "subtitleHe": "מי שקרובו צלוב בעיר לא ידור בה"
+  },
+  {
+   "siman": 347,
+   "title": "Siman 347",
+   "subtitle": "Not to arouse mourning for one's dead thirty days before a festival",
+   "corpusPath": "/corpus/yd1/siman347",
+   "subtitleHe": "שלא לעורר על מתו שלשים יום לפני הרגל"
+  },
+  {
+   "siman": 348,
+   "title": "Siman 348",
+   "subtitle": "Burning over the dead and one who says do not bury me",
+   "corpusPath": "/corpus/yd1/siman348",
+   "subtitleHe": "דין שרפה על המת והאומר אל תקברוני"
+  },
+  {
+   "siman": 349,
+   "title": "Siman 349",
+   "subtitle": "Prohibition of benefit from a dead person and his shrouds",
+   "corpusPath": "/corpus/yd1/siman349",
+   "subtitleHe": "איסור הנאה במת ובתכריכיו"
+  },
+  {
+   "siman": 350,
+   "title": "Siman 350",
+   "subtitle": "Things done for the dead that are not considered ways of the Emorites",
+   "corpusPath": "/corpus/yd1/siman350",
+   "subtitleHe": "דברים העשויים למת ואין בו משום דרכי האמורי"
+  },
+  {
+   "siman": 351,
+   "title": "Siman 351",
+   "subtitle": "Kilayim and tzitzis for the dead",
+   "corpusPath": "/corpus/yd1/siman351",
+   "subtitleHe": "דין כלאים וציצית למת"
+  },
+  {
+   "siman": 352,
+   "title": "Siman 352",
+   "subtitle": "In which garments they bury, and a man does not dress a woman",
+   "corpusPath": "/corpus/yd1/siman352",
+   "subtitleHe": "באיזו בגדים קוברין ואין האיש מלביש את האשה"
+  },
+  {
+   "siman": 353,
+   "title": "Siman 353",
+   "subtitle": "How they carry out a large or small dead body, and with which bier",
+   "corpusPath": "/corpus/yd1/siman353",
+   "subtitleHe": "היאך מוציאין מת גדול או קטן ובאיזו מטה"
+  },
+  {
+   "siman": 354,
+   "title": "Siman 354",
+   "subtitle": "A city that has two dead — which takes precedence",
+   "corpusPath": "/corpus/yd1/siman354",
+   "subtitleHe": "עיר שיש בה שני מתים איזה קודם"
+  },
+  {
+   "siman": 355,
+   "title": "Siman 355",
+   "subtitle": "Things they change for a woman more than for a man",
+   "corpusPath": "/corpus/yd1/siman355",
+   "subtitleHe": "דברים שמשנים באשה יותר מבאיש"
+  },
+  {
+   "siman": 356,
+   "title": "Siman 356",
+   "subtitle": "They collected for the needs of the dead and left over",
+   "corpusPath": "/corpus/yd1/siman356",
+   "subtitleHe": "גבו לצורך המת והותירו"
+  },
+  {
+   "siman": 357,
+   "title": "Siman 357",
+   "subtitle": "The prohibition of overnight delay of the dead and when it is permitted to delay him",
+   "corpusPath": "/corpus/yd1/siman357",
+   "subtitleHe": "איסור הלנת המת ומתי מותר להלינו"
+  },
+  {
+   "siman": 358,
+   "title": "Siman 358",
+   "subtitle": "Bearers of the bier are exempt from Keriat Shema and prayer",
+   "corpusPath": "/corpus/yd1/siman358",
+   "subtitleHe": "נושאי המטה פטורים מקריאת שמע ומתפלה"
+  },
+  {
+   "siman": 359,
+   "title": "Siman 359",
+   "subtitle": "The place of the going-out of the dead and mourners",
+   "corpusPath": "/corpus/yd1/siman359",
+   "subtitleHe": "מקום יציאת המת והאבלים"
+  },
+  {
+   "siman": 360,
+   "title": "Siman 360",
+   "subtitle": "Priority among a funeral, a bride, and a circumcision",
+   "corpusPath": "/corpus/yd1/siman360",
+   "subtitleHe": "מת וכלה ומילה איזה קודם"
+  },
+  {
+   "siman": 361,
+   "title": "Siman 361",
+   "subtitle": "Escorting the dead and interrupting Torah study for a funeral",
+   "corpusPath": "/corpus/yd1/siman361",
+   "subtitleHe": "הלוית המת ובטול ת\"ת להלויתו"
+  },
+  {
+   "siman": 362,
+   "title": "Siman 362",
+   "subtitle": "To bury in the ground, and if they bury two dead together",
+   "corpusPath": "/corpus/yd1/siman362",
+   "subtitleHe": "לקבור בקרקע ואם קוברין שני מתים יחד"
+  },
+  {
+   "siman": 363,
+   "title": "Siman 363",
+   "subtitle": "Moving a corpse or bones from their place",
+   "corpusPath": "/corpus/yd1/siman363",
+   "subtitleHe": "איסור פנוי המת והעצמות ממקומן"
+  },
+  {
+   "siman": 364,
+   "title": "Siman 364",
+   "subtitle": "Prohibition of benefit from a grave, stone, and structure",
+   "corpusPath": "/corpus/yd1/siman364",
+   "subtitleHe": "איסור הנאה של קבר והאבן והבנין"
+  },
+  {
+   "siman": 365,
+   "title": "Siman 365",
+   "subtitle": "One who digs a grave is exempt from Keriat Shema, and how far cemeteries are from the city",
+   "corpusPath": "/corpus/yd1/siman365",
+   "subtitleHe": "החופר קבר פטור מק\"ש וכמה מרחיקין הקברות מהעיר"
+  },
+  {
+   "siman": 366,
+   "title": "Siman 366",
+   "subtitle": "One who sells a grave, and a woman who inherited a grave from her family",
+   "corpusPath": "/corpus/yd1/siman366",
+   "subtitleHe": "דין המוכר קבר ואשה שירשה קבר ממשפחתה"
+  },
+  {
+   "siman": 367,
+   "title": "Siman 367",
+   "subtitle": "Burial of non-Jews and tefillin or tzitzis in a cemetery",
+   "corpusPath": "/corpus/yd1/siman367",
+   "subtitleHe": "קוברים מתי עכו\"ם ושלא יהלך בבית הקברות בתפילין וציצית"
+  },
+  {
+   "siman": 368,
+   "title": "Siman 368",
+   "subtitle": "Not to treat the cemetery lightly",
+   "corpusPath": "/corpus/yd1/siman368",
+   "subtitleHe": "שלא לנהוג קלות ראש בבית הקברות"
+  },
+  {
+   "siman": 369,
+   "title": "Siman 369",
+   "subtitle": "Tumah from which a kohen must refrain",
+   "corpusPath": "/corpus/yd1/siman369",
+   "subtitleHe": "על איזה טומאה הכהן מוזהר"
+  },
+  {
+   "siman": 370,
+   "title": "Siman 370",
+   "subtitle": "Who is considered dead although still alive",
+   "corpusPath": "/corpus/yd1/siman370",
+   "subtitleHe": "מי הוא החשוב כמת אף על פי שעודנו חי"
+  },
+  {
+   "siman": 371,
+   "title": "Siman 371",
+   "subtitle": "How an ohel transmits tumah",
+   "corpusPath": "/corpus/yd1/siman371",
+   "subtitleHe": "דין אהל היאך מביא הטומאה"
+  },
+  {
+   "siman": 372,
+   "title": "Siman 372",
+   "subtitle": "Tumah permitted for a mitzvah and non-Jewish graves",
+   "corpusPath": "/corpus/yd1/siman372",
+   "subtitleHe": "היתר טומאה במקום מצוה ודין קברי עובדי כוכבים"
+  },
+  {
+   "siman": 373,
+   "title": "Siman 373",
+   "subtitle": "Kohen tumah: prohibited and permitted relatives",
+   "corpusPath": "/corpus/yd1/siman373",
+   "subtitleHe": "איזה כהן מוזהר על הטומאה ולאיזה מתים מטמא ועד מתי מטמא"
+  },
+  {
+   "siman": 374,
+   "title": "Siman 374",
+   "subtitle": "Impurity of a kohen for a met mitzvah, for a nasi and teacher, and for which dead they mourn",
+   "corpusPath": "/corpus/yd1/siman374",
+   "subtitleHe": "טומאת כהן למת מצוה לנשיא ולרבו ועל איזה מת מתאבלין"
+  },
+  {
+   "siman": 375,
+   "title": "Siman 375",
+   "subtitle": "When mourning begins and reinterment",
+   "corpusPath": "/corpus/yd1/siman375",
+   "subtitleHe": "אימתי מתחיל האבילות ולמי שמפנין מקבר לקבר"
+  },
+  {
+   "siman": 376,
+   "title": "Siman 376",
+   "subtitle": "Conduct of consolers and a deceased person with no mourners",
+   "corpusPath": "/corpus/yd1/siman376",
+   "subtitleHe": "מנהג המנחמים ודין מת שאין לו מנחמים"
+  },
+  {
+   "siman": 377,
+   "title": "Siman 377",
+   "subtitle": "Slaves, maidservants, and a excommunicated person who have mourning",
+   "corpusPath": "/corpus/yd1/siman377",
+   "subtitleHe": "דין עבדים ושפחות ומנודה שיש להם אבילות"
+  },
+  {
+   "siman": 378,
+   "title": "Siman 378",
+   "subtitle": "The meal of recovery for a man and for a woman",
+   "corpusPath": "/corpus/yd1/siman378",
+   "subtitleHe": "דיני סעודת הבראה לאיש ולאשה"
+  },
+  {
+   "siman": 379,
+   "title": "Siman 379",
+   "subtitle": "Birkat Hamazon in a mourner's home",
+   "corpusPath": "/corpus/yd1/siman379",
+   "subtitleHe": "דין ברכת המזון בבית האבל"
+  },
+  {
+   "siman": 380,
+   "title": "Siman 380",
+   "subtitle": "Activities prohibited to a mourner",
+   "corpusPath": "/corpus/yd1/siman380",
+   "subtitleHe": "דברים שהאבל אסור בהם"
+  },
+  {
+   "siman": 381,
+   "title": "Siman 381",
+   "subtitle": "Bathing and anointing during mourning",
+   "corpusPath": "/corpus/yd1/siman381",
+   "subtitleHe": "איסור רחיצה וסיכה לאבל"
+  },
+  {
+   "siman": 382,
+   "title": "Siman 382",
+   "subtitle": "Prohibition of wearing shoes for a mourner",
+   "corpusPath": "/corpus/yd1/siman382",
+   "subtitleHe": "איסור נעילת הסנדל לאבל"
+  },
+  {
+   "siman": 383,
+   "title": "Siman 383",
+   "subtitle": "Marital relations during mourning",
+   "corpusPath": "/corpus/yd1/siman383",
+   "subtitleHe": "איסור תשמיש המטה לאבל"
+  },
+  {
+   "siman": 384,
+   "title": "Siman 384",
+   "subtitle": "Torah study during mourning",
+   "corpusPath": "/corpus/yd1/siman384",
+   "subtitleHe": "האבל אסור בתלמוד תורה"
+  },
+  {
+   "siman": 385,
+   "title": "Siman 385",
+   "subtitle": "Greeting others during mourning",
+   "corpusPath": "/corpus/yd1/siman385",
+   "subtitleHe": "דין שאלת שלום באבל"
+  },
+  {
+   "siman": 386,
+   "title": "Siman 386",
+   "subtitle": "Head covering during mourning",
+   "corpusPath": "/corpus/yd1/siman386",
+   "subtitleHe": "עטיפת הראש באבל"
+  },
+  {
+   "siman": 387,
+   "title": "Siman 387",
+   "subtitle": "Overturning the bed",
+   "corpusPath": "/corpus/yd1/siman387",
+   "subtitleHe": "דין כפיית המטה"
+  },
+  {
+   "siman": 388,
+   "title": "Siman 388",
+   "subtitle": "A mourner on the first day is forbidden to put on tefillin",
+   "corpusPath": "/corpus/yd1/siman388",
+   "subtitleHe": "אבל ביום ראשון אסור להניח תפילין"
+  },
+  {
+   "siman": 389,
+   "title": "Siman 389",
+   "subtitle": "Laundering and ironing during mourning",
+   "corpusPath": "/corpus/yd1/siman389",
+   "subtitleHe": "אבל אסור בכביסת כסותו ודין גיהוץ"
+  },
+  {
+   "siman": 390,
+   "title": "Siman 390",
+   "subtitle": "Shaving and combing for a mourner",
+   "corpusPath": "/corpus/yd1/siman390",
+   "subtitleHe": "דיני גלוח וסריקה באבל"
+  },
+  {
+   "siman": 391,
+   "title": "Siman 391",
+   "subtitle": "A mourner is forbidden in all kinds of joy",
+   "corpusPath": "/corpus/yd1/siman391",
+   "subtitleHe": "אבל אסור בכל מיני שמחה"
+  },
+  {
+   "siman": 392,
+   "title": "Siman 392",
+   "subtitle": "Marriage during the thirty-day mourning period",
+   "corpusPath": "/corpus/yd1/siman392",
+   "subtitleHe": "אבל אסור כל ל' יום לישא אשה"
+  },
+  {
+   "siman": 393,
+   "title": "Siman 393",
+   "subtitle": "When a mourner may leave home",
+   "corpusPath": "/corpus/yd1/siman393",
+   "subtitleHe": "מתי האבל יכול לצאת מביתו"
+  },
+  {
+   "siman": 394,
+   "title": "Siman 394",
+   "subtitle": "Not to be overly stringent on the deceased",
+   "corpusPath": "/corpus/yd1/siman394",
+   "subtitleHe": "שלא להתקשות על המת יותר מדאי"
+  },
+  {
+   "siman": 395,
+   "title": "Siman 395",
+   "subtitle": "Part of the seventh or thirtieth day counts as the whole day",
+   "corpusPath": "/corpus/yd1/siman395",
+   "subtitleHe": "מקצת יום השבעה והשלשים ככולו"
+  },
+  {
+   "siman": 396,
+   "title": "Siman 396",
+   "subtitle": "A mourner who did not observe his mourning all seven days",
+   "corpusPath": "/corpus/yd1/siman396",
+   "subtitleHe": "דין אבל שלא נהג אבלותו כל שבעה"
+  },
+  {
+   "siman": 397,
+   "title": "Siman 397",
+   "subtitle": "Testimony to observe mourning based on it",
+   "corpusPath": "/corpus/yd1/siman397",
+   "subtitleHe": "דיני עדות לנהוג אבילות על פיהם"
+  },
+  {
+   "siman": 398,
+   "title": "Siman 398",
+   "subtitle": "First-day mourning is d'oraisa",
+   "corpusPath": "/corpus/yd1/siman398",
+   "subtitleHe": "אבלות יום ראשון דאורייתא"
+  },
+  {
+   "siman": 399,
+   "title": "Siman 399",
+   "subtitle": "Mourning during a festival, Rosh HaShanah, and second days of diaspora",
+   "corpusPath": "/corpus/yd1/siman399",
+   "subtitleHe": "דיני אבלות ברגל בראש השנה וי\"ט שני של גליות"
+  },
+  {
+   "siman": 400,
+   "title": "Siman 400",
+   "subtitle": "Mourning on Shabbos",
+   "corpusPath": "/corpus/yd1/siman400",
+   "subtitleHe": "דיני אבלות בשבת"
+  },
+  {
+   "siman": 401,
+   "title": "Siman 401",
+   "subtitle": "Matters practiced on chol haMoed",
+   "corpusPath": "/corpus/yd1/siman401",
+   "subtitleHe": "דברים הנוהגים בחול המועד"
+  },
+  {
+   "siman": 402,
+   "title": "Siman 402",
+   "subtitle": "Close and distant tidings",
+   "corpusPath": "/corpus/yd1/siman402",
+   "subtitleHe": "דין שמועה קרובה ורחוקה"
+  },
+  {
+   "siman": 403,
+   "title": "Siman 403",
+   "subtitle": "Yoreh De'ah",
+   "corpusPath": "/corpus/yd1/siman403"
+  }
+ ],
+ "searchIndex": {
+  "redirects": {
+   "169": 168
+  },
+  "merged": [
+   {
+    "canonical": 168,
+    "includes": [
+     169
+    ],
+    "comment": "Standard Shulchan Aruch numbering: siman 169 (קסט) is merged into siman 168 (קסח–קסט, ribbis via a non-Jew). Content lives at siman 168 only."
+   }
+  ]
+ }
+}

@@ -1,9 +1,9 @@
 /* Layer 2 — technical/runtime settings only. No Torah prose. See data/site.json for approved site copy. */
 window.DIBURIM_CONFIG = {
   siteUrl: "https://diburim.org",
-  /** Live reader (GitHub Pages or custom domain) for the separate Shulchan Aruch repo */
-  externalShulchanAruchUrl: "https://bennyg83.github.io/shulchan_aruch/",
-  externalShulchanAruchLabel: "Open translation",
+  /** Same-origin path to the built web reader (Vite base /shulchan_aruch/) */
+  shulchanAruchPath: "shulchan_aruch/",
+  shulchanAruchReaderLabel: "Open translation",
   shulchanAruchRepoUrl: "https://github.com/bennyg83/shulchan_aruch",
   shulchanAruchRepoLabel: "GitHub repository",
   subscribeEndpoint: "",
