@@ -50,7 +50,7 @@ FILENAME_TO_PARSHA: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"ber(?:e|i)sh(?:it|is)", re.I), "Bereishis"),
     (re.compile(r"berishit", re.I), "Bereishis"),
     (re.compile(r"erev\s+shabbos\s+ber(?:e)?i?shit\b", re.I), "Bereishis"),
-    (re.compile(r"chayei\s*sor[ah]?", re.I), "Chayei Sara"),
+    (re.compile(r"chayei\s*sar[ah]?", re.I), "Chayei Sara"),
     (re.compile(r"\bnoach\b", re.I), "Noach"),
     (re.compile(r"lech\s*lecha|levh\s*levha", re.I), "Lech Lecha"),
     (re.compile(r"vaye?ir", re.I), "Vayera"),
@@ -129,7 +129,47 @@ HOLIDAY_CATALOG_META: dict[str, tuple[str, str]] = {
 # Filename → forced catalog id when parsha alone is ambiguous
 FILENAME_FORCE_ID: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"dvar\s*torah.*vaye?re", re.I), "vayera-mesirat-nefesh"),
+    # Prior-year editions (separate catalog ids; not deduped with current cycle)
+    (re.compile(r"erev\s+shabbos\s+ber(?:e)?i?shit\.m4a$", re.I), "bereishis-2025"),
+    (re.compile(r"erev\s+shabbos\s+chayei\s+sora\.m4a$", re.I), "chayei-sara-2025"),
+    (re.compile(r"^erev\s+simchat\s+torah\.m4a$", re.I), "erev-simchat-torah-2025"),
 ]
+
+# Metadata for archive editions (created in catalog when missing)
+ARCHIVE_CATALOG_PIECES: dict[str, dict] = {
+    "bereishis-2025": {
+        "id": "bereishis-2025",
+        "title": "Parshas Bereishis",
+        "kind": "parsha",
+        "series": "Weekly Torah",
+        "parsha": "Bereishis",
+        "sefer": "Bereishis",
+        "categories": ["torah"],
+        "date": "2025-10-17",
+        "dateDisplay": "October 17, 2025",
+    },
+    "chayei-sara-2025": {
+        "id": "chayei-sara-2025",
+        "title": "Parshas Chayei Sara",
+        "kind": "parsha",
+        "series": "Weekly Torah",
+        "parsha": "Chayei Sara",
+        "sefer": "Bereishis",
+        "categories": ["torah"],
+        "date": "2025-11-14",
+        "dateDisplay": "November 14, 2025",
+    },
+    "erev-simchat-torah-2025": {
+        "id": "erev-simchat-torah-2025",
+        "title": "Erev Simchat Torah",
+        "kind": "holiday",
+        "series": "Yamim Tovim",
+        "holiday": "Simchat Torah",
+        "categories": ["torah"],
+        "date": "2025-10-10",
+        "dateDisplay": "October 10, 2025",
+    },
+}
 
 
 def norm(text: str) -> str:
@@ -266,6 +306,27 @@ def find_holiday_date(cal: dict, holiday_key: str) -> tuple[str | None, str | No
     pick = y2026[-1] if y2026 else dates[-1]
     dt = datetime.strptime(pick, "%Y-%m-%d")
     return pick, dt.strftime("%B %d, %Y").replace(" 0", " ")
+
+
+def ensure_archive_catalog() -> None:
+    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+    pieces = catalog.get("pieces", [])
+    ids = {p["id"] for p in pieces}
+    changed = False
+    for pid, piece in ARCHIVE_CATALOG_PIECES.items():
+        if pid in ids:
+            continue
+        pieces.append(dict(piece))
+        changed = True
+        article_path = ARTICLES_DIR / f"{pid}.json"
+        if not article_path.is_file():
+            article_path.write_text(
+                json.dumps({"body": None, "bodyFormat": "html"}, indent=2) + "\n",
+                encoding="utf-8",
+            )
+    if changed:
+        catalog["pieces"] = pieces
+        CATALOG_PATH.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def ensure_holiday_catalog() -> None:
@@ -518,6 +579,7 @@ def main() -> None:
     }
 
     if args.apply:
+        ensure_archive_catalog()
         ensure_holiday_catalog()
         by_parsha, by_holiday = load_catalog_index()
         report["applied"] = apply_import(selected, by_parsha, by_holiday)

@@ -990,6 +990,44 @@
       ],
       "date": "2026-09-08",
       "dateDisplay": "September 8, 2026"
+    },
+    {
+      "id": "bereishis-2025",
+      "title": "Parshas Bereishis",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Bereishis",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-10-17",
+      "dateDisplay": "October 17, 2025"
+    },
+    {
+      "id": "chayei-sara-2025",
+      "title": "Parshas Chayei Sara",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Chayei Sara",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-11-14",
+      "dateDisplay": "November 14, 2025"
+    },
+    {
+      "id": "erev-simchat-torah-2025",
+      "title": "Erev Simchat Torah",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Simchat Torah",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-10-10",
+      "dateDisplay": "October 10, 2025"
     }
   ],
   "calendarSource": "data/parsha-calendar.json"

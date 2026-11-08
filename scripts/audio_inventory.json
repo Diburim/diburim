@@ -2,7 +2,7 @@
   "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim",
   "preferYear": 2026,
   "excludedCount": 12,
-  "selectedCount": 55,
+  "selectedCount": 58,
   "excluded": [
     {
       "file": "Erev Nitavim Vayelech not public.m4a",
@@ -185,6 +185,51 @@
       "suggestedCatalogId": "sukkot-story",
       "catalogId": "sukkot-story",
       "dest": "assets/audio/holidays/sukkot-story.m4a"
+    },
+    {
+      "file": "Erev Shabbos Bereishit.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Bereishit.m4a",
+      "mtime": "2025-10-17T00:20:25",
+      "years": [
+        2025
+      ],
+      "group": "id:bereishis-2025",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "bereishis-2025",
+      "suggestedCatalogId": "bereishis-2025",
+      "catalogId": "bereishis-2025",
+      "dest": "assets/audio/parsha/bereishis-2025.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chayei Sora.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chayei Sora.m4a",
+      "mtime": "2025-11-14T11:50:19",
+      "years": [
+        2025
+      ],
+      "group": "id:chayei-sara-2025",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "chayei-sara-2025",
+      "suggestedCatalogId": "chayei-sara-2025",
+      "catalogId": "chayei-sara-2025",
+      "dest": "assets/audio/parsha/chayei-sara-2025.m4a"
+    },
+    {
+      "file": "Erev simchat Torah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev simchat Torah.m4a",
+      "mtime": "2025-10-10T12:37:24",
+      "years": [
+        2025
+      ],
+      "group": "id:erev-simchat-torah-2025",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "erev-simchat-torah-2025",
+      "suggestedCatalogId": "erev-simchat-torah-2025",
+      "catalogId": "erev-simchat-torah-2025",
+      "dest": "assets/audio/holidays/erev-simchat-torah-2025.m4a"
     },
     {
       "file": "Dvar Torah Parshas Vayere.m4a",
@@ -1102,21 +1147,6 @@
   ],
   "unmapped": [
     {
-      "file": "Erev Shabbos Bereishit.m4a",
-      "mtime": "2025-10-17T00:20:25",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Shabbos Chayei Sora.m4a",
-      "mtime": "2025-11-14T11:50:19",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev simchat Torah.m4a",
-      "mtime": "2025-10-10T12:37:24",
-      "note": "no parsha/holiday match"
-    },
-    {
       "file": "Heker halacha for Liba Esther.m4a",
       "mtime": "2025-11-30T22:02:14",
       "note": "no parsha/holiday match"
@@ -1242,6 +1272,51 @@
       "suggestedCatalogId": "sukkot-story",
       "catalogId": "sukkot-story",
       "dest": "assets/audio/holidays/sukkot-story.m4a"
+    },
+    {
+      "file": "Erev Shabbos Bereishit.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Bereishit.m4a",
+      "mtime": "2025-10-17T00:20:25",
+      "years": [
+        2025
+      ],
+      "group": "id:bereishis-2025",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "bereishis-2025",
+      "suggestedCatalogId": "bereishis-2025",
+      "catalogId": "bereishis-2025",
+      "dest": "assets/audio/parsha/bereishis-2025.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chayei Sora.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chayei Sora.m4a",
+      "mtime": "2025-11-14T11:50:19",
+      "years": [
+        2025
+      ],
+      "group": "id:chayei-sara-2025",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "chayei-sara-2025",
+      "suggestedCatalogId": "chayei-sara-2025",
+      "catalogId": "chayei-sara-2025",
+      "dest": "assets/audio/parsha/chayei-sara-2025.m4a"
+    },
+    {
+      "file": "Erev simchat Torah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev simchat Torah.m4a",
+      "mtime": "2025-10-10T12:37:24",
+      "years": [
+        2025
+      ],
+      "group": "id:erev-simchat-torah-2025",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "erev-simchat-torah-2025",
+      "suggestedCatalogId": "erev-simchat-torah-2025",
+      "catalogId": "erev-simchat-torah-2025",
+      "dest": "assets/audio/holidays/erev-simchat-torah-2025.m4a"
     },
     {
       "file": "Dvar Torah Parshas Vayere.m4a",
