@@ -533,6 +533,65 @@ def apply_import(selected: list[dict], by_parsha, by_holiday) -> list[dict]:
     return applied
 
 
+AUDIO_EXT = {".m4a", ".mp3", ".aac", ".wav"}
+
+
+def sync_audio_from_assets() -> dict:
+    """
+    Point content/articles/*.json at audio files already under assets/audio/.
+    Does not copy from Desktop; use --apply for that workflow.
+    """
+    ensure_archive_catalog()
+    ensure_holiday_catalog()
+    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+    by_id = {p["id"]: p for p in catalog.get("pieces", [])}
+    updated: list[str] = []
+    unmapped: list[str] = []
+    stubs: list[str] = []
+
+    for folder, dest_dir in (("parsha", AUDIO_OUT_DIR), ("holidays", AUDIO_HOLIDAY_DIR)):
+        if not dest_dir.is_dir():
+            continue
+        for path in sorted(dest_dir.iterdir()):
+            if not path.is_file() or path.suffix.lower() not in AUDIO_EXT:
+                continue
+            piece_id = path.stem
+            rel = f"assets/audio/{folder}/{path.name}"
+            if piece_id not in by_id:
+                unmapped.append(rel)
+                continue
+            article_path = ARTICLES_DIR / f"{piece_id}.json"
+            had_file = article_path.is_file()
+            article: dict = {}
+            if had_file:
+                article = json.loads(article_path.read_text(encoding="utf-8"))
+            if article.get("audio") == rel and had_file:
+                continue
+            article["audio"] = rel
+            article.setdefault("bodyFormat", "html")
+            article_path.parent.mkdir(parents=True, exist_ok=True)
+            article_path.write_text(
+                json.dumps(article, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            updated.append(piece_id)
+            if not had_file:
+                stubs.append(piece_id)
+
+    print(
+        f"Audio sync: {len(updated)} article(s) updated, "
+        f"{len(unmapped)} file(s) without catalog id, "
+        f"{len(stubs)} new article stub(s)"
+    )
+    if unmapped:
+        print("  unmapped:", ", ".join(unmapped[:20]) + ("..." if len(unmapped) > 20 else ""))
+    return {
+        "updated": updated,
+        "unmapped": unmapped,
+        "articleStubs": stubs,
+    }
+
+
 def main() -> None:
     import argparse
 

@@ -1,0 +1,47 @@
+name: Catalog Update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pypdf
+
+      - name: Run catalog sync
+        run: python scripts/catalog_update.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No catalog changes detected."
+            exit 0
+          fi
+          git add data/catalog.json content/articles scripts/catalog_update_report.json
+          git commit -m "$(cat <<'EOF'
+chore: catalog update from assets
+
+Automated sync for Hilchos Shabbos PDFs, audio paths, and weekly Torah catalog metadata.
+
+EOF
+)"
+          git push

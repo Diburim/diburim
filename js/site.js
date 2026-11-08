@@ -171,6 +171,21 @@
     return Boolean(safeMediaUrl(p && p.audio));
   }
 
+  function youtubeVideoId(id) {
+    return /^[A-Za-z0-9_-]{11}$/.test(String(id || "").trim()) ? String(id).trim() : "";
+  }
+
+  function piecePrintPdfUrl(piece) {
+    if (!piece) return "";
+    const explicit = safeMediaUrl(piece.pdf);
+    if (explicit) return explicit;
+    if (piece.kind === "study-guide") return "";
+    if (piece.parsha || piece.holiday || piece.kind === "parsha") {
+      return "assets/parsha/" + encodeURIComponent(piece.id) + ".pdf";
+    }
+    return "";
+  }
+
   function applyLoadedArticle(piece, article) {
     if (window.DIBURIM_applyArticle) {
       window.DIBURIM_applyArticle(piece, article);
@@ -735,11 +750,30 @@
       metaEl.innerHTML = [piece.dateDisplay, minutes ? minutes + " min read" : "", piece.series].filter(Boolean).map(escapeHtml).join(" · ");
     }
     mountPieceAudio(mount, piece, ui);
+    bindPiecePrint(piece);
+  }
+
+  function bindPiecePrint(piece) {
+    const printBtn = document.getElementById("print-piece");
+    if (!printBtn) return;
+    const pdfUrl = piecePrintPdfUrl(piece);
+    printBtn.replaceWith(printBtn.cloneNode(true));
+    const btn = document.getElementById("print-piece");
+    if (!btn) return;
+    if (pdfUrl) {
+      btn.textContent = "Print / save PDF";
+      btn.addEventListener("click", function () {
+        window.open(pdfUrl, "_blank", "noopener,noreferrer");
+      });
+    } else {
+      btn.textContent = "Print / save as PDF";
+      btn.addEventListener("click", function () {
+        window.print();
+      });
+    }
   }
 
   function bindPieceChrome(mount) {
-    const printBtn = document.getElementById("print-piece");
-    if (printBtn) printBtn.addEventListener("click", function () { window.print(); });
     const shareBtn = document.getElementById("share-piece");
     if (shareBtn) {
       shareBtn.addEventListener("click", function () {
@@ -779,6 +813,10 @@
     const prev = byId(piece.prevId, pieces);
     const next = byId(piece.nextId, pieces);
     const parshaLabel = piece.parsha ? "Parshas " + piece.parsha : "";
+    const kidsVideo = kidsVideoForPiece(cfg, piece.id);
+    const kidsVideoLink = kidsVideo
+      ? '<a class="btn btn-ghost" href="videos.html#parsha">Video for children</a>'
+      : "";
     mount.innerHTML =
       '<div class="piece-layout piece-layout--read" data-piece-id="' + escapeHtml(piece.id) + '">' +
         '<article class="piece-read">' +
@@ -794,6 +832,7 @@
           '<div class="tools">' +
             '<button class="btn btn-ghost" type="button" id="print-piece">Print / Save as PDF</button>' +
             '<a class="btn btn-ghost" href="#sources">Source sheet</a>' +
+            kidsVideoLink +
             '<button class="btn btn-ghost" type="button" id="share-piece">Share link</button>' +
           "</div>" +
           '<div class="piece-body article-body">' + built.bodyHtml + "</div>" +
@@ -806,6 +845,7 @@
         "</article>" +
       "</div>";
     bindPieceChrome(mount);
+    bindPiecePrint(piece);
 
     function afterArticleLoaded(article) {
       const layout = mount.querySelector(".piece-layout");
@@ -922,12 +962,26 @@
       : '<p class="muted">' + escapeHtml(ui.libraryEmpty || "[CONTENT PENDING]") + "</p>";
   }
 
+  function kidsVideoForPiece(cfg, pieceId) {
+    const sections = (cfg && cfg.videoSections) || [];
+    for (let si = 0; si < sections.length; si += 1) {
+      const videos = sections[si].videos || [];
+      for (let vi = 0; vi < videos.length; vi += 1) {
+        const v = videos[vi];
+        const linked = v.pieceId === pieceId || v.id === pieceId;
+        if (linked && youtubeVideoId(v.youtubeId)) return v;
+      }
+    }
+    return null;
+  }
+
   function videoCardMarkup(video, ui) {
-    const idOk = /^[A-Za-z0-9_-]{11}$/.test(video.youtubeId || "");
+    const idOk = Boolean(youtubeVideoId(video.youtubeId));
+    const ytId = youtubeVideoId(video.youtubeId);
     const label = video.title || video.occasion || video.parsha || "Video";
     const frame = idOk
-      ? '<iframe src="https://www.youtube-nocookie.com/embed/' + video.youtubeId + '" title="' + escapeHtml(label) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>'
-      : '<div class="video-hold"><p class="muted">' + escapeHtml(ui.contentPending || "[CONTENT PENDING]") + "</p></div>";
+      ? '<iframe src="https://www.youtube-nocookie.com/embed/' + escapeHtml(ytId) + '" title="' + escapeHtml(label) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>'
+      : "";
     const kicker = video.parsha || video.occasion || "";
     const titleHtml = video.title
       ? "<h2>" + escapeHtml(video.title) + "</h2>"
@@ -953,9 +1007,14 @@
     const sections = cfg.videoSections;
     if (sections && sections.length) {
       mount.innerHTML = sections.map(function (section) {
-        const cards = (section.videos || []).map(function (video) {
-          return videoCardMarkup(video, ui);
-        }).join("");
+        const cards = (section.videos || [])
+          .filter(function (video) {
+            return youtubeVideoId(video.youtubeId);
+          })
+          .map(function (video) {
+            return videoCardMarkup(video, ui);
+          })
+          .join("");
         if (!cards) return "";
         return (
           '<section class="video-section" id="' + escapeHtml(section.id || "") + '" aria-labelledby="video-section-' + escapeHtml(section.id || "") + '">' +

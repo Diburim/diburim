@@ -1,0 +1,16 @@
+{
+  "studyGuides": {
+    "ran": true,
+    "count": 10
+  },
+  "audio": {
+    "updated": [],
+    "unmapped": [],
+    "articleStubs": []
+  },
+  "weekly": {
+    "created": [],
+    "datesFilled": [],
+    "warnings": []
+  }
+}
