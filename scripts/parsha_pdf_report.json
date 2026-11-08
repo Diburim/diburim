@@ -1,0 +1,362 @@
+{
+  "applied": [
+    {
+      "id": "balak",
+      "status": "applied",
+      "docx": "Parshas_Balak_Diburim.docx",
+      "pdf": "assets/parsha/balak.pdf"
+    },
+    {
+      "id": "bamidbar",
+      "status": "applied",
+      "docx": "Parshas_Bamidbar_Diburim.docx",
+      "pdf": "assets/parsha/bamidbar.pdf"
+    },
+    {
+      "id": "behaaloscha",
+      "status": "applied",
+      "docx": "Parshas_Behaaloscha_Diburim.docx",
+      "pdf": "assets/parsha/behaaloscha.pdf"
+    },
+    {
+      "id": "chukat",
+      "status": "applied",
+      "docx": "Parshas_Chukas.docx",
+      "pdf": "assets/parsha/chukat.pdf"
+    },
+    {
+      "id": "korach",
+      "status": "applied",
+      "docx": "Parshas_Korach_Diburim.docx",
+      "pdf": "assets/parsha/korach.pdf"
+    },
+    {
+      "id": "matot-masei",
+      "status": "applied",
+      "docx": "Parshas_Matos_Masei_Full_Diburim.docx",
+      "pdf": "assets/parsha/matot-masei.pdf"
+    },
+    {
+      "id": "nasso",
+      "status": "applied",
+      "docx": "Parshas Nasso Shavuos.docx",
+      "pdf": "assets/parsha/nasso.pdf"
+    },
+    {
+      "id": "pinchas",
+      "status": "applied",
+      "docx": "Parshas_Pinchas_Full_Diburim.docx",
+      "pdf": "assets/parsha/pinchas.pdf"
+    },
+    {
+      "id": "shlach",
+      "status": "applied",
+      "docx": "Parshas Shlach Diburim.docx",
+      "pdf": "assets/parsha/shlach.pdf"
+    },
+    {
+      "id": "kuntres-bereishit",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "chayei-sara",
+      "status": "applied",
+      "docx": "D_var Torah_ Parshat Chayei Sarah.docx",
+      "pdf": "assets/parsha/chayei-sara.pdf"
+    },
+    {
+      "id": "lech-lecha",
+      "status": "applied",
+      "docx": "Lech Lecha_ The Beginnings of Z_chut Avot.docx",
+      "pdf": "assets/parsha/lech-lecha.pdf"
+    },
+    {
+      "id": "miketz",
+      "status": "applied",
+      "docx": "Parshas_Miketz_Diburim.docx",
+      "pdf": "assets/parsha/miketz.pdf"
+    },
+    {
+      "id": "noach",
+      "status": "applied",
+      "docx": "Parshas Noach \u2013 A Deeper Look at Tafkid, Messaging, and Identity.docx",
+      "pdf": "assets/parsha/noach.pdf"
+    },
+    {
+      "id": "toldot",
+      "status": "applied",
+      "docx": "Dvar Torah for Parshas Toldos.docx",
+      "pdf": "assets/parsha/toldot.pdf"
+    },
+    {
+      "id": "vayera-mesirat-nefesh",
+      "status": "applied",
+      "docx": "Parshas Vayeira - Mesirat Nefesh and Chazakas.docx",
+      "pdf": "assets/parsha/vayera-mesirat-nefesh.pdf"
+    },
+    {
+      "id": "vayera-rule-of-three",
+      "status": "applied",
+      "docx": "Parshas Vayeira \u2013 The Rule of Three.docx",
+      "pdf": "assets/parsha/vayera-rule-of-three.pdf"
+    },
+    {
+      "id": "vayeshev",
+      "status": "applied",
+      "docx": "Parshas_Vayeishev_Diburim.docx",
+      "pdf": "assets/parsha/vayeshev.pdf"
+    },
+    {
+      "id": "vayetzei",
+      "status": "applied",
+      "docx": "D\u2019var Torah on Parshas Vayetzei_ When Speech Builds and Listening Unites.docx",
+      "pdf": "assets/parsha/vayetzei.pdf"
+    },
+    {
+      "id": "vayishlach",
+      "status": "applied",
+      "docx": "D_var Torah on Parshas Vayishlach_ Standing in Front.docx",
+      "pdf": "assets/parsha/vayishlach.pdf"
+    },
+    {
+      "id": "kuntres-sefer-bereishis",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "kuntres-devarim",
+      "status": "applied",
+      "docx": "Parshas_Reeh_Full_Diburim.docx",
+      "pdf": "assets/parsha/kuntres-devarim.pdf"
+    },
+    {
+      "id": "devarim",
+      "status": "applied",
+      "docx": "KUNTRES SEFER DEVARIM v2.docx",
+      "pdf": "assets/parsha/devarim.pdf"
+    },
+    {
+      "id": "eikev",
+      "status": "applied",
+      "docx": "Parshas_Eikev_Diburim.docx",
+      "pdf": "assets/parsha/eikev.pdf"
+    },
+    {
+      "id": "haazinu",
+      "status": "applied",
+      "docx": "Dvar Torah \u2013 Haazinu.docx",
+      "pdf": "assets/parsha/haazinu.pdf"
+    },
+    {
+      "id": "ki-tavo",
+      "status": "applied",
+      "docx": "Parshas_KiTavo_Diburim.docx",
+      "pdf": "assets/parsha/ki-tavo.pdf"
+    },
+    {
+      "id": "ki-teitzei-elul",
+      "status": "applied",
+      "docx": "Ki Tetzei \u2013 A Checklist for Elul.docx",
+      "pdf": "assets/parsha/ki-teitzei-elul.pdf"
+    },
+    {
+      "id": "ki-teitzei",
+      "status": "applied",
+      "docx": "Parshas Ki Seitzei 2026.docx",
+      "pdf": "assets/parsha/ki-teitzei.pdf"
+    },
+    {
+      "id": "nitzavim",
+      "status": "applied",
+      "docx": "Standing Together_ Hidden Things, Revealed Responsibility.docx",
+      "pdf": "assets/parsha/nitzavim.pdf"
+    },
+    {
+      "id": "re-eh",
+      "status": "applied",
+      "docx": "Parshas_Reeh_Full_Diburim.docx",
+      "pdf": "assets/parsha/re-eh.pdf"
+    },
+    {
+      "id": "shoftim-elul",
+      "status": "applied",
+      "docx": "D\u2019var Torah \u2013 Elul & Parshat Shoftim.docx",
+      "pdf": "assets/parsha/shoftim-elul.pdf"
+    },
+    {
+      "id": "shoftim",
+      "status": "applied",
+      "docx": "Parshas Shoftim Rosh Chodesh Elul 2026.docx",
+      "pdf": "assets/parsha/shoftim.pdf"
+    },
+    {
+      "id": "vaetchanan",
+      "status": "applied",
+      "docx": "Parshas_Vaetchanan_Diburim.docx",
+      "pdf": "assets/parsha/vaetchanan.pdf"
+    },
+    {
+      "id": "vayelech",
+      "status": "applied",
+      "docx": "Parshat Vayeleich \u2013 Living Beyond the Self.docx",
+      "pdf": "assets/parsha/vayelech.pdf"
+    },
+    {
+      "id": "beshalach",
+      "status": "applied",
+      "docx": "D_var Torah on Parshas Beshalach_ Moving Forward Through Fear.docx",
+      "pdf": "assets/parsha/beshalach.pdf"
+    },
+    {
+      "id": "bo",
+      "status": "applied",
+      "docx": "D_var Torah on Parshas Bo_ Coming Together in Darkness.docx",
+      "pdf": "assets/parsha/bo.pdf"
+    },
+    {
+      "id": "ki-sisa",
+      "status": "applied",
+      "docx": "Dvar Torah_ Parshas Ki Sisa - long.docx",
+      "pdf": "assets/parsha/ki-sisa.pdf"
+    },
+    {
+      "id": "ki-sisa-teshuvah",
+      "status": "applied",
+      "docx": "Dvar Torah_ Parshas Ki Sisa - long.docx",
+      "pdf": "assets/parsha/ki-sisa-teshuvah.pdf"
+    },
+    {
+      "id": "mishpatim",
+      "status": "applied",
+      "docx": "D_var Torah on Parshas Mishpatim_ The Cycle of Growth.docx",
+      "pdf": "assets/parsha/mishpatim.pdf"
+    },
+    {
+      "id": "terumah",
+      "status": "applied",
+      "docx": "D_var Torah on Parshas Terumah_ Building the Dwelling Within.docx",
+      "pdf": "assets/parsha/terumah.pdf"
+    },
+    {
+      "id": "tetzaveh",
+      "status": "applied",
+      "docx": "Dvar Torah_ Parshas Tetzaveh.docx",
+      "pdf": "assets/parsha/tetzaveh.pdf"
+    },
+    {
+      "id": "vayakhel-pekudei",
+      "status": "applied",
+      "docx": "Dvar Torah_ Parshas Vayakhel-Pekudei.docx",
+      "pdf": "assets/parsha/vayakhel-pekudei.pdf"
+    },
+    {
+      "id": "yitro",
+      "status": "applied",
+      "docx": "D_var Torah on Parshas Yitro_ The Blueprint of Kavod.docx",
+      "pdf": "assets/parsha/yitro.pdf"
+    },
+    {
+      "id": "acharei-mot-kedoshim",
+      "status": "applied",
+      "docx": "acharei_mot_kedoshim.docx",
+      "pdf": "assets/parsha/acharei-mot-kedoshim.pdf"
+    },
+    {
+      "id": "behar-bechukotai",
+      "status": "applied",
+      "docx": "Parshas Behar Bechukosai.docx",
+      "pdf": "assets/parsha/behar-bechukotai.pdf"
+    },
+    {
+      "id": "emor",
+      "status": "applied",
+      "docx": "Parshas_Emor_Diburim.docx",
+      "pdf": "assets/parsha/emor.pdf"
+    },
+    {
+      "id": "shmini",
+      "status": "applied",
+      "docx": "Parshas Shmini Growth Within Structure, Reaching Without Burning.docx",
+      "pdf": "assets/parsha/shmini.pdf"
+    },
+    {
+      "id": "tazria-metzora",
+      "status": "applied",
+      "docx": "Tazria_Metzora_Diburim_Final.docx",
+      "pdf": "assets/parsha/tazria-metzora.pdf"
+    },
+    {
+      "id": "tzav",
+      "status": "applied",
+      "docx": "Dvar Torah_ Parshas Tzav - Shabbos HaGadol.docx",
+      "pdf": "assets/parsha/tzav.pdf"
+    },
+    {
+      "id": "vaera",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "vayikra",
+      "status": "applied",
+      "docx": "Dvar Torah_ Parshas Vayikra.docx",
+      "pdf": "assets/parsha/vayikra.pdf"
+    },
+    {
+      "id": "erev-pesach",
+      "status": "applied",
+      "docx": "Erev Pesach - From Mitzrayim to Closeness.docx",
+      "pdf": "assets/parsha/erev-pesach.pdf"
+    },
+    {
+      "id": "shvi-i-shel-pesach",
+      "status": "applied",
+      "docx": "Shvii Shel Pesach.docx",
+      "pdf": "assets/parsha/shvi-i-shel-pesach.pdf"
+    },
+    {
+      "id": "bereishis",
+      "status": "applied",
+      "docx": "Parshas Bereishis_ Knowing Our Worth, Embracing Our Words.docx",
+      "pdf": "assets/parsha/bereishis.pdf"
+    },
+    {
+      "id": "erev-rosh-hashanah",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "erev-yom-kippur",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "erev-sukkot",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "shabbos-chol-hamoed-sukkot",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "erev-simchat-torah",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "sukkot-story",
+      "status": "no_source_docx"
+    },
+    {
+      "id": "bereishis-2025",
+      "status": "applied",
+      "docx": "Parshas Bereishis_ Knowing Our Worth, Embracing Our Words.docx",
+      "pdf": "assets/parsha/bereishis-2025.pdf"
+    },
+    {
+      "id": "chayei-sara-2025",
+      "status": "applied",
+      "docx": "D_var Torah_ Parshat Chayei Sarah.docx",
+      "pdf": "assets/parsha/chayei-sara-2025.pdf"
+    },
+    {
+      "id": "erev-simchat-torah-2025",
+      "status": "no_source_docx"
+    }
+  ]
+}

@@ -52,25 +52,28 @@ python scripts/migrate_catalog.py
 
 Shabbat dates come from `data/parsha-calendar.json` (Hebcal; default NYC Diaspora). Change `geonameid` in `fetch_parsha_calendar.py` and re-run if you adopt another city. Coverage gaps are listed in `scripts/PARSHA_GAPS.md`.
 
-## Parsha print PDF
+## Parsha print PDF (original Word layout)
 
-The **Print / save PDF** button opens the file named in `content/articles/{id}.json`, not a reformatted HTML page:
+The **on-screen essay** is HTML converted from `.docx` for reading and search. **Print / save PDF** opens a PDF exported from the same source Word file so typography matches what you authored—not the browser’s HTML print view.
 
 ```json
 {
   "pdf": "assets/parsha/toldot.pdf",
+  "printSource": "Dvar Torah for Parshas Toldos.docx",
   "body": "…",
   "bodyFormat": "html"
 }
 ```
 
-Stage a file from your machine:
+Regenerate PDFs from `_import/Diburim-writings/Diburim` (requires Microsoft Word on Windows, `pip install docx2pdf`):
 
 ```bash
-python scripts/import_parsha_pdf.py toldot /path/to/Toldot.pdf --apply
+python scripts/stage_parsha_print_pdfs.py              # dry run
+python scripts/stage_parsha_print_pdfs.py --apply      # all catalog pieces
+python scripts/stage_parsha_print_pdfs.py --apply --id toldot
 ```
 
-Commit `assets/parsha/toldot.pdf` and the updated JSON so GitHub Pages can serve it.
+Commit `assets/parsha/*.pdf` and the updated article JSON. To register one PDF manually: `scripts/import_parsha_pdf.py`.
 
 ## Halacha study guides (PDF)
 

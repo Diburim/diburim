@@ -1,5 +1,6 @@
 {
   "pdf": "assets/parsha/chayei-sara.pdf",
   "bodyFormat": "html",
-  "audio": "assets/audio/parsha/chayei-sara.m4a"
+  "audio": "assets/audio/parsha/chayei-sara.m4a",
+  "printSource": "D_var Torah_ Parshat Chayei Sarah.docx"
 }
