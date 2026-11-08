@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "diburim",
+  "main": "workers/diburim.mjs",
+  "compatibility_date": "2026-11-08",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "SHULCHAN_PAGES_ORIGIN": "https://diburim.github.io"
+  },
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  }
+}

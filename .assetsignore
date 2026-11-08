@@ -1,0 +1,14 @@
+# Cloudflare Workers static assets (free plan: 20k files). Full corpus stays on GitHub Pages.
+shulchan_aruch/**
+
+workers/**
+wrangler.jsonc
+
+# Build / dev-only (not part of the public site)
+_import/**
+.cursor/**
+.github/**
+scripts/**
+*.md
+.gitignore
+.assetsignore

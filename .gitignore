@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 scripts/commit-message.txt
 .cursor/
+.wrangler/
+.dev.vars
+
