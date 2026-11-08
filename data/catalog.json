@@ -982,18 +982,6 @@
       "dateDisplay": "October 2, 2026"
     },
     {
-      "id": "sukkot-story",
-      "title": "Sukkot Story",
-      "kind": "holiday",
-      "series": "Yamim Tovim",
-      "holiday": "Sukkot Story",
-      "categories": [
-        "torah"
-      ],
-      "date": "2026-09-08",
-      "dateDisplay": "September 8, 2026"
-    },
-    {
       "id": "bereishis-2025",
       "title": "Parshas Bereishis",
       "kind": "parsha",

@@ -1,5 +1,7 @@
 {
   "body": null,
   "bodyFormat": "html",
-  "audio": "assets/audio/holidays/erev-sukkot.m4a"
+  "audio": "assets/audio/holidays/erev-sukkot.m4a",
+  "pdf": "assets/parsha/erev-sukkot.pdf",
+  "printSource": "Erev Sukkos 2026 .docx"
 }

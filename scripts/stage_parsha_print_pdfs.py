@@ -29,6 +29,19 @@ CATALOG_PATH = ROOT / "data" / "catalog.json"
 PDF_DIR = ROOT / "assets" / "parsha"
 REPORT_PATH = ROOT / "scripts" / "parsha_pdf_report.json"
 
+# Catalog id → exact filename in _import (when auto-matching misses holidays / dual parshiyot).
+DOCX_OVERRIDES: dict[str, str] = {
+    "vayera-mesirat-nefesh": "Parshas Vayeira - Mesirat Nefesh and Chazakas.docx",
+    "vayera-rule-of-three": "Parshas Vayeira – The Rule of Three.docx",
+    "erev-rosh-hashanah": "Rosh_Hashana_Shanah_Tovah_Diburim.docx",
+    "erev-yom-kippur": "Erev Yom Kippur 2026.docx",
+    "erev-sukkot": "Erev Sukkos 2026 .docx",
+    "shabbos-chol-hamoed-sukkot": "The Simplicity of Joy — Shabbos Chol HaMoed Sukkos.docx",
+    "erev-simchat-torah-2025": "Simchat Torah — The Joy of Continuity 2025.docx",
+    "erev-simchat-torah": "Simchat Torah — The Joy of Continuity 2025.docx",
+    "vaera": "D_var Torah on Parshas VaEira_ Leadership, Listening, and the Jewish Eye for Detail.docx",
+}
+
 
 def collect_candidates() -> dict[str, imp.Candidate]:
     by_key: dict[str, imp.Candidate] = {}
@@ -82,6 +95,17 @@ def resolve_docx(catalog_piece: dict, candidates: list[imp.Candidate]) -> imp.Ca
     return None
 
 
+def docx_path_for_piece(catalog_piece: dict, candidates: list[imp.Candidate]) -> Path | None:
+    pid = catalog_piece["id"]
+    override = DOCX_OVERRIDES.get(pid)
+    if override:
+        path = imp.IMPORT_DIR / override
+        if path.is_file():
+            return path
+    cand = resolve_docx(catalog_piece, candidates)
+    return cand.path if cand else None
+
+
 def merge_article_pdf(catalog_id: str, rel_pdf: str, source_docx: str) -> None:
     article_path = ARTICLES_DIR / f"{catalog_id}.json"
     article: dict = {}
@@ -127,8 +151,8 @@ def main() -> None:
             continue
         if args.id and piece["id"] != args.id:
             continue
-        cand = resolve_docx(piece, candidates)
-        if not cand:
+        docx_path = docx_path_for_piece(piece, candidates)
+        if not docx_path:
             planned.append({"id": piece["id"], "status": "no_source_docx"})
             continue
         rel_pdf = f"assets/parsha/{piece['id']}.pdf"
@@ -136,7 +160,7 @@ def main() -> None:
             {
                 "id": piece["id"],
                 "status": "ready",
-                "docx": cand.path.name,
+                "docx": docx_path.name,
                 "pdf": rel_pdf,
             }
         )
@@ -154,12 +178,13 @@ def main() -> None:
             applied.append(row)
             continue
         piece_id = row["id"]
-        cand = resolve_docx(next(p for p in pieces if p["id"] == piece_id), candidates)
-        assert cand
+        catalog_piece = next(p for p in pieces if p["id"] == piece_id)
+        docx_path = docx_path_for_piece(catalog_piece, candidates)
+        assert docx_path
         dest = PDF_DIR / f"{piece_id}.pdf"
-        print(f"Converting {cand.path.name} -> {dest.relative_to(ROOT)}")
-        convert_docx_to_pdf(cand.path, dest)
-        merge_article_pdf(piece_id, row["pdf"], cand.path.name)
+        print(f"Converting {docx_path.name} -> {dest.relative_to(ROOT)}")
+        convert_docx_to_pdf(docx_path, dest)
+        merge_article_pdf(piece_id, row["pdf"], docx_path.name)
         row["status"] = "applied"
         applied.append(row)
 

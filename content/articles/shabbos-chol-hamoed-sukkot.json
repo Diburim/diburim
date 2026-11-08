@@ -1,5 +1,7 @@
 {
   "body": null,
   "bodyFormat": "html",
-  "audio": "assets/audio/holidays/shabbos-chol-hamoed-sukkot.m4a"
+  "audio": "assets/audio/holidays/shabbos-chol-hamoed-sukkot.m4a",
+  "pdf": "assets/parsha/shabbos-chol-hamoed-sukkot.pdf",
+  "printSource": "The Simplicity of Joy — Shabbos Chol HaMoed Sukkos.docx"
 }
