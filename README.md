@@ -112,6 +112,8 @@ Use a **Redirect rule** in Cloudflare so `www.diburim.org` → `https://diburim.
 
 After DNS and HTTPS work, the live site should be **https://diburim.org/** (library and pieces at the domain root, not `/diburim/`).
 
+**Hosting:** deploy with **GitHub Pages** (workflow `.github/workflows/pages.yml`). Do **not** connect this repo to a **Cloudflare Workers** build (`npx wrangler deploy`) — the Shulchan corpus is too large for Workers static asset limits (~20k files). Use Cloudflare for **DNS** (and optional proxy), with records pointing at GitHub Pages as in step 2 above.
+
 ## Shulchan Aruch translation (same-origin)
 
 The English Shulchan Aruch web reader is served on Diburim at **`/shulchan_aruch/`** (e.g. **https://diburim.org/shulchan_aruch/**), not in an iframe and not on a separate GitHub Pages host.
@@ -125,20 +127,6 @@ The English Shulchan Aruch web reader is served on Diburim at **`/shulchan_aruch
 ```
 
 This keeps a sparse clone at `_import/shulchan_aruch_src/`, runs `npm ci` and `npm run build` with `VITE_BASE=/shulchan_aruch/`, and copies `dist/` into `shulchan_aruch/`. `_import/` is gitignored (edit reader source there; rebuild with the script). Commit `shulchan_aruch/` and push to publish on diburim.org.
-
-### Cloudflare Workers deploy (file limit)
-
-If the Cloudflare build runs `npx wrangler deploy`, Wrangler uploads the static asset tree. **Free Workers allow up to 20,000 files per version**; `shulchan_aruch/` alone is ~155k HTML files, which triggers `Invalid manifest … exceeds the limit of 20,000`.
-
-This repo ships:
-
-- **`.assetsignore`** — excludes `shulchan_aruch/**` from the Worker upload (main Diburim site only, ~200 files).
-- **`workers/diburim.mjs`** — proxies **`/shulchan_aruch/*`** to **`SHULCHAN_PAGES_ORIGIN`** (default `https://diburim.github.io`, full tree from the GitHub Pages workflow).
-- **`wrangler.jsonc`** — non-interactive Workers config (do not deploy `.` without `.assetsignore`).
-
-Keep **GitHub Actions → Deploy GitHub Pages** enabled so the corpus stays available at the GitHub Pages origin. If your Pages host is not `diburim.github.io`, set `SHULCHAN_PAGES_ORIGIN` in `wrangler.jsonc` or the Cloudflare dashboard.
-
-**Alternative:** skip Workers entirely — point Cloudflare DNS at GitHub Pages only (grey cloud **A** records); no Workers build, full same-origin static site.
 
 ## Assets
 
