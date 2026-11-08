@@ -1095,7 +1095,7 @@
       ],
       "hebrewTitle": "אורח חיים סימן רנ״ד· הלכות שבת",
       "prevId": "hilchos-shabbos-253",
-      "nextId": "hilchos-shabbos-256"
+      "nextId": "hilchos-shabbos-255"
     },
     {
       "id": "hilchos-shabbos-256",
@@ -1116,7 +1116,7 @@
         "Orach Chaim"
       ],
       "hebrewTitle": "אורח חיים סימן רנ״ו· הלכות שבת",
-      "prevId": "hilchos-shabbos-254",
+      "prevId": "hilchos-shabbos-255",
       "nextId": "hilchos-shabbos-257"
     },
     {
@@ -1337,6 +1337,28 @@
       ],
       "hebrewTitle": "אורח חיים סימן רס״ו· הלכות שבת",
       "prevId": "hilchos-shabbos-265"
+    },
+    {
+      "id": "hilchos-shabbos-255",
+      "title": "Hilchos Shabbos Shiur 14 – Siman 255",
+      "kind": "study-guide",
+      "series": "Hilchos Shabbos",
+      "project": "halachah",
+      "sefer": "Halachah",
+      "siman": 255,
+      "chelek": "OC",
+      "categories": [
+        "halacha",
+        "torah"
+      ],
+      "topics": [
+        "Hilchos Shabbos",
+        "Shabbos",
+        "Orach Chaim"
+      ],
+      "hebrewTitle": "אורח חיים סימן רנ״ה· הלכות שבת",
+      "prevId": "hilchos-shabbos-254",
+      "nextId": "hilchos-shabbos-256"
     }
   ],
   "calendarSource": "data/parsha-calendar.json"
