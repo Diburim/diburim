@@ -252,15 +252,46 @@
     });
   }
 
+  function indexKicker(p) {
+    return studyGuideKicker(p) || p.parsha || p.holiday || p.series || p.sefer || "Torah";
+  }
+
+  function indexMeta(p) {
+    const bits = [];
+    const mins = readingMinutes(p.body);
+    if (mins) bits.push(mins + " min read");
+    if (p.dateDisplay) bits.push(p.dateDisplay);
+    else if (p.date) bits.push(p.date);
+    if (!bits.length) return formatMeta(p);
+    return bits.join(" · ");
+  }
+
+  function editorialCard(p) {
+    return (
+      '<article class="index-entry">' +
+        '<p class="index-kicker">' + escapeHtml(indexKicker(p)) + "</p>" +
+        '<h3 class="index-title"><a href="piece.html?id=' + encodeURIComponent(p.id) + '">' + escapeHtml(p.title) + "</a></h3>" +
+        (p.excerpt ? '<p class="index-excerpt">' + escapeHtml(p.excerpt) + "</p>" : "") +
+        '<p class="index-meta">' + escapeHtml(indexMeta(p)) + "</p>" +
+      "</article>"
+    );
+  }
+
+  function sceneHebrew(p) {
+    if (p.parshaHe) return p.parshaHe;
+    if (p.kind === "study-guide") return "";
+    return p.hebrewTitle || "";
+  }
+
   function card(p) {
-    const he = p.parshaHe || p.hebrewTitle || "";
+    const he = sceneHebrew(p);
     return (
       '<article class="entry">' +
         '<a class="scene ' + wash(p.scene) + '" href="piece.html?id=' + encodeURIComponent(p.id) + '" tabindex="-1" aria-hidden="true">' +
           (he ? '<span class="scene-word" dir="rtl" lang="he">' + escapeHtml(he) + "</span>" : "") +
         "</a>" +
         '<div class="entry-body">' +
-          '<p class="kicker">' + escapeHtml(studyGuideKicker(p) || p.parsha || p.holiday || p.series || p.sefer || "Torah") + "</p>" +
+          '<p class="kicker">' + escapeHtml(indexKicker(p)) + "</p>" +
           '<h3><a href="piece.html?id=' + encodeURIComponent(p.id) + '">' + escapeHtml(p.title) + "</a></h3>" +
           (p.hebrewTitle ? '<p class="hebrew" lang="he">' + escapeHtml(p.hebrewTitle) + "</p>" : "") +
           (p.excerpt ? '<p class="excerpt">' + escapeHtml(p.excerpt) + "</p>" : "") +
@@ -450,7 +481,7 @@
         recent.innerHTML = "";
       } else {
         if (recentSection) recentSection.hidden = false;
-        recent.innerHTML = list.map(card).join("");
+        recent.innerHTML = list.map(editorialCard).join("");
       }
     }
     const series = document.getElementById("series-links");
@@ -574,8 +605,10 @@
     const results = document.getElementById("results");
     const meta = document.getElementById("results-meta");
     const search = document.getElementById("library-search");
+    const searchTop = document.getElementById("library-search-top");
     const calendar = document.getElementById("calendar-panel");
     if (search) search.value = state.q;
+    if (searchTop) searchTop.value = state.q;
     const totalEl = document.getElementById("library-total");
     if (totalEl) totalEl.textContent = "(" + pieces.length + " published pieces)";
 
@@ -599,7 +632,7 @@
         results.innerHTML = '<div class="empty"><p>' + escapeHtml(msg) + "</p></div>";
         return;
       }
-      results.innerHTML = list.map(card).join("");
+      results.innerHTML = list.map(editorialCard).join("");
     }
 
     document.querySelectorAll("[data-filter]").forEach(function (button) {
@@ -645,12 +678,37 @@
       });
     });
 
+    function onSearchInput(value) {
+      state.q = value.trim();
+      if (search) search.value = state.q;
+      if (searchTop) searchTop.value = state.q;
+      draw();
+    }
     if (search) {
       search.addEventListener("input", function () {
-        state.q = search.value.trim();
-        draw();
+        onSearchInput(search.value);
       });
     }
+    if (searchTop) {
+      searchTop.addEventListener("input", function () {
+        onSearchInput(searchTop.value);
+      });
+    }
+
+    const spotlight = document.getElementById("library-this-week");
+    const week = pieces.find(function (p) { return p.thisWeek; });
+    if (spotlight && week) {
+      const pieceUrl = "piece.html?id=" + encodeURIComponent(week.id);
+      spotlight.hidden = false;
+      spotlight.innerHTML =
+        '<div class="library-spotlight-inner">' +
+          '<p class="kicker">Continue with this week&rsquo;s Torah</p>' +
+          '<h2 class="library-spotlight-title"><a href="' + escapeHtml(pieceUrl) + '">' + escapeHtml(week.title) + "</a></h2>" +
+          (week.excerpt ? '<p class="library-spotlight-lede">' + escapeHtml(week.excerpt) + "</p>" : "") +
+          '<p><a class="btn btn-navy" href="' + escapeHtml(pieceUrl) + '">Read the essay</a></p>' +
+        "</div>";
+    }
+
     draw();
   }
 
@@ -661,7 +719,7 @@
       .filter(function (p) { return p.kind !== "study-guide"; })
       .sort(librarySort);
     mount.innerHTML = list.length
-      ? list.map(card).join("")
+      ? list.map(editorialCard).join("")
       : '<p class="muted">' + escapeHtml(ui.libraryEmpty || "[CONTENT PENDING]") + "</p>";
   }
 
@@ -720,33 +778,32 @@
     }).slice(0, 3);
     const prev = byId(piece.prevId, pieces);
     const next = byId(piece.nextId, pieces);
+    const parshaLabel = piece.parsha ? "Parshas " + piece.parsha : "";
     mount.innerHTML =
-      '<div class="piece-layout" data-piece-id="' + escapeHtml(piece.id) + '">' +
-        '<article>' +
+      '<div class="piece-layout piece-layout--read" data-piece-id="' + escapeHtml(piece.id) + '">' +
+        '<article class="piece-read">' +
           '<p class="crumbs"><a href="library.html">Library</a> · ' + escapeHtml(piece.kind === "study-guide" ? "Halacha" : (piece.parsha || piece.holiday || piece.sefer || "Torah")) + (piece.project === "halachah" ? ' · <a href="project.html?id=halachah">Study guides</a>' : "") + "</p>" +
-          '<p class="kicker">' + escapeHtml(piece.kind === "study-guide" ? studyGuideKicker(piece) : (piece.occasion || piece.series || "Diburim")) + "</p>" +
+          (parshaLabel ? '<p class="piece-parsha kicker">' + escapeHtml(parshaLabel) + "</p>" : '<p class="kicker">' + escapeHtml(piece.kind === "study-guide" ? studyGuideKicker(piece) : (piece.occasion || piece.series || "Diburim")) + "</p>") +
           '<h1 class="piece-title">' + escapeHtml(piece.title) + "</h1>" +
           (piece.hebrewTitle ? '<p class="piece-he hebrew" lang="he">' + escapeHtml(piece.hebrewTitle) + "</p>" : "") +
-          '<div class="byline">' +
-            '<img src="assets/rabbi-binyamin-goldberg.jpg" alt="Rabbi Binyamin Goldberg at the Kotel" width="120" height="150">' +
-            '<div><strong>' + escapeHtml((window.DIBURIM_SITE && window.DIBURIM_SITE.author) || "Rabbi Binyamin Goldberg") + "</strong><br><span class=\"muted\">" +
+          '<div class="byline byline--compact">' +
+            '<p class="byline-text"><strong>' + escapeHtml((window.DIBURIM_SITE && window.DIBURIM_SITE.author) || "Rabbi Binyamin Goldberg") + "</strong><br><span class=\"muted\">" +
               [piece.dateDisplay, minutes ? minutes + " min read" : "", piece.series].filter(Boolean).map(escapeHtml).join(" · ") +
-            "</span></div>" +
+            "</span></p>" +
           "</div>" +
           '<div class="tools">' +
             '<button class="btn btn-ghost" type="button" id="print-piece">Print / Save as PDF</button>' +
             '<a class="btn btn-ghost" href="#sources">Source sheet</a>' +
             '<button class="btn btn-ghost" type="button" id="share-piece">Share link</button>' +
           "</div>" +
-          '<div class="piece-body">' + built.bodyHtml + "</div>" +
+          '<div class="piece-body article-body">' + built.bodyHtml + "</div>" +
           '<section class="sources" id="sources"><h2>Sources and Further Learning</h2><ol>' + sources + "</ol></section>" +
           '<nav class="pager" aria-label="Adjacent pieces">' +
             (prev ? '<a href="piece.html?id=' + encodeURIComponent(prev.id) + '"><small>Previous</small>' + escapeHtml(prev.title) + "</a>" : "<span></span>") +
             (next ? '<a href="piece.html?id=' + encodeURIComponent(next.id) + '"><small>Next</small>' + escapeHtml(next.title) + "</a>" : (piece.nextLabel ? '<span><small>Next</small>' + escapeHtml(piece.nextLabel) + "</span>" : "<span></span>")) +
           "</nav>" +
-          (related.length ? '<h2 style="margin-top:2.2rem">Related</h2><div class="card-grid">' + related.map(card).join("") + "</div>" : "") +
+          (related.length ? '<h2 class="related-heading">Related</h2><div class="index-list">' + related.map(editorialCard).join("") + "</div>" : "") +
         "</article>" +
-        '<aside class="toc"><p class="kicker">Contents</p><ol>' + built.tocHtml + "</ol></aside>" +
       "</div>";
     bindPieceChrome(mount);
 
@@ -810,7 +867,7 @@
       (project.id === "shulchan-aruch"
         ? '<div class="actions">' + shulchanActionButtons(cfg, ui, { hubLink: true }) + "</div>"
         : (project.href ? '<p><a class="btn btn-navy" href="' + escapeHtml(project.href) + '">Open</a></p>' : "")) +
-      (linked.length ? '<h2>Published pieces</h2><div class="card-grid">' + linked.map(card).join("") + "</div>" : "");
+      (linked.length ? '<h2>Published pieces</h2><div class="index-list">' + linked.map(editorialCard).join("") + "</div>" : "");
   }
 
   function initSearch(pieces, ui) {
