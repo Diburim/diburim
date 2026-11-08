@@ -65,17 +65,16 @@
     return y + "-" + m + "-" + day;
   }
 
-  function findCurrentShabbatReading(readings, todayIso) {
+  /** Parsha for the home hero: upcoming Shabbat (first reading with date >= today). */
+  function findFeaturedShabbatReading(readings, todayIso) {
     if (!readings || !readings.length) return null;
     const sorted = readings.slice().sort(function (a, b) {
       return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
     });
-    var current = null;
     for (var i = 0; i < sorted.length; i++) {
-      if (sorted[i].date <= todayIso) current = sorted[i];
-      else break;
+      if (sorted[i].date >= todayIso) return sorted[i];
     }
-    return current || sorted[0];
+    return sorted[sorted.length - 1];
   }
 
   function isWeeklyParshaPiece(p) {
@@ -123,7 +122,7 @@
   function resolveThisWeekId(pieces, calendar, catalog) {
     var readings = (calendar && calendar.readings) || [];
     if (!readings.length) return catalog.thisWeekId || null;
-    var row = findCurrentShabbatReading(readings, localDateIso(new Date()));
+    var row = findFeaturedShabbatReading(readings, localDateIso(new Date()));
     if (!row || !row.parshas || !row.parshas.length) return catalog.thisWeekId || null;
 
     var shabbatDate = row.date;
