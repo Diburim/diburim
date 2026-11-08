@@ -2,7 +2,7 @@
   "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim",
   "preferYear": 2026,
   "excludedCount": 12,
-  "selectedCount": 46,
+  "selectedCount": 55,
   "excluded": [
     {
       "file": "Erev Nitavim Vayelech not public.m4a",
@@ -76,9 +76,70 @@
       "group": "holiday:Erev Pesach",
       "parsha": null,
       "holiday": "Erev Pesach",
+      "forceId": null,
       "suggestedCatalogId": "erev-pesach",
       "catalogId": "erev-pesach",
-      "dest": "assets/audio/parsha/erev-pesach.m4a"
+      "dest": "assets/audio/holidays/erev-pesach.m4a"
+    },
+    {
+      "file": "Erev Rosh Hashanna 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Rosh Hashanna 2026.m4a",
+      "mtime": "2026-09-11T14:58:20",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Rosh Hashana",
+      "parsha": null,
+      "holiday": "Erev Rosh Hashana",
+      "forceId": null,
+      "suggestedCatalogId": "erev-rosh-hashanah",
+      "catalogId": "erev-rosh-hashanah",
+      "dest": "assets/audio/holidays/erev-rosh-hashanah.m4a"
+    },
+    {
+      "file": "Erev Sukkot 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Sukkot 2026.m4a",
+      "mtime": "2026-09-25T13:26:56",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Sukkot",
+      "parsha": null,
+      "holiday": "Erev Sukkot",
+      "forceId": null,
+      "suggestedCatalogId": "erev-sukkot",
+      "catalogId": "erev-sukkot",
+      "dest": "assets/audio/holidays/erev-sukkot.m4a"
+    },
+    {
+      "file": "Erev Yom Kippur 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Yom Kippur 2026.m4a",
+      "mtime": "2026-09-20T15:04:21",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Yom Kippur",
+      "parsha": null,
+      "holiday": "Erev Yom Kippur",
+      "forceId": null,
+      "suggestedCatalogId": "erev-yom-kippur",
+      "catalogId": "erev-yom-kippur",
+      "dest": "assets/audio/holidays/erev-yom-kippur.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chol Hamoed Sukkot (1).m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chol Hamoed Sukkot (1).m4a",
+      "mtime": "2025-10-10T00:04:23",
+      "years": [
+        2025
+      ],
+      "group": "holiday:Shabbos Chol Hamoed Sukkot",
+      "parsha": null,
+      "holiday": "Shabbos Chol Hamoed Sukkot",
+      "forceId": null,
+      "suggestedCatalogId": "shabbos-chol-hamoed-sukkot",
+      "catalogId": "shabbos-chol-hamoed-sukkot",
+      "dest": "assets/audio/holidays/shabbos-chol-hamoed-sukkot.m4a"
     },
     {
       "file": "Erev Shevi'i shel Pesach.m4a",
@@ -90,9 +151,55 @@
       "group": "holiday:Shvi'i shel Pesach",
       "parsha": null,
       "holiday": "Shvi'i shel Pesach",
+      "forceId": null,
       "suggestedCatalogId": "shvi-i-shel-pesach",
       "catalogId": "shvi-i-shel-pesach",
-      "dest": "assets/audio/parsha/shvi-i-shel-pesach.m4a"
+      "dest": "assets/audio/holidays/shvi-i-shel-pesach.m4a"
+    },
+    {
+      "file": "Erev Simchas Torah 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Simchas Torah 2026.m4a",
+      "mtime": "2026-10-02T15:43:11",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Simchat Torah",
+      "parsha": null,
+      "holiday": "Simchat Torah",
+      "forceId": null,
+      "suggestedCatalogId": "erev-simchat-torah",
+      "catalogId": "erev-simchat-torah",
+      "dest": "assets/audio/holidays/erev-simchat-torah.m4a"
+    },
+    {
+      "file": "Sukkot story.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Sukkot story.m4a",
+      "mtime": "2026-09-08T09:58:01",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Sukkot Story",
+      "parsha": null,
+      "holiday": "Sukkot Story",
+      "forceId": null,
+      "suggestedCatalogId": "sukkot-story",
+      "catalogId": "sukkot-story",
+      "dest": "assets/audio/holidays/sukkot-story.m4a"
+    },
+    {
+      "file": "Dvar Torah Parshas Vayere.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Dvar Torah Parshas Vayere.m4a",
+      "mtime": "2025-11-07T11:03:11",
+      "years": [
+        2025
+      ],
+      "group": "id:vayera-mesirat-nefesh",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "vayera-mesirat-nefesh",
+      "suggestedCatalogId": "vayera-mesirat-nefesh",
+      "catalogId": "vayera-mesirat-nefesh",
+      "dest": "assets/audio/parsha/vayera-mesirat-nefesh.m4a"
     },
     {
       "file": "Erev Shabbos Achareimos Kedoshim.m4a",
@@ -104,6 +211,7 @@
       "group": "parsha:Acharei Mot-Kedoshim",
       "parsha": "Acharei Mot-Kedoshim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "acharei-mot-kedoshim",
       "catalogId": "acharei-mot-kedoshim",
       "dest": "assets/audio/parsha/acharei-mot-kedoshim.m4a"
@@ -118,6 +226,7 @@
       "group": "parsha:Balak",
       "parsha": "Balak",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "balak",
       "catalogId": "balak",
       "dest": "assets/audio/parsha/balak.m4a"
@@ -132,6 +241,7 @@
       "group": "parsha:Bamidbar",
       "parsha": "Bamidbar",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "bamidbar",
       "catalogId": "bamidbar",
       "dest": "assets/audio/parsha/bamidbar.m4a"
@@ -146,6 +256,7 @@
       "group": "parsha:Behaaloscha",
       "parsha": "Behaaloscha",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "behaaloscha",
       "catalogId": "behaaloscha",
       "dest": "assets/audio/parsha/behaaloscha.m4a"
@@ -160,6 +271,7 @@
       "group": "parsha:Behar-Bechukotai",
       "parsha": "Behar-Bechukotai",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "behar-bechukotai",
       "catalogId": "behar-bechukotai",
       "dest": "assets/audio/parsha/behar-bechukotai.m4a"
@@ -174,6 +286,7 @@
       "group": "parsha:Bereishis",
       "parsha": "Bereishis",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "bereishis",
       "catalogId": "bereishis",
       "dest": "assets/audio/parsha/bereishis.m4a"
@@ -188,6 +301,7 @@
       "group": "parsha:Beshalach",
       "parsha": "Beshalach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "beshalach",
       "catalogId": "beshalach",
       "dest": "assets/audio/parsha/beshalach.m4a"
@@ -202,6 +316,7 @@
       "group": "parsha:Bo",
       "parsha": "Bo",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "bo",
       "catalogId": "bo",
       "dest": "assets/audio/parsha/bo.m4a"
@@ -216,6 +331,7 @@
       "group": "parsha:Chayei Sara",
       "parsha": "Chayei Sara",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "chayei-sara",
       "catalogId": "chayei-sara",
       "dest": "assets/audio/parsha/chayei-sara.m4a"
@@ -230,6 +346,7 @@
       "group": "parsha:Chukat",
       "parsha": "Chukat",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "chukat",
       "catalogId": "chukat",
       "dest": "assets/audio/parsha/chukat.m4a"
@@ -244,6 +361,7 @@
       "group": "parsha:Devarim",
       "parsha": "Devarim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "devarim",
       "catalogId": "devarim",
       "dest": "assets/audio/parsha/devarim.m4a"
@@ -258,6 +376,7 @@
       "group": "parsha:Eikev",
       "parsha": "Eikev",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "eikev",
       "catalogId": "eikev",
       "dest": "assets/audio/parsha/eikev.m4a"
@@ -272,6 +391,7 @@
       "group": "parsha:Emor",
       "parsha": "Emor",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "emor",
       "catalogId": "emor",
       "dest": "assets/audio/parsha/emor.m4a"
@@ -286,6 +406,7 @@
       "group": "parsha:Haazinu",
       "parsha": "Haazinu",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "haazinu",
       "catalogId": "haazinu",
       "dest": "assets/audio/parsha/haazinu.m4a"
@@ -300,6 +421,7 @@
       "group": "parsha:Ki Sisa",
       "parsha": "Ki Sisa",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "ki-sisa",
       "catalogId": "ki-sisa",
       "dest": "assets/audio/parsha/ki-sisa.m4a"
@@ -314,6 +436,7 @@
       "group": "parsha:Ki Tavo",
       "parsha": "Ki Tavo",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "ki-tavo",
       "catalogId": "ki-tavo",
       "dest": "assets/audio/parsha/ki-tavo.m4a"
@@ -328,6 +451,7 @@
       "group": "parsha:Ki Teitzei",
       "parsha": "Ki Teitzei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "ki-teitzei",
       "catalogId": "ki-teitzei",
       "dest": "assets/audio/parsha/ki-teitzei.m4a"
@@ -342,6 +466,7 @@
       "group": "parsha:Korach",
       "parsha": "Korach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "korach",
       "catalogId": "korach",
       "dest": "assets/audio/parsha/korach.m4a"
@@ -356,6 +481,7 @@
       "group": "parsha:Lech Lecha",
       "parsha": "Lech Lecha",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "lech-lecha",
       "catalogId": "lech-lecha",
       "dest": "assets/audio/parsha/lech-lecha.m4a"
@@ -370,9 +496,25 @@
       "group": "parsha:Matot-Masei",
       "parsha": "Matot-Masei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "matot-masei",
       "catalogId": "matot-masei",
       "dest": "assets/audio/parsha/matot-masei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
+      "mtime": "2026-03-14T19:39:50",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Miketz",
+      "parsha": "Miketz",
+      "holiday": null,
+      "forceId": null,
+      "suggestedCatalogId": "miketz",
+      "catalogId": "miketz",
+      "dest": "assets/audio/parsha/miketz.m4a"
     },
     {
       "file": "Erev Shabbos Parshas Mishpatim.m4a",
@@ -384,9 +526,25 @@
       "group": "parsha:Mishpatim",
       "parsha": "Mishpatim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "mishpatim",
       "catalogId": "mishpatim",
       "dest": "assets/audio/parsha/mishpatim.m4a"
+    },
+    {
+      "file": "Erev Shavuos and Naaso.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shavuos and Naaso.m4a",
+      "mtime": "2026-05-21T15:23:49",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Nasso",
+      "parsha": "Nasso",
+      "holiday": null,
+      "forceId": null,
+      "suggestedCatalogId": "nasso",
+      "catalogId": "nasso",
+      "dest": "assets/audio/parsha/nasso.m4a"
     },
     {
       "file": "Erev Shabbos Nitzavim Vayelech 2926.m4a",
@@ -398,6 +556,7 @@
       "group": "parsha:Nitzavim",
       "parsha": "Nitzavim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "nitzavim",
       "catalogId": "nitzavim",
       "dest": "assets/audio/parsha/nitzavim.m4a"
@@ -412,6 +571,7 @@
       "group": "parsha:Noach",
       "parsha": "Noach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "noach",
       "catalogId": "noach",
       "dest": "assets/audio/parsha/noach.m4a"
@@ -426,6 +586,7 @@
       "group": "parsha:Pinchas",
       "parsha": "Pinchas",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "pinchas",
       "catalogId": "pinchas",
       "dest": "assets/audio/parsha/pinchas.m4a"
@@ -440,6 +601,7 @@
       "group": "parsha:Re'eh",
       "parsha": "Re'eh",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "re-eh",
       "catalogId": "re-eh",
       "dest": "assets/audio/parsha/re-eh.m4a"
@@ -454,6 +616,7 @@
       "group": "parsha:Shemos",
       "parsha": "Shemos",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": null,
       "applyError": "no catalog id"
     },
@@ -467,6 +630,7 @@
       "group": "parsha:Shlach",
       "parsha": "Shlach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "shlach",
       "catalogId": "shlach",
       "dest": "assets/audio/parsha/shlach.m4a"
@@ -481,6 +645,7 @@
       "group": "parsha:Shmini",
       "parsha": "Shmini",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "shmini",
       "catalogId": "shmini",
       "dest": "assets/audio/parsha/shmini.m4a"
@@ -495,6 +660,7 @@
       "group": "parsha:Shoftim",
       "parsha": "Shoftim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "shoftim",
       "catalogId": "shoftim",
       "dest": "assets/audio/parsha/shoftim.m4a"
@@ -509,6 +675,7 @@
       "group": "parsha:Tazria-Metzora",
       "parsha": "Tazria-Metzora",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "tazria-metzora",
       "catalogId": "tazria-metzora",
       "dest": "assets/audio/parsha/tazria-metzora.m4a"
@@ -523,6 +690,7 @@
       "group": "parsha:Terumah",
       "parsha": "Terumah",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "terumah",
       "catalogId": "terumah",
       "dest": "assets/audio/parsha/terumah.m4a"
@@ -537,6 +705,7 @@
       "group": "parsha:Tetzaveh",
       "parsha": "Tetzaveh",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "tetzaveh",
       "catalogId": "tetzaveh",
       "dest": "assets/audio/parsha/tetzaveh.m4a"
@@ -551,6 +720,7 @@
       "group": "parsha:Toldot",
       "parsha": "Toldot",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "toldot",
       "catalogId": "toldot",
       "dest": "assets/audio/parsha/toldot.m4a"
@@ -565,6 +735,7 @@
       "group": "parsha:Tzav",
       "parsha": "Tzav",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "tzav",
       "catalogId": "tzav",
       "dest": "assets/audio/parsha/tzav.m4a"
@@ -579,6 +750,7 @@
       "group": "parsha:Vaera",
       "parsha": "Vaera",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vaera",
       "catalogId": "vaera",
       "dest": "assets/audio/parsha/vaera.m4a"
@@ -593,6 +765,7 @@
       "group": "parsha:Vaetchanan",
       "parsha": "Vaetchanan",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vaetchanan",
       "catalogId": "vaetchanan",
       "dest": "assets/audio/parsha/vaetchanan.m4a"
@@ -607,6 +780,7 @@
       "group": "parsha:Vayakhel-Pekudei",
       "parsha": "Vayakhel-Pekudei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayakhel-pekudei",
       "catalogId": "vayakhel-pekudei",
       "dest": "assets/audio/parsha/vayakhel-pekudei.m4a"
@@ -621,6 +795,7 @@
       "group": "parsha:Vayelech",
       "parsha": "Vayelech",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayelech",
       "catalogId": "vayelech",
       "dest": "assets/audio/parsha/vayelech.m4a"
@@ -635,6 +810,7 @@
       "group": "parsha:Vayera",
       "parsha": "Vayera",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayera-rule-of-three",
       "catalogId": "vayera-rule-of-three",
       "dest": "assets/audio/parsha/vayera-rule-of-three.m4a"
@@ -649,6 +825,7 @@
       "group": "parsha:Vayeshev",
       "parsha": "Vayeshev",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayeshev",
       "catalogId": "vayeshev",
       "dest": "assets/audio/parsha/vayeshev.m4a"
@@ -663,6 +840,7 @@
       "group": "parsha:Vayetzei",
       "parsha": "Vayetzei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayetzei",
       "catalogId": "vayetzei",
       "dest": "assets/audio/parsha/vayetzei.m4a"
@@ -677,6 +855,7 @@
       "group": "parsha:Vayikra",
       "parsha": "Vayikra",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayikra",
       "catalogId": "vayikra",
       "dest": "assets/audio/parsha/vayikra.m4a"
@@ -691,6 +870,7 @@
       "group": "parsha:Vayishlach",
       "parsha": "Vayishlach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayishlach",
       "catalogId": "vayishlach",
       "dest": "assets/audio/parsha/vayishlach.m4a"
@@ -705,12 +885,67 @@
       "group": "parsha:Yitro",
       "parsha": "Yitro",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "yitro",
       "catalogId": "yitro",
       "dest": "assets/audio/parsha/yitro.m4a"
     }
   ],
   "skippedDuplicates": [
+    {
+      "file": "Erev Rosh Hashanah 2026 For Shul publication.m4a",
+      "mtime": "2026-09-05T22:38:41",
+      "years": [
+        2026
+      ],
+      "reason": "superseded by Erev Rosh Hashanna 2026.m4a",
+      "group": "holiday:Erev Rosh Hashana"
+    },
+    {
+      "file": "Erev Rosh Hashanna 5785 into 5786.m4a",
+      "mtime": "2025-09-21T23:40:50",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Rosh Hashanna 2026.m4a",
+      "group": "holiday:Erev Rosh Hashana"
+    },
+    {
+      "file": "Erev Sukkot (1).m4a",
+      "mtime": "2025-10-06T09:42:20",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Sukkot 2026.m4a",
+      "group": "holiday:Erev Sukkot"
+    },
+    {
+      "file": "Erev Sukkot.m4a",
+      "mtime": "2025-10-06T01:12:51",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Sukkot 2026.m4a",
+      "group": "holiday:Erev Sukkot"
+    },
+    {
+      "file": "Erev Yom Kippur 2025.m4a",
+      "mtime": "2025-10-01T11:56:02",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Yom Kippur 2026.m4a",
+      "group": "holiday:Erev Yom Kippur"
+    },
+    {
+      "file": "Erev Shabbos Chol Hamoed Sukkot.m4a",
+      "mtime": "2025-10-10T00:02:35",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Chol Hamoed Sukkot (1).m4a",
+      "group": "holiday:Shabbos Chol Hamoed Sukkot"
+    },
     {
       "file": "Erev Shabbos Devarim.m4a",
       "mtime": "2025-08-01T14:43:07",
@@ -775,6 +1010,15 @@
       "group": "parsha:Lech Lecha"
     },
     {
+      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk (1).m4a",
+      "mtime": "2026-03-05T21:38:24",
+      "years": [
+        2026
+      ],
+      "reason": "superseded by Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
+      "group": "parsha:Miketz"
+    },
+    {
       "file": "Erev Shabbos Parshat Nitzavim.m4a",
       "mtime": "2025-09-19T13:56:52",
       "years": [
@@ -800,6 +1044,15 @@
       ],
       "reason": "superseded by Erev Shabbos Noach.m4a",
       "group": "parsha:Noach"
+    },
+    {
+      "file": "Erev Shabbos Parshas Re'e.m4a",
+      "mtime": "2025-08-22T13:43:37",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Re'eh 2026.m4a",
+      "group": "parsha:Re'eh"
     },
     {
       "file": "Erev Shabbos Shemot.m4a",
@@ -849,26 +1102,6 @@
   ],
   "unmapped": [
     {
-      "file": "Dvar Torah Parshas Vayere.m4a",
-      "mtime": "2025-11-07T11:03:11",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Rosh Hashanah 2026 For Shul publication.m4a",
-      "mtime": "2026-09-05T22:38:41",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Rosh Hashanna 2026.m4a",
-      "mtime": "2026-09-11T14:58:20",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Rosh Hashanna 5785 into 5786.m4a",
-      "mtime": "2025-09-21T23:40:50",
-      "note": "no parsha/holiday match"
-    },
-    {
       "file": "Erev Shabbos Bereishit.m4a",
       "mtime": "2025-10-17T00:20:25",
       "note": "no parsha/holiday match"
@@ -879,78 +1112,13 @@
       "note": "no parsha/holiday match"
     },
     {
-      "file": "Erev Shabbos Chol Hamoed Sukkot (1).m4a",
-      "mtime": "2025-10-10T00:04:23",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Shabbos Chol Hamoed Sukkot.m4a",
-      "mtime": "2025-10-10T00:02:35",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk (1).m4a",
-      "mtime": "2026-03-05T21:38:24",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
-      "mtime": "2026-03-14T19:39:50",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Shabbos Parshas Re'e.m4a",
-      "mtime": "2025-08-22T13:43:37",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Shavuos and Naaso.m4a",
-      "mtime": "2026-05-21T15:23:49",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Simchas Torah 2026.m4a",
-      "mtime": "2026-10-02T15:43:11",
-      "note": "no parsha/holiday match"
-    },
-    {
       "file": "Erev simchat Torah.m4a",
       "mtime": "2025-10-10T12:37:24",
       "note": "no parsha/holiday match"
     },
     {
-      "file": "Erev Sukkot (1).m4a",
-      "mtime": "2025-10-06T09:42:20",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Sukkot 2026.m4a",
-      "mtime": "2026-09-25T13:26:56",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Sukkot.m4a",
-      "mtime": "2025-10-06T01:12:51",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Yom Kippur 2025.m4a",
-      "mtime": "2025-10-01T11:56:02",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Erev Yom Kippur 2026.m4a",
-      "mtime": "2026-09-20T15:04:21",
-      "note": "no parsha/holiday match"
-    },
-    {
       "file": "Heker halacha for Liba Esther.m4a",
       "mtime": "2025-11-30T22:02:14",
-      "note": "no parsha/holiday match"
-    },
-    {
-      "file": "Sukkot story.m4a",
-      "mtime": "2026-09-08T09:58:01",
       "note": "no parsha/holiday match"
     }
   ],
@@ -965,9 +1133,70 @@
       "group": "holiday:Erev Pesach",
       "parsha": null,
       "holiday": "Erev Pesach",
+      "forceId": null,
       "suggestedCatalogId": "erev-pesach",
       "catalogId": "erev-pesach",
-      "dest": "assets/audio/parsha/erev-pesach.m4a"
+      "dest": "assets/audio/holidays/erev-pesach.m4a"
+    },
+    {
+      "file": "Erev Rosh Hashanna 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Rosh Hashanna 2026.m4a",
+      "mtime": "2026-09-11T14:58:20",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Rosh Hashana",
+      "parsha": null,
+      "holiday": "Erev Rosh Hashana",
+      "forceId": null,
+      "suggestedCatalogId": "erev-rosh-hashanah",
+      "catalogId": "erev-rosh-hashanah",
+      "dest": "assets/audio/holidays/erev-rosh-hashanah.m4a"
+    },
+    {
+      "file": "Erev Sukkot 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Sukkot 2026.m4a",
+      "mtime": "2026-09-25T13:26:56",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Sukkot",
+      "parsha": null,
+      "holiday": "Erev Sukkot",
+      "forceId": null,
+      "suggestedCatalogId": "erev-sukkot",
+      "catalogId": "erev-sukkot",
+      "dest": "assets/audio/holidays/erev-sukkot.m4a"
+    },
+    {
+      "file": "Erev Yom Kippur 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Yom Kippur 2026.m4a",
+      "mtime": "2026-09-20T15:04:21",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Yom Kippur",
+      "parsha": null,
+      "holiday": "Erev Yom Kippur",
+      "forceId": null,
+      "suggestedCatalogId": "erev-yom-kippur",
+      "catalogId": "erev-yom-kippur",
+      "dest": "assets/audio/holidays/erev-yom-kippur.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chol Hamoed Sukkot (1).m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chol Hamoed Sukkot (1).m4a",
+      "mtime": "2025-10-10T00:04:23",
+      "years": [
+        2025
+      ],
+      "group": "holiday:Shabbos Chol Hamoed Sukkot",
+      "parsha": null,
+      "holiday": "Shabbos Chol Hamoed Sukkot",
+      "forceId": null,
+      "suggestedCatalogId": "shabbos-chol-hamoed-sukkot",
+      "catalogId": "shabbos-chol-hamoed-sukkot",
+      "dest": "assets/audio/holidays/shabbos-chol-hamoed-sukkot.m4a"
     },
     {
       "file": "Erev Shevi'i shel Pesach.m4a",
@@ -979,9 +1208,55 @@
       "group": "holiday:Shvi'i shel Pesach",
       "parsha": null,
       "holiday": "Shvi'i shel Pesach",
+      "forceId": null,
       "suggestedCatalogId": "shvi-i-shel-pesach",
       "catalogId": "shvi-i-shel-pesach",
-      "dest": "assets/audio/parsha/shvi-i-shel-pesach.m4a"
+      "dest": "assets/audio/holidays/shvi-i-shel-pesach.m4a"
+    },
+    {
+      "file": "Erev Simchas Torah 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Simchas Torah 2026.m4a",
+      "mtime": "2026-10-02T15:43:11",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Simchat Torah",
+      "parsha": null,
+      "holiday": "Simchat Torah",
+      "forceId": null,
+      "suggestedCatalogId": "erev-simchat-torah",
+      "catalogId": "erev-simchat-torah",
+      "dest": "assets/audio/holidays/erev-simchat-torah.m4a"
+    },
+    {
+      "file": "Sukkot story.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Sukkot story.m4a",
+      "mtime": "2026-09-08T09:58:01",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Sukkot Story",
+      "parsha": null,
+      "holiday": "Sukkot Story",
+      "forceId": null,
+      "suggestedCatalogId": "sukkot-story",
+      "catalogId": "sukkot-story",
+      "dest": "assets/audio/holidays/sukkot-story.m4a"
+    },
+    {
+      "file": "Dvar Torah Parshas Vayere.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Dvar Torah Parshas Vayere.m4a",
+      "mtime": "2025-11-07T11:03:11",
+      "years": [
+        2025
+      ],
+      "group": "id:vayera-mesirat-nefesh",
+      "parsha": null,
+      "holiday": null,
+      "forceId": "vayera-mesirat-nefesh",
+      "suggestedCatalogId": "vayera-mesirat-nefesh",
+      "catalogId": "vayera-mesirat-nefesh",
+      "dest": "assets/audio/parsha/vayera-mesirat-nefesh.m4a"
     },
     {
       "file": "Erev Shabbos Achareimos Kedoshim.m4a",
@@ -993,6 +1268,7 @@
       "group": "parsha:Acharei Mot-Kedoshim",
       "parsha": "Acharei Mot-Kedoshim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "acharei-mot-kedoshim",
       "catalogId": "acharei-mot-kedoshim",
       "dest": "assets/audio/parsha/acharei-mot-kedoshim.m4a"
@@ -1007,6 +1283,7 @@
       "group": "parsha:Balak",
       "parsha": "Balak",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "balak",
       "catalogId": "balak",
       "dest": "assets/audio/parsha/balak.m4a"
@@ -1021,6 +1298,7 @@
       "group": "parsha:Bamidbar",
       "parsha": "Bamidbar",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "bamidbar",
       "catalogId": "bamidbar",
       "dest": "assets/audio/parsha/bamidbar.m4a"
@@ -1035,6 +1313,7 @@
       "group": "parsha:Behaaloscha",
       "parsha": "Behaaloscha",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "behaaloscha",
       "catalogId": "behaaloscha",
       "dest": "assets/audio/parsha/behaaloscha.m4a"
@@ -1049,6 +1328,7 @@
       "group": "parsha:Behar-Bechukotai",
       "parsha": "Behar-Bechukotai",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "behar-bechukotai",
       "catalogId": "behar-bechukotai",
       "dest": "assets/audio/parsha/behar-bechukotai.m4a"
@@ -1063,6 +1343,7 @@
       "group": "parsha:Bereishis",
       "parsha": "Bereishis",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "bereishis",
       "catalogId": "bereishis",
       "dest": "assets/audio/parsha/bereishis.m4a"
@@ -1077,6 +1358,7 @@
       "group": "parsha:Beshalach",
       "parsha": "Beshalach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "beshalach",
       "catalogId": "beshalach",
       "dest": "assets/audio/parsha/beshalach.m4a"
@@ -1091,6 +1373,7 @@
       "group": "parsha:Bo",
       "parsha": "Bo",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "bo",
       "catalogId": "bo",
       "dest": "assets/audio/parsha/bo.m4a"
@@ -1105,6 +1388,7 @@
       "group": "parsha:Chayei Sara",
       "parsha": "Chayei Sara",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "chayei-sara",
       "catalogId": "chayei-sara",
       "dest": "assets/audio/parsha/chayei-sara.m4a"
@@ -1119,6 +1403,7 @@
       "group": "parsha:Chukat",
       "parsha": "Chukat",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "chukat",
       "catalogId": "chukat",
       "dest": "assets/audio/parsha/chukat.m4a"
@@ -1133,6 +1418,7 @@
       "group": "parsha:Devarim",
       "parsha": "Devarim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "devarim",
       "catalogId": "devarim",
       "dest": "assets/audio/parsha/devarim.m4a"
@@ -1147,6 +1433,7 @@
       "group": "parsha:Eikev",
       "parsha": "Eikev",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "eikev",
       "catalogId": "eikev",
       "dest": "assets/audio/parsha/eikev.m4a"
@@ -1161,6 +1448,7 @@
       "group": "parsha:Emor",
       "parsha": "Emor",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "emor",
       "catalogId": "emor",
       "dest": "assets/audio/parsha/emor.m4a"
@@ -1175,6 +1463,7 @@
       "group": "parsha:Haazinu",
       "parsha": "Haazinu",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "haazinu",
       "catalogId": "haazinu",
       "dest": "assets/audio/parsha/haazinu.m4a"
@@ -1189,6 +1478,7 @@
       "group": "parsha:Ki Sisa",
       "parsha": "Ki Sisa",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "ki-sisa",
       "catalogId": "ki-sisa",
       "dest": "assets/audio/parsha/ki-sisa.m4a"
@@ -1203,6 +1493,7 @@
       "group": "parsha:Ki Tavo",
       "parsha": "Ki Tavo",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "ki-tavo",
       "catalogId": "ki-tavo",
       "dest": "assets/audio/parsha/ki-tavo.m4a"
@@ -1217,6 +1508,7 @@
       "group": "parsha:Ki Teitzei",
       "parsha": "Ki Teitzei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "ki-teitzei",
       "catalogId": "ki-teitzei",
       "dest": "assets/audio/parsha/ki-teitzei.m4a"
@@ -1231,6 +1523,7 @@
       "group": "parsha:Korach",
       "parsha": "Korach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "korach",
       "catalogId": "korach",
       "dest": "assets/audio/parsha/korach.m4a"
@@ -1245,6 +1538,7 @@
       "group": "parsha:Lech Lecha",
       "parsha": "Lech Lecha",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "lech-lecha",
       "catalogId": "lech-lecha",
       "dest": "assets/audio/parsha/lech-lecha.m4a"
@@ -1259,9 +1553,25 @@
       "group": "parsha:Matot-Masei",
       "parsha": "Matot-Masei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "matot-masei",
       "catalogId": "matot-masei",
       "dest": "assets/audio/parsha/matot-masei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
+      "mtime": "2026-03-14T19:39:50",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Miketz",
+      "parsha": "Miketz",
+      "holiday": null,
+      "forceId": null,
+      "suggestedCatalogId": "miketz",
+      "catalogId": "miketz",
+      "dest": "assets/audio/parsha/miketz.m4a"
     },
     {
       "file": "Erev Shabbos Parshas Mishpatim.m4a",
@@ -1273,9 +1583,25 @@
       "group": "parsha:Mishpatim",
       "parsha": "Mishpatim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "mishpatim",
       "catalogId": "mishpatim",
       "dest": "assets/audio/parsha/mishpatim.m4a"
+    },
+    {
+      "file": "Erev Shavuos and Naaso.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shavuos and Naaso.m4a",
+      "mtime": "2026-05-21T15:23:49",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Nasso",
+      "parsha": "Nasso",
+      "holiday": null,
+      "forceId": null,
+      "suggestedCatalogId": "nasso",
+      "catalogId": "nasso",
+      "dest": "assets/audio/parsha/nasso.m4a"
     },
     {
       "file": "Erev Shabbos Nitzavim Vayelech 2926.m4a",
@@ -1287,6 +1613,7 @@
       "group": "parsha:Nitzavim",
       "parsha": "Nitzavim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "nitzavim",
       "catalogId": "nitzavim",
       "dest": "assets/audio/parsha/nitzavim.m4a"
@@ -1301,6 +1628,7 @@
       "group": "parsha:Noach",
       "parsha": "Noach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "noach",
       "catalogId": "noach",
       "dest": "assets/audio/parsha/noach.m4a"
@@ -1315,6 +1643,7 @@
       "group": "parsha:Pinchas",
       "parsha": "Pinchas",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "pinchas",
       "catalogId": "pinchas",
       "dest": "assets/audio/parsha/pinchas.m4a"
@@ -1329,6 +1658,7 @@
       "group": "parsha:Re'eh",
       "parsha": "Re'eh",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "re-eh",
       "catalogId": "re-eh",
       "dest": "assets/audio/parsha/re-eh.m4a"
@@ -1343,6 +1673,7 @@
       "group": "parsha:Shemos",
       "parsha": "Shemos",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": null,
       "applyError": "no catalog id"
     },
@@ -1356,6 +1687,7 @@
       "group": "parsha:Shlach",
       "parsha": "Shlach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "shlach",
       "catalogId": "shlach",
       "dest": "assets/audio/parsha/shlach.m4a"
@@ -1370,6 +1702,7 @@
       "group": "parsha:Shmini",
       "parsha": "Shmini",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "shmini",
       "catalogId": "shmini",
       "dest": "assets/audio/parsha/shmini.m4a"
@@ -1384,6 +1717,7 @@
       "group": "parsha:Shoftim",
       "parsha": "Shoftim",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "shoftim",
       "catalogId": "shoftim",
       "dest": "assets/audio/parsha/shoftim.m4a"
@@ -1398,6 +1732,7 @@
       "group": "parsha:Tazria-Metzora",
       "parsha": "Tazria-Metzora",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "tazria-metzora",
       "catalogId": "tazria-metzora",
       "dest": "assets/audio/parsha/tazria-metzora.m4a"
@@ -1412,6 +1747,7 @@
       "group": "parsha:Terumah",
       "parsha": "Terumah",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "terumah",
       "catalogId": "terumah",
       "dest": "assets/audio/parsha/terumah.m4a"
@@ -1426,6 +1762,7 @@
       "group": "parsha:Tetzaveh",
       "parsha": "Tetzaveh",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "tetzaveh",
       "catalogId": "tetzaveh",
       "dest": "assets/audio/parsha/tetzaveh.m4a"
@@ -1440,6 +1777,7 @@
       "group": "parsha:Toldot",
       "parsha": "Toldot",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "toldot",
       "catalogId": "toldot",
       "dest": "assets/audio/parsha/toldot.m4a"
@@ -1454,6 +1792,7 @@
       "group": "parsha:Tzav",
       "parsha": "Tzav",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "tzav",
       "catalogId": "tzav",
       "dest": "assets/audio/parsha/tzav.m4a"
@@ -1468,6 +1807,7 @@
       "group": "parsha:Vaera",
       "parsha": "Vaera",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vaera",
       "catalogId": "vaera",
       "dest": "assets/audio/parsha/vaera.m4a"
@@ -1482,6 +1822,7 @@
       "group": "parsha:Vaetchanan",
       "parsha": "Vaetchanan",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vaetchanan",
       "catalogId": "vaetchanan",
       "dest": "assets/audio/parsha/vaetchanan.m4a"
@@ -1496,6 +1837,7 @@
       "group": "parsha:Vayakhel-Pekudei",
       "parsha": "Vayakhel-Pekudei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayakhel-pekudei",
       "catalogId": "vayakhel-pekudei",
       "dest": "assets/audio/parsha/vayakhel-pekudei.m4a"
@@ -1510,6 +1852,7 @@
       "group": "parsha:Vayelech",
       "parsha": "Vayelech",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayelech",
       "catalogId": "vayelech",
       "dest": "assets/audio/parsha/vayelech.m4a"
@@ -1524,6 +1867,7 @@
       "group": "parsha:Vayera",
       "parsha": "Vayera",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayera-rule-of-three",
       "catalogId": "vayera-rule-of-three",
       "dest": "assets/audio/parsha/vayera-rule-of-three.m4a"
@@ -1538,6 +1882,7 @@
       "group": "parsha:Vayeshev",
       "parsha": "Vayeshev",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayeshev",
       "catalogId": "vayeshev",
       "dest": "assets/audio/parsha/vayeshev.m4a"
@@ -1552,6 +1897,7 @@
       "group": "parsha:Vayetzei",
       "parsha": "Vayetzei",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayetzei",
       "catalogId": "vayetzei",
       "dest": "assets/audio/parsha/vayetzei.m4a"
@@ -1566,6 +1912,7 @@
       "group": "parsha:Vayikra",
       "parsha": "Vayikra",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayikra",
       "catalogId": "vayikra",
       "dest": "assets/audio/parsha/vayikra.m4a"
@@ -1580,6 +1927,7 @@
       "group": "parsha:Vayishlach",
       "parsha": "Vayishlach",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "vayishlach",
       "catalogId": "vayishlach",
       "dest": "assets/audio/parsha/vayishlach.m4a"
@@ -1594,6 +1942,7 @@
       "group": "parsha:Yitro",
       "parsha": "Yitro",
       "holiday": null,
+      "forceId": null,
       "suggestedCatalogId": "yitro",
       "catalogId": "yitro",
       "dest": "assets/audio/parsha/yitro.m4a"

@@ -668,7 +668,7 @@
       "id": "erev-pesach",
       "title": "From Mitzrayim to Closeness",
       "kind": "holiday",
-      "series": "Weekly Torah",
+      "series": "Yamim Tovim",
       "holiday": "Erev Pesach",
       "categories": [
         "torah"
@@ -680,7 +680,7 @@
       "id": "shvi-i-shel-pesach",
       "title": "Shvi’i Shel Pesach",
       "kind": "holiday",
-      "series": "Weekly Torah",
+      "series": "Yamim Tovim",
       "holiday": "Shvi'i shel Pesach",
       "categories": [
         "torah"
@@ -918,6 +918,78 @@
       ],
       "date": "2026-10-10",
       "dateDisplay": "October 10, 2026"
+    },
+    {
+      "id": "erev-rosh-hashanah",
+      "title": "Erev Rosh Hashanah",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Erev Rosh Hashana",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-11",
+      "dateDisplay": "September 11, 2026"
+    },
+    {
+      "id": "erev-yom-kippur",
+      "title": "Erev Yom Kippur",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Erev Yom Kippur",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-20",
+      "dateDisplay": "September 20, 2026"
+    },
+    {
+      "id": "erev-sukkot",
+      "title": "Erev Sukkot",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Erev Sukkot",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-25",
+      "dateDisplay": "September 25, 2026"
+    },
+    {
+      "id": "shabbos-chol-hamoed-sukkot",
+      "title": "Shabbos Chol Hamoed Sukkot",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Shabbos Chol Hamoed Sukkot",
+      "categories": [
+        "torah"
+      ],
+      "date": "2025-10-10",
+      "dateDisplay": "October 10, 2025"
+    },
+    {
+      "id": "erev-simchat-torah",
+      "title": "Erev Simchat Torah",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Simchat Torah",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-10-02",
+      "dateDisplay": "October 2, 2026"
+    },
+    {
+      "id": "sukkot-story",
+      "title": "Sukkot Story",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Sukkot Story",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-09-08",
+      "dateDisplay": "September 8, 2026"
     }
   ],
   "calendarSource": "data/parsha-calendar.json"
