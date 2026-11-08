@@ -1,0 +1,1602 @@
+{
+  "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim",
+  "preferYear": 2026,
+  "excludedCount": 12,
+  "selectedCount": 46,
+  "excluded": [
+    {
+      "file": "Erev Nitavim Vayelech not public.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-09-04T16:01:12"
+    },
+    {
+      "file": "Erev Pesach Special Audio - Share With Respect.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-04-01T13:27:16"
+    },
+    {
+      "file": "Erev Shabbos Bamidvar not for publication.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-05-15T17:32:39"
+    },
+    {
+      "file": "Erev Shabbos Bereishis not public 2026.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-10-09T16:25:38"
+    },
+    {
+      "file": "Erev Shabbos Eikev - Internal.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2025-08-14T22:07:21"
+    },
+    {
+      "file": "Erev Shabbos Levh Levha not public.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2025-10-31T12:12:10"
+    },
+    {
+      "file": "Erev Shabbos Noach but not for public.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2025-10-23T21:23:28"
+    },
+    {
+      "file": "Erev Shabbos Shmini not complete.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-04-10T13:56:00"
+    },
+    {
+      "file": "Erev Shabbos Vayakheil Pekudei not public.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-03-13T13:48:12"
+    },
+    {
+      "file": "Erev shvii shel oesach internal.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-04-07T17:42:21"
+    },
+    {
+      "file": "Parshas Noach try 2, not for public.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2025-10-23T21:35:00"
+    },
+    {
+      "file": "Tetzaveh not for public.m4a",
+      "reason": "filename marker (not public / incomplete / internal)",
+      "mtime": "2026-02-27T16:27:25"
+    }
+  ],
+  "selected": [
+    {
+      "file": "Erev Pesach 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Pesach 2026.m4a",
+      "mtime": "2026-04-01T13:49:38",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Pesach",
+      "parsha": null,
+      "holiday": "Erev Pesach",
+      "suggestedCatalogId": "erev-pesach",
+      "catalogId": "erev-pesach",
+      "dest": "assets/audio/parsha/erev-pesach.m4a"
+    },
+    {
+      "file": "Erev Shevi'i shel Pesach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shevi'i shel Pesach.m4a",
+      "mtime": "2026-04-07T17:57:19",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Shvi'i shel Pesach",
+      "parsha": null,
+      "holiday": "Shvi'i shel Pesach",
+      "suggestedCatalogId": "shvi-i-shel-pesach",
+      "catalogId": "shvi-i-shel-pesach",
+      "dest": "assets/audio/parsha/shvi-i-shel-pesach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Achareimos Kedoshim.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Achareimos Kedoshim.m4a",
+      "mtime": "2026-04-24T17:08:18",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Acharei Mot-Kedoshim",
+      "parsha": "Acharei Mot-Kedoshim",
+      "holiday": null,
+      "suggestedCatalogId": "acharei-mot-kedoshim",
+      "catalogId": "acharei-mot-kedoshim",
+      "dest": "assets/audio/parsha/acharei-mot-kedoshim.m4a"
+    },
+    {
+      "file": "Erev Shabbosh Balak.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbosh Balak.m4a",
+      "mtime": "2026-06-26T18:47:27",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Balak",
+      "parsha": "Balak",
+      "holiday": null,
+      "suggestedCatalogId": "balak",
+      "catalogId": "balak",
+      "dest": "assets/audio/parsha/balak.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Bamidbar.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Bamidbar.m4a",
+      "mtime": "2026-05-15T17:51:06",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Bamidbar",
+      "parsha": "Bamidbar",
+      "holiday": null,
+      "suggestedCatalogId": "bamidbar",
+      "catalogId": "bamidbar",
+      "dest": "assets/audio/parsha/bamidbar.m4a"
+    },
+    {
+      "file": "Erev Shabbos Bahaaloscha.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Bahaaloscha.m4a",
+      "mtime": "2026-05-29T18:26:28",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Behaaloscha",
+      "parsha": "Behaaloscha",
+      "holiday": null,
+      "suggestedCatalogId": "behaaloscha",
+      "catalogId": "behaaloscha",
+      "dest": "assets/audio/parsha/behaaloscha.m4a"
+    },
+    {
+      "file": "Erev Shabbos Behar Bechukotai.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Behar Bechukotai.m4a",
+      "mtime": "2026-05-08T17:04:34",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Behar-Bechukotai",
+      "parsha": "Behar-Bechukotai",
+      "holiday": null,
+      "suggestedCatalogId": "behar-bechukotai",
+      "catalogId": "behar-bechukotai",
+      "dest": "assets/audio/parsha/behar-bechukotai.m4a"
+    },
+    {
+      "file": "Erev Shabbos Berishit 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Berishit 2026.m4a",
+      "mtime": "2026-10-09T16:50:27",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Bereishis",
+      "parsha": "Bereishis",
+      "holiday": null,
+      "suggestedCatalogId": "bereishis",
+      "catalogId": "bereishis",
+      "dest": "assets/audio/parsha/bereishis.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Beshalach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Beshalach.m4a",
+      "mtime": "2026-01-30T16:12:11",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Beshalach",
+      "parsha": "Beshalach",
+      "holiday": null,
+      "suggestedCatalogId": "beshalach",
+      "catalogId": "beshalach",
+      "dest": "assets/audio/parsha/beshalach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Bo.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Bo.m4a",
+      "mtime": "2026-01-23T15:55:27",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Bo",
+      "parsha": "Bo",
+      "holiday": null,
+      "suggestedCatalogId": "bo",
+      "catalogId": "bo",
+      "dest": "assets/audio/parsha/bo.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chayei Sarah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chayei Sarah.m4a",
+      "mtime": "2026-11-06T14:50:04",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Chayei Sara",
+      "parsha": "Chayei Sara",
+      "holiday": null,
+      "suggestedCatalogId": "chayei-sara",
+      "catalogId": "chayei-sara",
+      "dest": "assets/audio/parsha/chayei-sara.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chukas.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chukas.m4a",
+      "mtime": "2026-06-19T17:09:30",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Chukat",
+      "parsha": "Chukat",
+      "holiday": null,
+      "suggestedCatalogId": "chukat",
+      "catalogId": "chukat",
+      "dest": "assets/audio/parsha/chukat.m4a"
+    },
+    {
+      "file": "Erev Shabbos Devarim 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Devarim 2026.m4a",
+      "mtime": "2026-07-17T14:36:43",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Devarim",
+      "parsha": "Devarim",
+      "holiday": null,
+      "suggestedCatalogId": "devarim",
+      "catalogId": "devarim",
+      "dest": "assets/audio/parsha/devarim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Eikev 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Eikev 2026.m4a",
+      "mtime": "2026-07-31T14:47:22",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Eikev",
+      "parsha": "Eikev",
+      "holiday": null,
+      "suggestedCatalogId": "eikev",
+      "catalogId": "eikev",
+      "dest": "assets/audio/parsha/eikev.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Emor.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Emor.m4a",
+      "mtime": "2026-05-01T17:49:08",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Emor",
+      "parsha": "Emor",
+      "holiday": null,
+      "suggestedCatalogId": "emor",
+      "catalogId": "emor",
+      "dest": "assets/audio/parsha/emor.m4a"
+    },
+    {
+      "file": "Erev Shabbos Haazinu Shabbos Shuva 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Haazinu Shabbos Shuva 2026.m4a",
+      "mtime": "2026-09-18T15:30:11",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Haazinu",
+      "parsha": "Haazinu",
+      "holiday": null,
+      "suggestedCatalogId": "haazinu",
+      "catalogId": "haazinu",
+      "dest": "assets/audio/parsha/haazinu.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Ki Tisa.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Ki Tisa.m4a",
+      "mtime": "2026-03-06T15:21:09",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Ki Sisa",
+      "parsha": "Ki Sisa",
+      "holiday": null,
+      "suggestedCatalogId": "ki-sisa",
+      "catalogId": "ki-sisa",
+      "dest": "assets/audio/parsha/ki-sisa.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas KiTavo 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas KiTavo 2026.m4a",
+      "mtime": "2026-08-28T15:50:07",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Ki Tavo",
+      "parsha": "Ki Tavo",
+      "holiday": null,
+      "suggestedCatalogId": "ki-tavo",
+      "catalogId": "ki-tavo",
+      "dest": "assets/audio/parsha/ki-tavo.m4a"
+    },
+    {
+      "file": "Erev Shabbos Ki Teitzei 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Ki Teitzei 2026.m4a",
+      "mtime": "2026-08-21T15:23:55",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Ki Teitzei",
+      "parsha": "Ki Teitzei",
+      "holiday": null,
+      "suggestedCatalogId": "ki-teitzei",
+      "catalogId": "ki-teitzei",
+      "dest": "assets/audio/parsha/ki-teitzei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Korach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Korach.m4a",
+      "mtime": "2026-06-12T15:51:50",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Korach",
+      "parsha": "Korach",
+      "holiday": null,
+      "suggestedCatalogId": "korach",
+      "catalogId": "korach",
+      "dest": "assets/audio/parsha/korach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Lech Lecha 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Lech Lecha 2026.m4a",
+      "mtime": "2026-10-23T15:08:40",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Lech Lecha",
+      "parsha": "Lech Lecha",
+      "holiday": null,
+      "suggestedCatalogId": "lech-lecha",
+      "catalogId": "lech-lecha",
+      "dest": "assets/audio/parsha/lech-lecha.m4a"
+    },
+    {
+      "file": "Erev Shabbos Matos Masei.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Matos Masei.m4a",
+      "mtime": "2026-07-10T17:58:09",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Matot-Masei",
+      "parsha": "Matot-Masei",
+      "holiday": null,
+      "suggestedCatalogId": "matot-masei",
+      "catalogId": "matot-masei",
+      "dest": "assets/audio/parsha/matot-masei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Mishpatim.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Mishpatim.m4a",
+      "mtime": "2026-02-14T18:55:03",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Mishpatim",
+      "parsha": "Mishpatim",
+      "holiday": null,
+      "suggestedCatalogId": "mishpatim",
+      "catalogId": "mishpatim",
+      "dest": "assets/audio/parsha/mishpatim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Nitzavim Vayelech 2926.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Nitzavim Vayelech 2926.m4a",
+      "mtime": "2026-09-04T16:18:10",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Nitzavim",
+      "parsha": "Nitzavim",
+      "holiday": null,
+      "suggestedCatalogId": "nitzavim",
+      "catalogId": "nitzavim",
+      "dest": "assets/audio/parsha/nitzavim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Noach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Noach.m4a",
+      "mtime": "2026-10-16T14:45:30",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Noach",
+      "parsha": "Noach",
+      "holiday": null,
+      "suggestedCatalogId": "noach",
+      "catalogId": "noach",
+      "dest": "assets/audio/parsha/noach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Pinchas 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Pinchas 2026.m4a",
+      "mtime": "2026-07-03T19:06:14",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Pinchas",
+      "parsha": "Pinchas",
+      "holiday": null,
+      "suggestedCatalogId": "pinchas",
+      "catalogId": "pinchas",
+      "dest": "assets/audio/parsha/pinchas.m4a"
+    },
+    {
+      "file": "Erev Shabbos Re'eh 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Re'eh 2026.m4a",
+      "mtime": "2026-08-07T18:53:37",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Re'eh",
+      "parsha": "Re'eh",
+      "holiday": null,
+      "suggestedCatalogId": "re-eh",
+      "catalogId": "re-eh",
+      "dest": "assets/audio/parsha/re-eh.m4a"
+    },
+    {
+      "file": "Erev Shabbos Shemot 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shemot 2026.m4a",
+      "mtime": "2026-01-09T15:53:31",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shemos",
+      "parsha": "Shemos",
+      "holiday": null,
+      "suggestedCatalogId": null,
+      "applyError": "no catalog id"
+    },
+    {
+      "file": "Erev Shabbos Shlach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shlach.m4a",
+      "mtime": "2026-06-05T17:36:43",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shlach",
+      "parsha": "Shlach",
+      "holiday": null,
+      "suggestedCatalogId": "shlach",
+      "catalogId": "shlach",
+      "dest": "assets/audio/parsha/shlach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Shmini.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shmini.m4a",
+      "mtime": "2026-04-10T14:10:57",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shmini",
+      "parsha": "Shmini",
+      "holiday": null,
+      "suggestedCatalogId": "shmini",
+      "catalogId": "shmini",
+      "dest": "assets/audio/parsha/shmini.m4a"
+    },
+    {
+      "file": "Erev Shabbos Shoftim Rosh Chidesh Elul 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shoftim Rosh Chidesh Elul 2026.m4a",
+      "mtime": "2026-08-14T19:10:18",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shoftim",
+      "parsha": "Shoftim",
+      "holiday": null,
+      "suggestedCatalogId": "shoftim",
+      "catalogId": "shoftim",
+      "dest": "assets/audio/parsha/shoftim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Tazria Metzorah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Tazria Metzorah.m4a",
+      "mtime": "2026-04-17T15:00:20",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Tazria-Metzora",
+      "parsha": "Tazria-Metzora",
+      "holiday": null,
+      "suggestedCatalogId": "tazria-metzora",
+      "catalogId": "tazria-metzora",
+      "dest": "assets/audio/parsha/tazria-metzora.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Terumah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Terumah.m4a",
+      "mtime": "2026-02-20T13:22:55",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Terumah",
+      "parsha": "Terumah",
+      "holiday": null,
+      "suggestedCatalogId": "terumah",
+      "catalogId": "terumah",
+      "dest": "assets/audio/parsha/terumah.m4a"
+    },
+    {
+      "file": "Erev Shabbos Teztaveh.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Teztaveh.m4a",
+      "mtime": "2026-02-27T16:44:03",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Tetzaveh",
+      "parsha": "Tetzaveh",
+      "holiday": null,
+      "suggestedCatalogId": "tetzaveh",
+      "catalogId": "tetzaveh",
+      "dest": "assets/audio/parsha/tetzaveh.m4a"
+    },
+    {
+      "file": "Erev Shabbos Toldos.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Toldos.m4a",
+      "mtime": "2025-11-21T14:22:51",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Toldot",
+      "parsha": "Toldot",
+      "holiday": null,
+      "suggestedCatalogId": "toldot",
+      "catalogId": "toldot",
+      "dest": "assets/audio/parsha/toldot.m4a"
+    },
+    {
+      "file": "Erev Shabbos Tzav Shabbos HaGadol.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Tzav Shabbos HaGadol.m4a",
+      "mtime": "2026-03-27T15:50:01",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Tzav",
+      "parsha": "Tzav",
+      "holiday": null,
+      "suggestedCatalogId": "tzav",
+      "catalogId": "tzav",
+      "dest": "assets/audio/parsha/tzav.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Vaeira.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Vaeira.m4a",
+      "mtime": "2026-01-16T14:39:21",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vaera",
+      "parsha": "Vaera",
+      "holiday": null,
+      "suggestedCatalogId": "vaera",
+      "catalogId": "vaera",
+      "dest": "assets/audio/parsha/vaera.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vaeschanan Nachamu 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vaeschanan Nachamu 2026.m4a",
+      "mtime": "2026-07-24T16:57:30",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vaetchanan",
+      "parsha": "Vaetchanan",
+      "holiday": null,
+      "suggestedCatalogId": "vaetchanan",
+      "catalogId": "vaetchanan",
+      "dest": "assets/audio/parsha/vaetchanan.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayakheil Pekudei.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayakheil Pekudei.m4a",
+      "mtime": "2026-03-13T14:07:22",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayakhel-Pekudei",
+      "parsha": "Vayakhel-Pekudei",
+      "holiday": null,
+      "suggestedCatalogId": "vayakhel-pekudei",
+      "catalogId": "vayakhel-pekudei",
+      "dest": "assets/audio/parsha/vayakhel-pekudei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshar Vayeleich.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshar Vayeleich.m4a",
+      "mtime": "2025-09-26T15:46:37",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Vayelech",
+      "parsha": "Vayelech",
+      "holiday": null,
+      "suggestedCatalogId": "vayelech",
+      "catalogId": "vayelech",
+      "dest": "assets/audio/parsha/vayelech.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayeira 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayeira 2026.m4a",
+      "mtime": "2026-10-30T15:17:17",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayera",
+      "parsha": "Vayera",
+      "holiday": null,
+      "suggestedCatalogId": "vayera-rule-of-three",
+      "catalogId": "vayera-rule-of-three",
+      "dest": "assets/audio/parsha/vayera-rule-of-three.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayeshev (1).m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayeshev (1).m4a",
+      "mtime": "2026-03-05T21:38:23",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayeshev",
+      "parsha": "Vayeshev",
+      "holiday": null,
+      "suggestedCatalogId": "vayeshev",
+      "catalogId": "vayeshev",
+      "dest": "assets/audio/parsha/vayeshev.m4a"
+    },
+    {
+      "file": "Parshas Vayeitze.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Parshas Vayeitze.m4a",
+      "mtime": "2025-11-28T12:37:20",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Vayetzei",
+      "parsha": "Vayetzei",
+      "holiday": null,
+      "suggestedCatalogId": "vayetzei",
+      "catalogId": "vayetzei",
+      "dest": "assets/audio/parsha/vayetzei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayikra.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayikra.m4a",
+      "mtime": "2026-03-20T17:35:53",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayikra",
+      "parsha": "Vayikra",
+      "holiday": null,
+      "suggestedCatalogId": "vayikra",
+      "catalogId": "vayikra",
+      "dest": "assets/audio/parsha/vayikra.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Vayishlach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Vayishlach.m4a",
+      "mtime": "2025-12-05T13:56:15",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Vayishlach",
+      "parsha": "Vayishlach",
+      "holiday": null,
+      "suggestedCatalogId": "vayishlach",
+      "catalogId": "vayishlach",
+      "dest": "assets/audio/parsha/vayishlach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Yisro.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Yisro.m4a",
+      "mtime": "2026-02-06T14:22:49",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Yitro",
+      "parsha": "Yitro",
+      "holiday": null,
+      "suggestedCatalogId": "yitro",
+      "catalogId": "yitro",
+      "dest": "assets/audio/parsha/yitro.m4a"
+    }
+  ],
+  "skippedDuplicates": [
+    {
+      "file": "Erev Shabbos Devarim.m4a",
+      "mtime": "2025-08-01T14:43:07",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Devarim 2026.m4a",
+      "group": "parsha:Devarim"
+    },
+    {
+      "file": "Erev Shabbos Parshat Eikev.m4a",
+      "mtime": "2025-08-15T15:44:24",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Parshas Eikev 2026.m4a",
+      "group": "parsha:Eikev"
+    },
+    {
+      "file": "Erev Shabbos Parshat Haazinu.m4a",
+      "mtime": "2025-10-03T13:34:21",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Haazinu Shabbos Shuva 2026.m4a",
+      "group": "parsha:Haazinu"
+    },
+    {
+      "file": "Erev Shabbos Ki Tavo.m4a",
+      "mtime": "2025-09-12T15:05:18",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Parshas KiTavo 2026.m4a",
+      "group": "parsha:Ki Tavo"
+    },
+    {
+      "file": "Erev Shabbos Parshat Ki Teitze.mp3",
+      "mtime": "2025-09-05T15:29:31",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Ki Teitzei 2026.m4a",
+      "group": "parsha:Ki Teitzei"
+    },
+    {
+      "file": "Erev Shabbos Parshat Ki Teitze.m4a",
+      "mtime": "2025-09-05T14:55:16",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Ki Teitzei 2026.m4a",
+      "group": "parsha:Ki Teitzei"
+    },
+    {
+      "file": "Erev Shabbos Parshas Lech Lecha.m4a",
+      "mtime": "2025-10-31T13:33:18",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Lech Lecha 2026.m4a",
+      "group": "parsha:Lech Lecha"
+    },
+    {
+      "file": "Erev Shabbos Parshat Nitzavim.m4a",
+      "mtime": "2025-09-19T13:56:52",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Nitzavim Vayelech 2926.m4a",
+      "group": "parsha:Nitzavim"
+    },
+    {
+      "file": "Erev Shabbos Parshas Noach (1).m4a",
+      "mtime": "2025-10-24T08:32:29",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Noach.m4a",
+      "group": "parsha:Noach"
+    },
+    {
+      "file": "Erev Shabbos Parshas Noach.m4a",
+      "mtime": "2025-10-24T08:30:50",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Noach.m4a",
+      "group": "parsha:Noach"
+    },
+    {
+      "file": "Erev Shabbos Shemot.m4a",
+      "mtime": "2026-01-09T16:08:33",
+      "years": [
+        2026
+      ],
+      "reason": "superseded by Erev Shabbos Shemot 2026.m4a",
+      "group": "parsha:Shemos"
+    },
+    {
+      "file": "Erev Shabbos Parshat Shoftim.m4a",
+      "mtime": "2025-08-29T15:27:10",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Shoftim Rosh Chidesh Elul 2026.m4a",
+      "group": "parsha:Shoftim"
+    },
+    {
+      "file": "Erev Shabbos Vaetchanan.m4a",
+      "mtime": "2025-08-07T23:56:06",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Vaeschanan Nachamu 2026.m4a",
+      "group": "parsha:Vaetchanan"
+    },
+    {
+      "file": "Erev Shabbos Parshat Vayeire.m4a",
+      "mtime": "2025-11-06T21:58:39",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Vayeira 2026.m4a",
+      "group": "parsha:Vayera"
+    },
+    {
+      "file": "Erev Shabbos Vayeshev.m4a",
+      "mtime": "2025-12-12T14:48:20",
+      "years": [
+        2025
+      ],
+      "reason": "superseded by Erev Shabbos Vayeshev (1).m4a",
+      "group": "parsha:Vayeshev"
+    }
+  ],
+  "unmapped": [
+    {
+      "file": "Dvar Torah Parshas Vayere.m4a",
+      "mtime": "2025-11-07T11:03:11",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Rosh Hashanah 2026 For Shul publication.m4a",
+      "mtime": "2026-09-05T22:38:41",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Rosh Hashanna 2026.m4a",
+      "mtime": "2026-09-11T14:58:20",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Rosh Hashanna 5785 into 5786.m4a",
+      "mtime": "2025-09-21T23:40:50",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Bereishit.m4a",
+      "mtime": "2025-10-17T00:20:25",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Chayei Sora.m4a",
+      "mtime": "2025-11-14T11:50:19",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Chol Hamoed Sukkot (1).m4a",
+      "mtime": "2025-10-10T00:04:23",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Chol Hamoed Sukkot.m4a",
+      "mtime": "2025-10-10T00:02:35",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk (1).m4a",
+      "mtime": "2026-03-05T21:38:24",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Mikeitz Channuka Rosh Chodesk.m4a",
+      "mtime": "2026-03-14T19:39:50",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shabbos Parshas Re'e.m4a",
+      "mtime": "2025-08-22T13:43:37",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Shavuos and Naaso.m4a",
+      "mtime": "2026-05-21T15:23:49",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Simchas Torah 2026.m4a",
+      "mtime": "2026-10-02T15:43:11",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev simchat Torah.m4a",
+      "mtime": "2025-10-10T12:37:24",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Sukkot (1).m4a",
+      "mtime": "2025-10-06T09:42:20",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Sukkot 2026.m4a",
+      "mtime": "2026-09-25T13:26:56",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Sukkot.m4a",
+      "mtime": "2025-10-06T01:12:51",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Yom Kippur 2025.m4a",
+      "mtime": "2025-10-01T11:56:02",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Erev Yom Kippur 2026.m4a",
+      "mtime": "2026-09-20T15:04:21",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Heker halacha for Liba Esther.m4a",
+      "mtime": "2025-11-30T22:02:14",
+      "note": "no parsha/holiday match"
+    },
+    {
+      "file": "Sukkot story.m4a",
+      "mtime": "2026-09-08T09:58:01",
+      "note": "no parsha/holiday match"
+    }
+  ],
+  "applied": [
+    {
+      "file": "Erev Pesach 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Pesach 2026.m4a",
+      "mtime": "2026-04-01T13:49:38",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Erev Pesach",
+      "parsha": null,
+      "holiday": "Erev Pesach",
+      "suggestedCatalogId": "erev-pesach",
+      "catalogId": "erev-pesach",
+      "dest": "assets/audio/parsha/erev-pesach.m4a"
+    },
+    {
+      "file": "Erev Shevi'i shel Pesach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shevi'i shel Pesach.m4a",
+      "mtime": "2026-04-07T17:57:19",
+      "years": [
+        2026
+      ],
+      "group": "holiday:Shvi'i shel Pesach",
+      "parsha": null,
+      "holiday": "Shvi'i shel Pesach",
+      "suggestedCatalogId": "shvi-i-shel-pesach",
+      "catalogId": "shvi-i-shel-pesach",
+      "dest": "assets/audio/parsha/shvi-i-shel-pesach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Achareimos Kedoshim.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Achareimos Kedoshim.m4a",
+      "mtime": "2026-04-24T17:08:18",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Acharei Mot-Kedoshim",
+      "parsha": "Acharei Mot-Kedoshim",
+      "holiday": null,
+      "suggestedCatalogId": "acharei-mot-kedoshim",
+      "catalogId": "acharei-mot-kedoshim",
+      "dest": "assets/audio/parsha/acharei-mot-kedoshim.m4a"
+    },
+    {
+      "file": "Erev Shabbosh Balak.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbosh Balak.m4a",
+      "mtime": "2026-06-26T18:47:27",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Balak",
+      "parsha": "Balak",
+      "holiday": null,
+      "suggestedCatalogId": "balak",
+      "catalogId": "balak",
+      "dest": "assets/audio/parsha/balak.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Bamidbar.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Bamidbar.m4a",
+      "mtime": "2026-05-15T17:51:06",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Bamidbar",
+      "parsha": "Bamidbar",
+      "holiday": null,
+      "suggestedCatalogId": "bamidbar",
+      "catalogId": "bamidbar",
+      "dest": "assets/audio/parsha/bamidbar.m4a"
+    },
+    {
+      "file": "Erev Shabbos Bahaaloscha.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Bahaaloscha.m4a",
+      "mtime": "2026-05-29T18:26:28",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Behaaloscha",
+      "parsha": "Behaaloscha",
+      "holiday": null,
+      "suggestedCatalogId": "behaaloscha",
+      "catalogId": "behaaloscha",
+      "dest": "assets/audio/parsha/behaaloscha.m4a"
+    },
+    {
+      "file": "Erev Shabbos Behar Bechukotai.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Behar Bechukotai.m4a",
+      "mtime": "2026-05-08T17:04:34",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Behar-Bechukotai",
+      "parsha": "Behar-Bechukotai",
+      "holiday": null,
+      "suggestedCatalogId": "behar-bechukotai",
+      "catalogId": "behar-bechukotai",
+      "dest": "assets/audio/parsha/behar-bechukotai.m4a"
+    },
+    {
+      "file": "Erev Shabbos Berishit 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Berishit 2026.m4a",
+      "mtime": "2026-10-09T16:50:27",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Bereishis",
+      "parsha": "Bereishis",
+      "holiday": null,
+      "suggestedCatalogId": "bereishis",
+      "catalogId": "bereishis",
+      "dest": "assets/audio/parsha/bereishis.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Beshalach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Beshalach.m4a",
+      "mtime": "2026-01-30T16:12:11",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Beshalach",
+      "parsha": "Beshalach",
+      "holiday": null,
+      "suggestedCatalogId": "beshalach",
+      "catalogId": "beshalach",
+      "dest": "assets/audio/parsha/beshalach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Bo.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Bo.m4a",
+      "mtime": "2026-01-23T15:55:27",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Bo",
+      "parsha": "Bo",
+      "holiday": null,
+      "suggestedCatalogId": "bo",
+      "catalogId": "bo",
+      "dest": "assets/audio/parsha/bo.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chayei Sarah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chayei Sarah.m4a",
+      "mtime": "2026-11-06T14:50:04",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Chayei Sara",
+      "parsha": "Chayei Sara",
+      "holiday": null,
+      "suggestedCatalogId": "chayei-sara",
+      "catalogId": "chayei-sara",
+      "dest": "assets/audio/parsha/chayei-sara.m4a"
+    },
+    {
+      "file": "Erev Shabbos Chukas.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Chukas.m4a",
+      "mtime": "2026-06-19T17:09:30",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Chukat",
+      "parsha": "Chukat",
+      "holiday": null,
+      "suggestedCatalogId": "chukat",
+      "catalogId": "chukat",
+      "dest": "assets/audio/parsha/chukat.m4a"
+    },
+    {
+      "file": "Erev Shabbos Devarim 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Devarim 2026.m4a",
+      "mtime": "2026-07-17T14:36:43",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Devarim",
+      "parsha": "Devarim",
+      "holiday": null,
+      "suggestedCatalogId": "devarim",
+      "catalogId": "devarim",
+      "dest": "assets/audio/parsha/devarim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Eikev 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Eikev 2026.m4a",
+      "mtime": "2026-07-31T14:47:22",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Eikev",
+      "parsha": "Eikev",
+      "holiday": null,
+      "suggestedCatalogId": "eikev",
+      "catalogId": "eikev",
+      "dest": "assets/audio/parsha/eikev.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Emor.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Emor.m4a",
+      "mtime": "2026-05-01T17:49:08",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Emor",
+      "parsha": "Emor",
+      "holiday": null,
+      "suggestedCatalogId": "emor",
+      "catalogId": "emor",
+      "dest": "assets/audio/parsha/emor.m4a"
+    },
+    {
+      "file": "Erev Shabbos Haazinu Shabbos Shuva 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Haazinu Shabbos Shuva 2026.m4a",
+      "mtime": "2026-09-18T15:30:11",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Haazinu",
+      "parsha": "Haazinu",
+      "holiday": null,
+      "suggestedCatalogId": "haazinu",
+      "catalogId": "haazinu",
+      "dest": "assets/audio/parsha/haazinu.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Ki Tisa.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Ki Tisa.m4a",
+      "mtime": "2026-03-06T15:21:09",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Ki Sisa",
+      "parsha": "Ki Sisa",
+      "holiday": null,
+      "suggestedCatalogId": "ki-sisa",
+      "catalogId": "ki-sisa",
+      "dest": "assets/audio/parsha/ki-sisa.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas KiTavo 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas KiTavo 2026.m4a",
+      "mtime": "2026-08-28T15:50:07",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Ki Tavo",
+      "parsha": "Ki Tavo",
+      "holiday": null,
+      "suggestedCatalogId": "ki-tavo",
+      "catalogId": "ki-tavo",
+      "dest": "assets/audio/parsha/ki-tavo.m4a"
+    },
+    {
+      "file": "Erev Shabbos Ki Teitzei 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Ki Teitzei 2026.m4a",
+      "mtime": "2026-08-21T15:23:55",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Ki Teitzei",
+      "parsha": "Ki Teitzei",
+      "holiday": null,
+      "suggestedCatalogId": "ki-teitzei",
+      "catalogId": "ki-teitzei",
+      "dest": "assets/audio/parsha/ki-teitzei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Korach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Korach.m4a",
+      "mtime": "2026-06-12T15:51:50",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Korach",
+      "parsha": "Korach",
+      "holiday": null,
+      "suggestedCatalogId": "korach",
+      "catalogId": "korach",
+      "dest": "assets/audio/parsha/korach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Lech Lecha 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Lech Lecha 2026.m4a",
+      "mtime": "2026-10-23T15:08:40",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Lech Lecha",
+      "parsha": "Lech Lecha",
+      "holiday": null,
+      "suggestedCatalogId": "lech-lecha",
+      "catalogId": "lech-lecha",
+      "dest": "assets/audio/parsha/lech-lecha.m4a"
+    },
+    {
+      "file": "Erev Shabbos Matos Masei.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Matos Masei.m4a",
+      "mtime": "2026-07-10T17:58:09",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Matot-Masei",
+      "parsha": "Matot-Masei",
+      "holiday": null,
+      "suggestedCatalogId": "matot-masei",
+      "catalogId": "matot-masei",
+      "dest": "assets/audio/parsha/matot-masei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Mishpatim.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Mishpatim.m4a",
+      "mtime": "2026-02-14T18:55:03",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Mishpatim",
+      "parsha": "Mishpatim",
+      "holiday": null,
+      "suggestedCatalogId": "mishpatim",
+      "catalogId": "mishpatim",
+      "dest": "assets/audio/parsha/mishpatim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Nitzavim Vayelech 2926.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Nitzavim Vayelech 2926.m4a",
+      "mtime": "2026-09-04T16:18:10",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Nitzavim",
+      "parsha": "Nitzavim",
+      "holiday": null,
+      "suggestedCatalogId": "nitzavim",
+      "catalogId": "nitzavim",
+      "dest": "assets/audio/parsha/nitzavim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Noach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Noach.m4a",
+      "mtime": "2026-10-16T14:45:30",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Noach",
+      "parsha": "Noach",
+      "holiday": null,
+      "suggestedCatalogId": "noach",
+      "catalogId": "noach",
+      "dest": "assets/audio/parsha/noach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Pinchas 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Pinchas 2026.m4a",
+      "mtime": "2026-07-03T19:06:14",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Pinchas",
+      "parsha": "Pinchas",
+      "holiday": null,
+      "suggestedCatalogId": "pinchas",
+      "catalogId": "pinchas",
+      "dest": "assets/audio/parsha/pinchas.m4a"
+    },
+    {
+      "file": "Erev Shabbos Re'eh 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Re'eh 2026.m4a",
+      "mtime": "2026-08-07T18:53:37",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Re'eh",
+      "parsha": "Re'eh",
+      "holiday": null,
+      "suggestedCatalogId": "re-eh",
+      "catalogId": "re-eh",
+      "dest": "assets/audio/parsha/re-eh.m4a"
+    },
+    {
+      "file": "Erev Shabbos Shemot 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shemot 2026.m4a",
+      "mtime": "2026-01-09T15:53:31",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shemos",
+      "parsha": "Shemos",
+      "holiday": null,
+      "suggestedCatalogId": null,
+      "applyError": "no catalog id"
+    },
+    {
+      "file": "Erev Shabbos Shlach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shlach.m4a",
+      "mtime": "2026-06-05T17:36:43",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shlach",
+      "parsha": "Shlach",
+      "holiday": null,
+      "suggestedCatalogId": "shlach",
+      "catalogId": "shlach",
+      "dest": "assets/audio/parsha/shlach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Shmini.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shmini.m4a",
+      "mtime": "2026-04-10T14:10:57",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shmini",
+      "parsha": "Shmini",
+      "holiday": null,
+      "suggestedCatalogId": "shmini",
+      "catalogId": "shmini",
+      "dest": "assets/audio/parsha/shmini.m4a"
+    },
+    {
+      "file": "Erev Shabbos Shoftim Rosh Chidesh Elul 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Shoftim Rosh Chidesh Elul 2026.m4a",
+      "mtime": "2026-08-14T19:10:18",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Shoftim",
+      "parsha": "Shoftim",
+      "holiday": null,
+      "suggestedCatalogId": "shoftim",
+      "catalogId": "shoftim",
+      "dest": "assets/audio/parsha/shoftim.m4a"
+    },
+    {
+      "file": "Erev Shabbos Tazria Metzorah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Tazria Metzorah.m4a",
+      "mtime": "2026-04-17T15:00:20",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Tazria-Metzora",
+      "parsha": "Tazria-Metzora",
+      "holiday": null,
+      "suggestedCatalogId": "tazria-metzora",
+      "catalogId": "tazria-metzora",
+      "dest": "assets/audio/parsha/tazria-metzora.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshat Terumah.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshat Terumah.m4a",
+      "mtime": "2026-02-20T13:22:55",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Terumah",
+      "parsha": "Terumah",
+      "holiday": null,
+      "suggestedCatalogId": "terumah",
+      "catalogId": "terumah",
+      "dest": "assets/audio/parsha/terumah.m4a"
+    },
+    {
+      "file": "Erev Shabbos Teztaveh.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Teztaveh.m4a",
+      "mtime": "2026-02-27T16:44:03",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Tetzaveh",
+      "parsha": "Tetzaveh",
+      "holiday": null,
+      "suggestedCatalogId": "tetzaveh",
+      "catalogId": "tetzaveh",
+      "dest": "assets/audio/parsha/tetzaveh.m4a"
+    },
+    {
+      "file": "Erev Shabbos Toldos.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Toldos.m4a",
+      "mtime": "2025-11-21T14:22:51",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Toldot",
+      "parsha": "Toldot",
+      "holiday": null,
+      "suggestedCatalogId": "toldot",
+      "catalogId": "toldot",
+      "dest": "assets/audio/parsha/toldot.m4a"
+    },
+    {
+      "file": "Erev Shabbos Tzav Shabbos HaGadol.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Tzav Shabbos HaGadol.m4a",
+      "mtime": "2026-03-27T15:50:01",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Tzav",
+      "parsha": "Tzav",
+      "holiday": null,
+      "suggestedCatalogId": "tzav",
+      "catalogId": "tzav",
+      "dest": "assets/audio/parsha/tzav.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Vaeira.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Vaeira.m4a",
+      "mtime": "2026-01-16T14:39:21",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vaera",
+      "parsha": "Vaera",
+      "holiday": null,
+      "suggestedCatalogId": "vaera",
+      "catalogId": "vaera",
+      "dest": "assets/audio/parsha/vaera.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vaeschanan Nachamu 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vaeschanan Nachamu 2026.m4a",
+      "mtime": "2026-07-24T16:57:30",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vaetchanan",
+      "parsha": "Vaetchanan",
+      "holiday": null,
+      "suggestedCatalogId": "vaetchanan",
+      "catalogId": "vaetchanan",
+      "dest": "assets/audio/parsha/vaetchanan.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayakheil Pekudei.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayakheil Pekudei.m4a",
+      "mtime": "2026-03-13T14:07:22",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayakhel-Pekudei",
+      "parsha": "Vayakhel-Pekudei",
+      "holiday": null,
+      "suggestedCatalogId": "vayakhel-pekudei",
+      "catalogId": "vayakhel-pekudei",
+      "dest": "assets/audio/parsha/vayakhel-pekudei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshar Vayeleich.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshar Vayeleich.m4a",
+      "mtime": "2025-09-26T15:46:37",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Vayelech",
+      "parsha": "Vayelech",
+      "holiday": null,
+      "suggestedCatalogId": "vayelech",
+      "catalogId": "vayelech",
+      "dest": "assets/audio/parsha/vayelech.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayeira 2026.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayeira 2026.m4a",
+      "mtime": "2026-10-30T15:17:17",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayera",
+      "parsha": "Vayera",
+      "holiday": null,
+      "suggestedCatalogId": "vayera-rule-of-three",
+      "catalogId": "vayera-rule-of-three",
+      "dest": "assets/audio/parsha/vayera-rule-of-three.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayeshev (1).m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayeshev (1).m4a",
+      "mtime": "2026-03-05T21:38:23",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayeshev",
+      "parsha": "Vayeshev",
+      "holiday": null,
+      "suggestedCatalogId": "vayeshev",
+      "catalogId": "vayeshev",
+      "dest": "assets/audio/parsha/vayeshev.m4a"
+    },
+    {
+      "file": "Parshas Vayeitze.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Parshas Vayeitze.m4a",
+      "mtime": "2025-11-28T12:37:20",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Vayetzei",
+      "parsha": "Vayetzei",
+      "holiday": null,
+      "suggestedCatalogId": "vayetzei",
+      "catalogId": "vayetzei",
+      "dest": "assets/audio/parsha/vayetzei.m4a"
+    },
+    {
+      "file": "Erev Shabbos Vayikra.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Vayikra.m4a",
+      "mtime": "2026-03-20T17:35:53",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Vayikra",
+      "parsha": "Vayikra",
+      "holiday": null,
+      "suggestedCatalogId": "vayikra",
+      "catalogId": "vayikra",
+      "dest": "assets/audio/parsha/vayikra.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Vayishlach.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Vayishlach.m4a",
+      "mtime": "2025-12-05T13:56:15",
+      "years": [
+        2025
+      ],
+      "group": "parsha:Vayishlach",
+      "parsha": "Vayishlach",
+      "holiday": null,
+      "suggestedCatalogId": "vayishlach",
+      "catalogId": "vayishlach",
+      "dest": "assets/audio/parsha/vayishlach.m4a"
+    },
+    {
+      "file": "Erev Shabbos Parshas Yisro.m4a",
+      "source": "C:\\Users\\binya\\Desktop\\Recordings\\Diburim\\Erev Shabbos Parshas Yisro.m4a",
+      "mtime": "2026-02-06T14:22:49",
+      "years": [
+        2026
+      ],
+      "group": "parsha:Yitro",
+      "parsha": "Yitro",
+      "holiday": null,
+      "suggestedCatalogId": "yitro",
+      "catalogId": "yitro",
+      "dest": "assets/audio/parsha/yitro.m4a"
+    }
+  ]
+}

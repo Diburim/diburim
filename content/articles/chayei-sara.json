@@ -1,4 +1,5 @@
 {
   "pdf": "assets/parsha/chayei-sara.pdf",
-  "bodyFormat": "html"
+  "bodyFormat": "html",
+  "audio": "assets/audio/parsha/chayei-sara.m4a"
 }
