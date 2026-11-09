@@ -34,5 +34,5 @@ jobs:
           echo Downloading Mend CLI
           curl -LJO https://downloads.mend.io/production/unified/latest/linux_amd64/mend && chmod +x mend
           echo Start Mend CLI scan
-          ./mend dep -u -s "Diburim//diburim//diburim" -r
-          # ./mend code -s "Diburim//diburim//diburim" --snippet-size 0
+          ./mend dep -u -s "diburim//diburim" -r
+          # ./mend code -s "diburim//diburim"
