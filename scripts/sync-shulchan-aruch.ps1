@@ -1,4 +1,4 @@
-﻿# Build bennyg83/shulchan_aruch web reader into repo-root shulchan_aruch/ for diburim.org
+# Build bennyg83/shulchan_aruch web reader into repo-root shulchan_aruch/ for diburim.org
 # Requires: git, Node 20+, npm
 param(
   [string]$SourceRepo = "https://github.com/bennyg83/shulchan_aruch.git",

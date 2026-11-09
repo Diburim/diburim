@@ -1145,6 +1145,31 @@
     });
   }
 
+  function buildSubscribeMailto(cfg) {
+    const email = cfg.subscribeEmail || cfg.contactEmail || "";
+    if (!email) return "";
+    const query = [];
+    if (cfg.subscribeMailSubject) query.push("subject=" + encodeURIComponent(cfg.subscribeMailSubject));
+    if (cfg.subscribeMailBody) query.push("body=" + encodeURIComponent(cfg.subscribeMailBody));
+    return "mailto:" + email + (query.length ? "?" + query.join("&") : "");
+  }
+
+  function initSubscribeMailto(cfg) {
+    const href = buildSubscribeMailto(cfg);
+    const email = cfg.subscribeEmail || cfg.contactEmail || "";
+    document.querySelectorAll(".js-subscribe-mailto").forEach(function (anchor) {
+      if (!href) {
+        anchor.setAttribute("aria-disabled", "true");
+        anchor.classList.add("is-disabled");
+        return;
+      }
+      anchor.href = href;
+    });
+    document.querySelectorAll(".js-subscribe-address").forEach(function (node) {
+      node.textContent = email;
+    });
+  }
+
   function initSubscribeForms(cfg, ui) {
     document.querySelectorAll(".js-subscribe").forEach(function (form) {
       form.addEventListener("submit", function (event) {
@@ -1210,6 +1235,7 @@
         renderShulchan();
       }
     }
+    initSubscribeMailto(cfg);
     initSubscribeForms(cfg, ui);
   }
 

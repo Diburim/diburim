@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Subscribe · Diburim</title>
-  <meta name="description" content="Receive the weekly Dvar Torah from Diburim when the list is connected.">
+  <meta name="description" content="Request the weekly Dvar Torah note from Diburim by email.">
   <link rel="icon" href="assets/logo-diburim.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +28,11 @@
   <main id="content" class="section wrap" style="width:min(40rem,calc(100% - 2.4rem))">
     <p class="kicker">Newsletter</p>
     <h1>Stay with the week</h1>
-    <p class="lede">The note will carry the weekly Dvar Torah and, now and then, a new shelf in the library. The form is ready. The list is not connected, and this page will say so rather than pretend an address was saved.</p>
-    <form class="form js-subscribe">
-      <label>Name <input name="name" type="text" autocomplete="name"></label>
-      <label>Email <input name="email" type="email" autocomplete="email" required></label>
-      <button class="btn btn-gold" type="submit">Request the weekly note</button>
-      <p class="form-note" role="status"></p>
-    </form>
+    <p class="lede">The note will carry the weekly Dvar Torah and, now and then, a new shelf in the library. To join, send a short request from your email app—we add you manually; nothing is saved in the website.</p>
+    <p class="actions">
+      <a class="btn btn-gold js-subscribe-mailto" href="#">Request the weekly note by email</a>
+    </p>
+    <p class="form-note">Opens your mail app to <span class="js-subscribe-address">subscribe@diburim.org</span>. Fill in your name and email in the message, then send.</p>
   </main>
   <footer class="site-footer"><div class="wrap legal"><span>© 2026 Rabbi Binyamin Goldberg · Diburim</span></div></footer>
   <script src="js/config.js"></script>

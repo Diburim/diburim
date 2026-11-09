@@ -7,7 +7,11 @@ window.DIBURIM_CONFIG = {
   shulchanAruchRepoUrl: "https://github.com/bennyg83/shulchan_aruch",
   shulchanAruchRepoLabel: "GitHub repository",
   subscribeEndpoint: "",
-  contactEmail: "",
+  subscribeEmail: "subscribe@diburim.org",
+  subscribeMailSubject: "Subscribe to Diburim",
+  subscribeMailBody:
+    "Please add me to the weekly Dvar Torah list.\n\nName:\nEmail:\n",
+  contactEmail: "subscribe@diburim.org",
   videoSections: [
     {
       id: "kids",
