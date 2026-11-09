@@ -1,0 +1,38 @@
+name: Mend CLI Scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Mend CLI Scan
+        env:
+          MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
+          MEND_USER_KEY: ${{ secrets.MEND_USER_KEY }}
+          MEND_URL: https://saas-eu.mend.io
+        run: |
+          echo Downloading Mend CLI
+          curl -LJO https://downloads.mend.io/production/unified/latest/linux_amd64/mend && chmod +x mend
+          echo Start Mend CLI scan
+          ./mend dep -u -s "Diburim//diburim//diburim" -r
+          # ./mend code -s "Diburim//diburim//diburim" --snippet-size 0
