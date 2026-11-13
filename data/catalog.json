@@ -1,6 +1,6 @@
 {
   "thisWeekMode": "auto",
-  "thisWeekId": "toldot",
+  "thisWeekId": "toldot-digging-beneath-the-surface",
   "pieces": [
     {
       "id": "balak",
@@ -194,6 +194,19 @@
       ],
       "date": "2025-11-14",
       "dateDisplay": "November 14, 2025"
+    },
+    {
+      "id": "toldot-digging-beneath-the-surface",
+      "title": "Parshas Toldos – Digging Beneath the Surface",
+      "kind": "parsha",
+      "series": "Weekly Torah",
+      "parsha": "Toldot",
+      "sefer": "Bereishis",
+      "categories": [
+        "torah"
+      ],
+      "date": "2026-11-14",
+      "dateDisplay": "November 14, 2026"
     },
     {
       "id": "vayera-mesirat-nefesh",
@@ -1347,6 +1360,16 @@
       "hebrewTitle": "אורח חיים סימן רנ״ה· הלכות שבת",
       "prevId": "hilchos-shabbos-254",
       "nextId": "hilchos-shabbos-256"
+    },
+    {
+      "id": "sukkot-story",
+      "title": "Sukkot Story",
+      "kind": "holiday",
+      "series": "Yamim Tovim",
+      "holiday": "Sukkot Story",
+      "categories": [
+        "torah"
+      ]
     }
   ],
   "calendarSource": "data/parsha-calendar.json"

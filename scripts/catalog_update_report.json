@@ -1,10 +1,12 @@
 {
   "studyGuides": {
     "ran": true,
-    "count": 10
+    "count": 11
   },
   "audio": {
-    "updated": [],
+    "updated": [
+      "sukkot-story"
+    ],
     "unmapped": [],
     "articleStubs": []
   },

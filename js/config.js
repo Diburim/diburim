@@ -29,7 +29,7 @@ window.DIBURIM_CONFIG = {
       heading: "Parsha",
       videos: [
         { id: "chayei-sara", parsha: "Chayei Sara", title: "Chayei Sara for children", youtubeId: "" },
-        { id: "toldot", parsha: "Toldot", title: "Toldot for children", youtubeId: "DJIamJOoabQ", pieceId: "toldot" },
+        { id: "toldot", parsha: "Toldot", title: "Toldot for children", youtubeId: "DJIamJOoabQ", pieceId: "toldot-digging-beneath-the-surface" },
         { id: "vayera", parsha: "Vayera", title: "Vayera for children", youtubeId: "" }
       ]
     }
